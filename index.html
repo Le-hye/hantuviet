@@ -491,6 +491,43 @@ details.rd{border:1px solid var(--line);border-radius:12px;padding:10px 14px;mar
 .cs{text-align:center;color:var(--tx3);font-size:12.5px}
 .chf{display:flex;gap:8px;margin-top:10px}.chf input{flex:1;height:42px}
 @media (max-width:860px){.rmg{grid-template-columns:1fr}.mk{flex-direction:column;align-items:flex-start}}
+
+/* ===== thư viện chép chính tả ===== */
+.dtabs{display:flex;gap:6px;padding:8px;margin-bottom:12px;overflow-x:auto;scrollbar-width:none}
+.dtabs button{height:44px;padding:0 18px;border-radius:12px;font-weight:700;color:var(--tx2);white-space:nowrap;display:flex;align-items:center;gap:8px}
+.dtabs button.on{background:linear-gradient(135deg,#0ea5e9,#2f80ff);color:#fff}
+.dtabs.st .s-done{color:var(--grn)}.dtabs.st .s-doing{color:#fb923c}.dtabs.st button.on{color:#fff}
+.nb2{background:rgba(255,255,255,.12);border-radius:99px;padding:0 8px;font-size:12px}
+.dgh{display:flex;align-items:center;gap:12px;margin:22px 0 12px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.lvp{color:#fff;font-weight:800;padding:5px 14px;border-radius:99px}
+.dgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.dcard{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--card);cursor:pointer;transition:.18s}
+.dcard:hover{transform:translateY(-3px);border-color:var(--pri2)}
+.dthumb{height:180px;position:relative;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:6px}
+.demo{font-size:58px;filter:drop-shadow(0 6px 10px rgba(0,0,0,.3))}.demo.big{font-size:84px}
+.dbub{background:#fff;color:#14203a;padding:6px 14px;border-radius:14px;font-size:18px;box-shadow:0 6px 16px rgba(0,0,0,.25);max-width:88%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dst{position:absolute;left:12px;top:12px;font-size:12.5px;font-weight:700;padding:4px 10px;border-radius:99px;background:rgba(15,23,42,.75);color:#e2e8f0}
+.dst.done{background:#16a34a;color:#fff}.dst.doing{background:#f97316;color:#fff}
+.dfree{position:absolute;right:12px;top:12px;font-size:12.5px;font-weight:800;padding:4px 10px;border-radius:99px;background:#22c55e;color:#fff}
+.dlen{position:absolute;right:12px;bottom:10px;font-size:12px;font-weight:700;padding:3px 9px;border-radius:8px;background:rgba(15,23,42,.7);color:#fff}
+.dbody{padding:14px 16px;display:flex;flex-direction:column;gap:4px}.dbody b{font-size:16px}
+.dft{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding-top:10px;margin-top:8px;font-size:13.5px;gap:8px}
+.dft .lnk{font-weight:700;white-space:nowrap}
+.dlay{display:grid;grid-template-columns:1.5fr 1fr;gap:18px;margin-bottom:24px;align-items:start}
+.dplayer{height:300px;border-radius:16px;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;overflow:hidden}
+.dsub{background:rgba(15,23,42,.78);color:#fff;padding:10px 18px;border-radius:12px;font-size:22px;max-width:90%;text-align:center}
+.dprog{position:absolute;left:0;right:0;bottom:0;height:6px;background:rgba(0,0,0,.25)}.dprog i{display:block;height:100%;background:#fff}
+.ytw{position:relative;padding-top:56.25%;border-radius:16px;overflow:hidden}.ytw iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.dbox{margin-top:16px;border:1px solid var(--line2);border-radius:14px;padding:14px;background:var(--card2)}
+.dta{width:100%;border-radius:12px;border:1px solid var(--line2);background:var(--card);padding:12px;font-family:var(--hz);font-size:22px;color:var(--tx);outline:none;resize:vertical}
+.dta:focus{border-color:var(--pri)}
+.dres2{margin-top:12px}.dcmp{font-size:26px;letter-spacing:2px;margin:6px 0}
+.dk{color:var(--grn)}.dx{color:#fff;background:var(--red);border-radius:4px;padding:0 2px}
+.dlines{display:flex;flex-direction:column;gap:6px;max-height:620px;overflow:auto}
+.dl2{display:flex;gap:10px;align-items:center;padding:8px 10px;border-radius:10px;border:1px solid var(--line);cursor:pointer}
+.dl2.cur{border-color:var(--pri2);background:rgba(59,108,246,.1)}.dl2 .hz{font-size:17px}
+.dl2 .no{width:24px;height:24px;border-radius:7px;background:var(--card2);display:grid;place-items:center;font-size:12px;font-weight:700;flex-shrink:0}
+@media (max-width:860px){.dlay{grid-template-columns:1fr}.dgrid{grid-template-columns:1fr}.dplayer{height:220px}}
 </style>
 </head>
 <body>
@@ -499,7 +536,7 @@ details.rd{border:1px solid var(--line);border-radius:12px;padding:10px 14px;mar
   <a class="logo" onclick="go('home')"><div class="logo-mark">汉</div><div><b>Hán Tự Việt</b><small>Học Tiếng Trung</small></div></a>
   <div class="r1">
    <button class="hb h-pur md-hide" onclick="openSpeak()">💬 Luyện nói <i class="bdg pink">TALK</i></button>
-   <button class="hb h-cyan" onclick="openDictation()">🎬 Chép chính tả <i class="bdg red">NEW</i></button>
+   <button class="hb h-cyan" onclick="openDictChoose()">🎬 Chép chính tả <i class="bdg red">NEW</i></button>
    <button class="hb" onclick="focusSearch()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg> Tìm kiếm</button>
    <button class="hb h-org" onclick="openRank()">🔥 <b id="streak">1</b><span class="sep"></span><span class="gold">🏆 BXH</span></button>
    <div class="dd lg-only"><button class="hb ghost">📱 Tải app <span class="car">▾</span></button><div class="ddm">
@@ -555,6 +592,7 @@ details.rd{border:1px solid var(--line);border-radius:12px;padding:10px 14px;mar
 <script src="conv23.js"></script>
 <script src="lessons.js"></script>
 <script src="talk.js"></script>
+<script src="dict.js"></script>
 <script src="v3.js"></script>
 <script>
 const $=s=>document.querySelector(s);
@@ -613,6 +651,8 @@ function render(){
   if(typeof TK!=="undefined"&&TK.room&&h!=="phong-"+TK.room.code)leaveRoom(true);
   if(h==="radicals")renderRadicals();
   else if(h==="phongnoi")renderLobby();
+  else if(h==="chinhta")renderDLib();
+  else if(m=h.match(/^ct-(.+)$/))renderDLesson(decodeURIComponent(m[1]));
   else if(m=h.match(/^phong-(TALK-\d+)$/i))renderRoom(m[1].toUpperCase());
   else if(m=h.match(/^tv-(\d)$/))renderVocabList(m[1]);
   else if(m=h.match(/^w-(\d)-(\d+)$/))renderWord(m[1],+m[2]);
@@ -878,7 +918,7 @@ const NAV=[
  {t:"Trang chủ",i:"🏠",go:"home"},
  {t:"Hán ngữ",i:"📘",cls:"n-blue",dd:[...LVS.map(l=>["📘","Giáo trình "+LV_INFO[l].n+" – HSK 3.0 ("+LESSONS[l].length+" bài)",()=>go("lop-"+l)]),["📕","Sách Giáo trình chuẩn HSK 1 (bản cũ, 15 bài)",()=>go("giaotrinh")],...Object.keys(GRAMMAR).map(l=>["📐","Ngữ pháp HSK "+l+" ("+GRAMMAR[l].length+" điểm)",()=>go("nguphap-"+l)])]},
  {t:"HSK 3.0",i:"🎓",cls:"n-org",dd:LVS.map(l=>["📗",LV_INFO[l].n+" – "+VOCAB[l].length+" từ",()=>{TV={q:'',les:'',n:60};go("tv-"+l)}])},
- {t:"Luyện tập",i:"🎮",dd:[...LVS.map(l=>["🎯","Ôn từ vựng "+LV_INFO[l].n,()=>openQuizLv(l)]),["🎤","Luyện nói HSKK (một mình)",()=>go("hskk")],["🎙️","Phòng luyện nói trực tuyến",()=>go("phongnoi")],["🎧","Nghe hiểu HSK 6",()=>go("nghe6")],["🃏","Thẻ ghi nhớ",()=>openFlash(1)],["🎧","Luyện nghe chọn chữ",()=>openListen()],["✏️","Luyện viết ngẫu nhiên",()=>openWrite(DICT[Math.random()*DICT.length|0].c)],["🎬","Chép chính tả",()=>openDictation()]]},
+ {t:"Luyện tập",i:"🎮",dd:[...LVS.map(l=>["🎯","Ôn từ vựng "+LV_INFO[l].n,()=>openQuizLv(l)]),["🎤","Luyện nói HSKK (một mình)",()=>go("hskk")],["🎙️","Phòng luyện nói trực tuyến",()=>go("phongnoi")],["🎧","Nghe hiểu HSK 6",()=>go("nghe6")],["🃏","Thẻ ghi nhớ",()=>openFlash(1)],["🎧","Luyện nghe chọn chữ",()=>openListen()],["✏️","Luyện viết ngẫu nhiên",()=>openWrite(DICT[Math.random()*DICT.length|0].c)],["🎬","Chép chính tả – nghe từ",()=>openDictation()],["🎞️","Thư viện chép chính tả",()=>go("chinhta")]]},
  {t:"Từ vựng",i:"📗",dd:[...LVS.map(l=>["📗","Từ vựng "+LV_INFO[l].n,()=>{TV={q:'',les:'',n:60};go("tv-"+l)}]),["🔠","Chữ Hán phân tích chi tiết",()=>go("home")],["📒","Sổ tay của tôi",()=>openNotes(),'<span id="nbadge">0</span>']]},
  {t:"Hội thoại",i:"💬",dd:[1,2,3].map(l=>["💬","Hội thoại HSK "+l+" ("+CONVS[l].length+" bài)",()=>go("hoithoai-"+l)])},
  {t:"Đọc hiểu",i:"📰",dd:[["📰","Luyện đọc câu HSK 3",()=>go("dochieu")],["🎧","Nghe – đọc HSK 6 (205 đoạn)",()=>go("nghe6")],["🎤","Đề nói HSKK cao cấp",()=>go("hskk")]]},
@@ -906,7 +946,7 @@ function openDrawer(){
   h+=u?`<div class="rk"><span class="ava">${esc(u.name[0].toUpperCase())}</span><div><b>${esc(u.name)}</b><div class="muted">${store.get("pts",0)} điểm · 🔥 ${store.get("streak",1)} ngày</div></div></div>`:`<div style="display:flex;gap:8px"><button class="hb h-out" style="flex:1;justify-content:center" onclick="closeDrawer();openAuth('login')">Đăng nhập</button><button class="hb h-blue" style="flex:1;justify-content:center" onclick="closeDrawer();openAuth('reg')">Đăng ký</button></div>`;
   h+=`<div class="hd">HỌC NHANH</div>
    <button class="hb h-pur" onclick="closeDrawer();openSpeak()">💬 Luyện nói <i class="bdg pink">TALK</i></button>
-   <button class="hb h-cyan" onclick="closeDrawer();openDictation()">🎬 Chép chính tả <i class="bdg red">NEW</i></button>
+   <button class="hb h-cyan" onclick="closeDrawer();openDictChoose()">🎬 Chép chính tả <i class="bdg red">NEW</i></button>
    <button class="hb h-org" onclick="closeDrawer();openRank()">🔥 ${store.get("streak",1)} ngày · 🏆 Bảng xếp hạng</button>
    <div class="hd">DANH MỤC</div>`;
   NAV.forEach((t,k)=>{
