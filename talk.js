@@ -144,7 +144,7 @@ async function startRoom(){
 function hello(kind){const R=TK.room;if(!R)return;ntfyPub("r-"+R.code,{t:kind,uid:getUid(),name:myName(),muted:R.muted});
   if(R.host||kind!=="join"||Object.keys(R.members).length===0){const i=R.info;ntfyPub("lobby",{t:"room",code:R.code,name:i.name,topic:i.topic,level:i.level,max:i.max,priv:!!i.priv,host:i.host||myName(),count:1+Object.keys(R.members).length})}
   const now=Date.now();for(const k in R.members)if(now-R.members[k].seen>100000){dropMember(k)}}
-function onRoomMsg(m){const R=TK.room;if(m.uid===getUid())return;
+function onRoomMsg(m){const R=TK.room;if(m.uid===getUid()&&m.t!=="chat")return;
   if(m.t==="room-info"&&!R.host){R.info={...R.info,...m.info};drawRoom();return}
   if(m.t==="join"||m.t==="here"){const isNew=!R.members[m.uid];R.members[m.uid]={...(R.members[m.uid]||{}),uid:m.uid,name:m.name,muted:m.muted,seen:Date.now()};
     if(isNew){sysMsg(m.name+" đã vào phòng");if(m.t==="join")hello("here");if(R.host&&m.t==="join")ntfyPub("r-"+R.code,{t:"room-info",uid:getUid(),info:R.info})}
