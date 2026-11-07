@@ -528,6 +528,37 @@ details.rd{border:1px solid var(--line);border-radius:12px;padding:10px 14px;mar
 .dl2.cur{border-color:var(--pri2);background:rgba(59,108,246,.1)}.dl2 .hz{font-size:17px}
 .dl2 .no{width:24px;height:24px;border-radius:7px;background:var(--card2);display:grid;place-items:center;font-size:12px;font-weight:700;flex-shrink:0}
 @media (max-width:860px){.dlay{grid-template-columns:1fr}.dgrid{grid-template-columns:1fr}.dplayer{height:220px}}
+
+/* ===== video chép chính tả ===== */
+.vlay{display:grid;grid-template-columns:1.35fr 1fr;gap:18px;margin-bottom:24px;align-items:start}
+.vbox.hid{display:none}
+.ttw{display:flex;justify-content:center}.ttw iframe{width:340px;max-width:100%;height:600px;border:0;border-radius:16px;background:#000}
+.vsubs{display:flex;flex-direction:column;gap:10px;max-height:560px;overflow:auto}
+.vsub{border:1px solid var(--line2);border-radius:14px;padding:12px 14px;cursor:pointer}
+.vsub.ok{border-color:rgba(47,191,143,.45)}.vsub.cur{border-color:var(--pri2);background:rgba(59,108,246,.08)}
+.vsh{display:flex;align-items:center;gap:10px;margin-bottom:6px}.vsh b{font-size:13px}
+.vn{width:28px;height:28px;border-radius:50%;border:2px solid var(--grn);display:grid;place-items:center;font-size:12.5px;font-weight:700}
+.vdone{margin-left:auto;font-size:12px;font-weight:700;color:var(--grn);background:rgba(47,191,143,.12);padding:2px 9px;border-radius:99px}.vdone.bad{color:var(--yel);background:rgba(245,184,61,.12)}
+.vpanel{position:sticky;top:140px}
+.vrow{display:flex;align-items:center;gap:6px;margin-top:14px}
+.vper{width:32px;height:32px;border-radius:50%;font-weight:700;font-size:13px;color:var(--tx2)}.vper.on{background:var(--grn);color:#fff}
+.vdots-w{display:flex;align-items:center;gap:8px;margin:10px 0}
+.vdots{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;flex:1;padding:4px}
+.vdot{min-width:42px;height:42px;border-radius:50%;border:1px solid var(--line2);font-weight:700;font-size:13px;color:var(--tx2);flex-shrink:0}
+.vdot.ok{background:rgba(47,191,143,.18);border-color:rgba(47,191,143,.6);color:var(--grn)}.vdot.bad{background:rgba(240,80,110,.14);border-color:rgba(240,80,110,.5);color:var(--red2)}
+.vdot.cur{background:var(--grn);border-color:var(--grn);color:#fff;box-shadow:0 0 0 4px rgba(47,191,143,.25)}
+.vnav{width:38px;height:38px;border-radius:50%;border:1px solid var(--line2);font-size:20px;flex-shrink:0}
+.vin{border:1px solid var(--line2);border-radius:16px;padding:12px;background:var(--card2)}
+.vin textarea{width:100%;border:1px solid var(--line2);border-radius:12px;background:var(--card);padding:12px;font-family:var(--hz);font-size:20px;color:var(--tx);outline:none;resize:vertical}
+.vin textarea:focus{border-color:var(--grn)}
+.vmask{border:1px solid var(--line2);border-radius:12px;background:var(--card);margin-top:10px;padding:10px 12px}
+.vtools{display:flex;justify-content:flex-end;gap:6px;border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:10px}
+.vtools button{width:36px;height:36px;border-radius:50%;border:1px solid var(--line2)}
+.vchars{display:flex;flex-wrap:wrap;gap:6px 4px;font-size:20px}
+.vc{min-width:22px;text-align:center;border-bottom:2px dashed var(--line2);color:var(--red2);font-size:14px;line-height:28px}.vc.sh{color:var(--tx);font-size:20px;border-color:var(--grn)}
+.vp{color:var(--tx3)}
+.vbot{display:flex;gap:10px;margin-top:14px}
+@media (max-width:980px){.vlay{grid-template-columns:1fr}.vpanel{position:static}}
 </style>
 </head>
 <body>
@@ -593,6 +624,7 @@ details.rd{border:1px solid var(--line);border-radius:12px;padding:10px 14px;mar
 <script src="lessons.js"></script>
 <script src="talk.js"></script>
 <script src="dict.js"></script>
+<script src="yt.js"></script>
 <script src="v3.js"></script>
 <script>
 const $=s=>document.querySelector(s);
@@ -642,16 +674,20 @@ function go(r){if(location.hash==="#"+r)render();else location.hash=r}
 function cur(){const m=location.hash.match(/^#c-(\d+)$/);return m&&DICT[+m[1]]?+m[1]:-1}
 window.addEventListener("hashchange",render);
 
+const h0=()=>location.hash.slice(1);
 function render(){
   try{speechSynthesis.cancel()}catch(e){}
   const i=cur();
   document.querySelectorAll(".bnav button").forEach(b=>b.classList.toggle("on",b.dataset.b==="home"&&i<0));
   closeDrawer();closePal();
   const h=location.hash.slice(1);let m;
+  if(typeof VX!=="undefined"&&VX&&VX.tm&&!/^vd-/.test(h0()))clearInterval(VX.tm);
   if(typeof TK!=="undefined"&&TK.room&&h!=="phong-"+TK.room.code)leaveRoom(true);
   if(h==="radicals")renderRadicals();
   else if(h==="phongnoi")renderLobby();
   else if(h==="chinhta")renderDLib();
+  else if(m=h.match(/^vd-(.+)$/))renderVLesson(decodeURIComponent(m[1]));
+  else if(m=h.match(/^ct-(tc.+)$/))go("vd-"+m[1]);
   else if(m=h.match(/^ct-(.+)$/))renderDLesson(decodeURIComponent(m[1]));
   else if(m=h.match(/^phong-(TALK-\d+)$/i))renderRoom(m[1].toUpperCase());
   else if(m=h.match(/^tv-(\d)$/))renderVocabList(m[1]);

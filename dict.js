@@ -22,7 +22,7 @@ function buildDLib(){
   // HSK 6: đoạn nghe sách bài tập
   LISTEN6.forEach(o=>o.p.forEach((p,k)=>{const ss=splitSent(p[0]);L.push({id:`n6-${o.n}-${k}`,lv:6,title:`Bài ${o.n} – đoạn ${k+1}`,sub:(o.t||"").replace(/^[^一-鿿“]+/,"")||"Nghe hiểu HSK 6",src:"Sách bài tập HSK 6 (phần ghi âm)",emo:"🎧",sent:ss.map(s=>({zh:s,py:"",vi:""}))})}));
   // Tự chọn
-  store.get("dcustom",[]).forEach(c=>L.push({...c,lv:"tc",custom:1}));
+  store.get("dcustom",[]).forEach(c=>L.push({...c,lv:"tc",custom:1,emo:c.emo||"🎬"}));
   DLIB.list=L;return L;
 }
 function dStat(id){const p=store.get("dprog",{})[id];if(!p)return"todo";return p.done?"done":"doing"}
@@ -31,7 +31,8 @@ function dProg(){return store.get("dprog",{})}
 function openDictChoose(){
   openModal(`<h3>🎬 Chép chính tả</h3><p class="muted">Chọn cách luyện</p><div class="spk2">
    <div class="spkc" onclick="closeModal();openDictation()"><div class="ic">✍️</div><b>Phần 1 · Nghe – chép từ</b><p>Nghe 8 từ ngẫu nhiên, gõ chữ Hán hoặc pinyin, chấm điểm ngay.</p></div>
-   <div class="spkc hot" onclick="closeModal();go('chinhta')"><div class="ic">🎞️</div><b>Phần 2 · Thư viện bài nghe – chép chính tả <i class="bdg red">NEW</i></b><p>Hàng trăm bài hội thoại & đoạn văn HSK 1–6, nghe từng câu rồi chép lại, lưu tiến độ Đã làm / Đang làm.</p></div></div>`);
+   <div class="spkc hot" onclick="closeModal();go('chinhta')"><div class="ic">🎞️</div><b>Phần 2 · Thư viện bài nghe – chép chính tả <i class="bdg red">NEW</i></b><p>Hàng trăm bài hội thoại & đoạn văn HSK 1–6, nghe từng câu rồi chép lại, lưu tiến độ Đã làm / Đang làm.</p></div>
+   <div class="spkc" onclick="closeModal();DLIB.lv='tc';go('chinhta')"><div class="ic">🎬</div><b>Phần 3 · Học qua video YouTube / TikTok <i class="bdg pink">MỚI</i></b><p>Dán link video và lời thoại, nghe từng câu trong video rồi chép lại – giống luyện nghe Shadowing.</p></div></div>`);
 }
 function renderDLib(){
   const L=buildDLib(),P=dProg();
@@ -44,14 +45,14 @@ function renderDLib(){
   $("#app").innerHTML=`<div class="hhead"><div><h1>🎞️ Thư viện chép chính tả</h1><p>${L.length} bài nghe từ giáo trình · nghe từng câu, gõ lại, máy chấm từng chữ</p></div><div class="hfil"><button class="pill" onclick="openDictation()">✍️ Phần 1: Nghe – chép từ</button></div></div>
   <div class="dtabs card">${[["all","Tất cả"],[1,"HSK 1"],[2,"HSK 2"],[3,"HSK 3"],[4,"HSK 4"],[5,"HSK 5"],[6,"HSK 6"],["tc","Tự chọn"]].map(([k,t])=>`<button class="${String(DLIB.lv)===String(k)?"on":""}" onclick="DLIB.lv='${k}';DLIB.lim=12;renderDLib()">${t}</button>`).join("")}</div>
   <div class="dtabs card st">${[["all","▦ Tất cả",cnt.all],["done","✓ Đã làm",cnt.done],["doing","↻ Đang làm",cnt.doing],["todo","○ Chưa làm",cnt.todo]].map(([k,t,n])=>`<button class="${DLIB.st===k?"on":""} s-${k}" onclick="DLIB.st='${k}';renderDLib()">${t} <span class="nb2">${n}</span></button>`).join("")}</div>
-  ${DLIB.lv==="tc"?`<div class="card sec" style="margin-bottom:18px"><div class="mk" style="margin:0"><div><b>Tạo bài chép chính tả của riêng bạn ✍️</b><p>Dán đoạn văn tiếng Trung (và link YouTube nếu có) – web tự tách câu để luyện nghe – chép.</p></div><button class="gbtn" onclick="dCustomDlg()">＋ Tạo bài mới</button></div></div>`:""}
+  ${DLIB.lv==="tc"?`<div class="card sec" style="margin-bottom:18px"><div class="mk" style="margin:0"><div><b>Học qua video YouTube / TikTok 🎬</b><p>Dán link video + lời thoại (bản chép lời YouTube, file .srt…) – web chia từng câu theo thời gian để nghe và chép.</p></div><button class="gbtn" onclick="vCreateDlg()">＋ Tạo bài từ video</button></div></div>`:""}
   ${Object.keys(groups).sort((a,b)=>(a==="tc")-(b==="tc")||a-b).map(l=>{const g=groups[l];const lim=DLIB.lv==="all"?6:LIM;return `<div class="dgh"><span class="lvp" style="background:${lvCol(l)}">${lvName(l)}</span><span class="muted">${g.length} bài học</span>${DLIB.lv==="all"&&g.length>lim?`<a class="lnk" style="margin-left:auto" onclick="DLIB.lv='${l}';DLIB.lim=12;renderDLib()">Xem tất cả →</a>`:""}</div>
-   <div class="dgrid">${g.slice(0,lim).map((x,k)=>dCard(x,k)).join("")}</div>${DLIB.lv!=="all"&&g.length>lim?`<div style="text-align:center;margin:6px 0 20px"><button class="pill blue" onclick="DLIB.lim=${lim+24};renderDLib()">Xem thêm ${Math.min(24,g.length-lim)} bài</button></div>`:""}`}).join("")||`<div class="empty2"><div style="font-size:40px">🎞️</div><b>Chưa có bài nào ở mục này</b>${DLIB.lv==="tc"?`<button class="gbtn" onclick="dCustomDlg()">＋ Tạo bài mới</button>`:""}</div>`}<div style="height:24px"></div>`;
+   <div class="dgrid">${g.slice(0,lim).map((x,k)=>dCard(x,k)).join("")}</div>${DLIB.lv!=="all"&&g.length>lim?`<div style="text-align:center;margin:6px 0 20px"><button class="pill blue" onclick="DLIB.lim=${lim+24};renderDLib()">Xem thêm ${Math.min(24,g.length-lim)} bài</button></div>`:""}`}).join("")||`<div class="empty2"><div style="font-size:40px">🎞️</div><b>Chưa có bài nào ở mục này</b>${DLIB.lv==="tc"?`<button class="gbtn" onclick="vCreateDlg()">＋ Tạo bài từ video</button>`:""}</div>`}<div style="height:24px"></div>`;
   document.title="Chép chính tả – Hán Tự Việt";
 }
 function dCard(x,k){const st=dStat(x.id),p=dProg()[x.id],gr=GRADS[(String(x.id).length+k)%GRADS.length];
   const yt=x.yt?`https://i.ytimg.com/vi/${x.yt}/hqdefault.jpg`:"";
-  return `<div class="dcard" onclick="go('ct-${x.id}')"><div class="dthumb" style="background:${yt?`url(${yt}) center/cover`:`linear-gradient(135deg,${gr[0]},${gr[1]})`}">
+  return `<div class="dcard" onclick="go('${x.custom?"vd-":"ct-"}${x.id}')"><div class="dthumb" style="background:${yt?`url(${yt}) center/cover`:`linear-gradient(135deg,${gr[0]},${gr[1]})`}">
    ${yt?"":`<div class="demo">${x.emo}</div><div class="dbub hz">${esc(x.sent[0].zh.slice(0,14))}${x.sent[0].zh.length>14?"…":""}</div>`}
    <span class="dst ${st}">${st==="done"?"✓ Đã làm":st==="doing"?"↻ Đang làm":"○ Chưa làm"}</span><span class="dfree">${x.custom?"Của bạn":"Miễn phí"}</span>
    <span class="dlen">🎧 ${x.sent.length} câu</span></div>
