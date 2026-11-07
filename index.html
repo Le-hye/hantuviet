@@ -451,6 +451,46 @@ details.rd{border:1px solid var(--line);border-radius:12px;padding:10px 14px;mar
 .lvc b{color:var(--c)}.lvc .big{font-size:32px;font-weight:800;line-height:1.2}.lvc small{color:var(--tx3);display:block}.lvc span{font-size:13px;color:var(--c);font-weight:600;display:block;margin-top:8px}
 @media (max-width:980px){.lvgrid,.lvgrid.lv2{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:720px){.lvgrid,.lvgrid.lv2{grid-template-columns:repeat(2,1fr)}.vgrid{grid-template-columns:repeat(2,1fr)}.bub{max-width:100%}.wcell,.wbox{width:120px}.wbox{height:120px}.vt th:nth-child(3),.vt td:nth-child(3){display:none}}
+
+/* ===== phòng luyện nói ===== */
+.spk2{display:grid;gap:12px;margin-top:14px}
+.spkc{border:1px solid var(--line2);border-radius:16px;padding:16px;cursor:pointer;background:var(--card2);transition:.15s}
+.spkc:hover{border-color:var(--pri2);transform:translateY(-2px)}
+.spkc.hot{border-color:rgba(168,85,247,.5);background:linear-gradient(135deg,rgba(168,85,247,.14),rgba(236,72,153,.1))}
+.spkc .ic{font-size:30px}.spkc p{color:var(--tx2);font-size:14px;margin-top:4px}
+.lob{margin:22px 0;overflow:hidden}
+.lobh{display:flex;align-items:center;gap:14px;padding:18px 20px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.lobh h2{font-size:20px}
+.lobi{width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,#a855f7,#ec4899);display:grid;place-items:center;font-size:22px;color:#fff}
+.tkst{font-size:13px;color:var(--grn);display:flex;align-items:center;gap:6px}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block}.dot.g{background:var(--grn);box-shadow:0 0 0 3px rgba(47,191,143,.25)}.dot.r{background:var(--yel)}
+.lobb{padding:18px 20px;display:flex;flex-direction:column;gap:14px}
+.mk{display:flex;align-items:center;gap:14px;padding:18px;border-radius:16px;border:1px solid rgba(168,85,247,.4);background:linear-gradient(135deg,rgba(168,85,247,.16),rgba(236,72,153,.08))}
+.mk p{color:#c4b5fd;font-size:14px}.mk>div{flex:1}
+[data-theme=light] .mk p{color:#7e22ce}
+.gbtn{height:44px;padding:0 18px;border-radius:12px;background:linear-gradient(135deg,#a855f7,#ec4899);color:#fff;font-weight:700;white-space:nowrap;box-shadow:0 8px 20px -10px rgba(168,85,247,.9)}
+.gbtn.sm{height:36px;padding:0 14px;font-size:14px}.gbtn:disabled{opacity:.4}
+.qj{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid var(--line2);border-radius:14px;background:var(--card2);flex-wrap:wrap}
+.qj input,.qs input,.chf input{height:38px;border-radius:10px;border:1px solid var(--line2);background:var(--card);padding:0 12px;outline:none}
+.qj input{width:170px}.qs{display:flex;gap:10px}.qs input{flex:1;height:44px}
+.empty2{border:1px dashed var(--line2);border-radius:16px;padding:40px 16px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:8px}
+.rgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.rc{border:1px solid var(--line2);border-radius:14px;padding:14px;background:var(--card2);display:flex;flex-direction:column;gap:4px}
+.rct{display:flex;justify-content:space-between;gap:8px}.lvb{font-size:12px;background:rgba(168,85,247,.18);color:#c4b5fd;border-radius:99px;padding:1px 9px;white-space:nowrap}
+.rcf{display:flex;align-items:center;gap:10px;margin-top:8px}.rcf .code{font-family:monospace;color:var(--pri2);font-weight:700}.rcf button{margin-left:auto}
+.rmg{display:grid;grid-template-columns:1.3fr 1fr;gap:18px;margin-bottom:24px}
+.mems{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px}
+.mem{border:1px solid var(--line2);border-radius:14px;padding:12px;text-align:center;background:var(--card2);display:flex;flex-direction:column;align-items:center;gap:4px;transition:.15s}
+.mem.spk{border-color:var(--grn);box-shadow:0 0 0 3px rgba(47,191,143,.3)}
+.mem .av{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--pri),#a855f7);color:#fff;display:grid;place-items:center;font-size:20px;font-weight:800}
+.mem small{color:var(--tx3);font-size:11.5px}
+.chatb{display:flex;flex-direction:column;min-height:460px}
+.chat{flex:1;overflow:auto;max-height:420px;display:flex;flex-direction:column;gap:8px;padding:4px}
+.cm{max-width:85%;padding:8px 12px;border-radius:12px;background:var(--card2);border:1px solid var(--line)}.cm b{font-size:12px;color:var(--pri2)}
+.cm.me{margin-left:auto;background:rgba(168,85,247,.12);border-color:rgba(168,85,247,.3)}
+.cs{text-align:center;color:var(--tx3);font-size:12.5px}
+.chf{display:flex;gap:8px;margin-top:10px}.chf input{flex:1;height:42px}
+@media (max-width:860px){.rmg{grid-template-columns:1fr}.mk{flex-direction:column;align-items:flex-start}}
 </style>
 </head>
 <body>
@@ -458,7 +498,7 @@ details.rd{border:1px solid var(--line);border-radius:12px;padding:10px 14px;mar
  <div class="wrap row1">
   <a class="logo" onclick="go('home')"><div class="logo-mark">汉</div><div><b>Hán Tự Việt</b><small>Học Tiếng Trung</small></div></a>
   <div class="r1">
-   <button class="hb h-pur md-hide" onclick="go('hskk')">💬 Luyện nói <i class="bdg pink">TALK</i></button>
+   <button class="hb h-pur md-hide" onclick="openSpeak()">💬 Luyện nói <i class="bdg pink">TALK</i></button>
    <button class="hb h-cyan" onclick="openDictation()">🎬 Chép chính tả <i class="bdg red">NEW</i></button>
    <button class="hb" onclick="focusSearch()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg> Tìm kiếm</button>
    <button class="hb h-org" onclick="openRank()">🔥 <b id="streak">1</b><span class="sep"></span><span class="gold">🏆 BXH</span></button>
@@ -514,6 +554,7 @@ details.rd{border:1px solid var(--line);border-radius:12px;padding:10px 14px;mar
 <script src="ext.js"></script>
 <script src="conv23.js"></script>
 <script src="lessons.js"></script>
+<script src="talk.js"></script>
 <script src="v3.js"></script>
 <script>
 const $=s=>document.querySelector(s);
@@ -569,7 +610,10 @@ function render(){
   document.querySelectorAll(".bnav button").forEach(b=>b.classList.toggle("on",b.dataset.b==="home"&&i<0));
   closeDrawer();closePal();
   const h=location.hash.slice(1);let m;
+  if(typeof TK!=="undefined"&&TK.room&&h!=="phong-"+TK.room.code)leaveRoom(true);
   if(h==="radicals")renderRadicals();
+  else if(h==="phongnoi")renderLobby();
+  else if(m=h.match(/^phong-(TALK-\d+)$/i))renderRoom(m[1].toUpperCase());
   else if(m=h.match(/^tv-(\d)$/))renderVocabList(m[1]);
   else if(m=h.match(/^w-(\d)-(\d+)$/))renderWord(m[1],+m[2]);
   else if(h==="hskk")renderHSKK();
@@ -603,7 +647,7 @@ function renderHome(){
   <div class="lvgrid">${LVS.map(l=>`<div class="card lvc" onclick="TV={q:'',les:'',n:60};go('tv-${l}')" style="--c:${LV_INFO[l].c}"><b>${LV_INFO[l].n}</b><div class="big">${cumV(l).toLocaleString("vi-VN")}</div><small>từ tích lũy (chuẩn ${cumG(l).toLocaleString("vi-VN")})</small><small>+${VOCAB[l].length} từ mới của cấp</small><span>Học ngay →</span><span style="margin-top:2px" onclick="event.stopPropagation();go('lop-${l}')">📘 ${LESSONS[l].length} bài HSK 3.0 →</span></div>`).join("")}</div><div class="lvgrid lv2">
    <div class="card lvc" onclick="go('hoithoai')" style="--c:#2fbf8f"><b>Hội thoại</b><div class="big">${CONVS[1].length+CONVS[2].length+CONVS[3].length}</div><small>bài HSK 1–3</small><span>Nghe & nhập vai →</span></div>
    <div class="card lvc" onclick="go('nguphap-1')" style="--c:#f5b83d"><b>Ngữ pháp</b><div class="big">${nG}</div><small>điểm HSK 1–5</small><span>Xem →</span></div>
-   <div class="card lvc" onclick="go('hskk')" style="--c:#a855f7"><b>HSKK</b><div class="big">${HSKK.length}</div><small>đề nói cao cấp</small><span>Luyện nói →</span></div>
+   <div class="card lvc" onclick="openSpeak()" style="--c:#a855f7"><b>Luyện nói</b><div class="big">2</div><small>phần: một mình · phòng trực tuyến</small><span>Vào luyện nói →</span></div>
    <div class="card lvc" onclick="go('nghe6')" style="--c:#38bdf8"><b>Nghe hiểu HSK 6</b><div class="big">${LISTEN6.reduce((a,o)=>a+o.p.length,0)}</div><small>đoạn nghe</small><span>Nghe →</span></div>
    <div class="card lvc" onclick="go('luyenthi')" style="--c:#f0506e"><b>Thi thử</b><div class="big">20</div><small>câu / đề</small><span>Làm đề →</span></div></div>
   <div class="hhead" style="margin-top:8px"><div><h1 style="font-size:22px">Chữ Hán phân tích chi tiết</h1><p>${DICT.length} chữ có chiết tự, mẹo nhớ, hình minh họa</p></div>
@@ -834,7 +878,7 @@ const NAV=[
  {t:"Trang chủ",i:"🏠",go:"home"},
  {t:"Hán ngữ",i:"📘",cls:"n-blue",dd:[...LVS.map(l=>["📘","Giáo trình "+LV_INFO[l].n+" – HSK 3.0 ("+LESSONS[l].length+" bài)",()=>go("lop-"+l)]),["📕","Sách Giáo trình chuẩn HSK 1 (bản cũ, 15 bài)",()=>go("giaotrinh")],...Object.keys(GRAMMAR).map(l=>["📐","Ngữ pháp HSK "+l+" ("+GRAMMAR[l].length+" điểm)",()=>go("nguphap-"+l)])]},
  {t:"HSK 3.0",i:"🎓",cls:"n-org",dd:LVS.map(l=>["📗",LV_INFO[l].n+" – "+VOCAB[l].length+" từ",()=>{TV={q:'',les:'',n:60};go("tv-"+l)}])},
- {t:"Luyện tập",i:"🎮",dd:[...LVS.map(l=>["🎯","Ôn từ vựng "+LV_INFO[l].n,()=>openQuizLv(l)]),["🎤","Luyện nói HSKK",()=>go("hskk")],["🎧","Nghe hiểu HSK 6",()=>go("nghe6")],["🃏","Thẻ ghi nhớ",()=>openFlash(1)],["🎧","Luyện nghe chọn chữ",()=>openListen()],["✏️","Luyện viết ngẫu nhiên",()=>openWrite(DICT[Math.random()*DICT.length|0].c)],["🎬","Chép chính tả",()=>openDictation()]]},
+ {t:"Luyện tập",i:"🎮",dd:[...LVS.map(l=>["🎯","Ôn từ vựng "+LV_INFO[l].n,()=>openQuizLv(l)]),["🎤","Luyện nói HSKK (một mình)",()=>go("hskk")],["🎙️","Phòng luyện nói trực tuyến",()=>go("phongnoi")],["🎧","Nghe hiểu HSK 6",()=>go("nghe6")],["🃏","Thẻ ghi nhớ",()=>openFlash(1)],["🎧","Luyện nghe chọn chữ",()=>openListen()],["✏️","Luyện viết ngẫu nhiên",()=>openWrite(DICT[Math.random()*DICT.length|0].c)],["🎬","Chép chính tả",()=>openDictation()]]},
  {t:"Từ vựng",i:"📗",dd:[...LVS.map(l=>["📗","Từ vựng "+LV_INFO[l].n,()=>{TV={q:'',les:'',n:60};go("tv-"+l)}]),["🔠","Chữ Hán phân tích chi tiết",()=>go("home")],["📒","Sổ tay của tôi",()=>openNotes(),'<span id="nbadge">0</span>']]},
  {t:"Hội thoại",i:"💬",dd:[1,2,3].map(l=>["💬","Hội thoại HSK "+l+" ("+CONVS[l].length+" bài)",()=>go("hoithoai-"+l)])},
  {t:"Đọc hiểu",i:"📰",dd:[["📰","Luyện đọc câu HSK 3",()=>go("dochieu")],["🎧","Nghe – đọc HSK 6 (205 đoạn)",()=>go("nghe6")],["🎤","Đề nói HSKK cao cấp",()=>go("hskk")]]},
@@ -861,7 +905,7 @@ function openDrawer(){
   let h=`<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px"><b style="font-size:17px">Menu</b><button class="hb sq" onclick="closeDrawer()">✕</button></div>`;
   h+=u?`<div class="rk"><span class="ava">${esc(u.name[0].toUpperCase())}</span><div><b>${esc(u.name)}</b><div class="muted">${store.get("pts",0)} điểm · 🔥 ${store.get("streak",1)} ngày</div></div></div>`:`<div style="display:flex;gap:8px"><button class="hb h-out" style="flex:1;justify-content:center" onclick="closeDrawer();openAuth('login')">Đăng nhập</button><button class="hb h-blue" style="flex:1;justify-content:center" onclick="closeDrawer();openAuth('reg')">Đăng ký</button></div>`;
   h+=`<div class="hd">HỌC NHANH</div>
-   <button class="hb h-pur" onclick="closeDrawer();go('hskk')">💬 Luyện nói <i class="bdg pink">TALK</i></button>
+   <button class="hb h-pur" onclick="closeDrawer();openSpeak()">💬 Luyện nói <i class="bdg pink">TALK</i></button>
    <button class="hb h-cyan" onclick="closeDrawer();openDictation()">🎬 Chép chính tả <i class="bdg red">NEW</i></button>
    <button class="hb h-org" onclick="closeDrawer();openRank()">🔥 ${store.get("streak",1)} ngày · 🏆 Bảng xếp hạng</button>
    <div class="hd">DANH MỤC</div>`;
