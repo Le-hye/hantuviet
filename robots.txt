@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://le-hye.github.io/hantuviet/sitemap.xml

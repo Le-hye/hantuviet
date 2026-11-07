@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1220">
+<meta name="description" content="Hán Tự Việt – học tiếng Trung miễn phí theo chuẩn HSK 3.0: hơn 11.000 từ vựng HSK 1–9 có nghĩa tiếng Việt, nét bút, luyện viết, hội thoại, ngữ pháp, luyện nghe, thi thử HSK, luyện nói HSKK.">
+<meta name="keywords" content="học tiếng Trung, HSK 3.0, từ vựng HSK, HSK 1, HSK 2, HSK 3, HSK 4, HSK 5, HSK 6, HSK 7-9, chữ Hán, nét bút, luyện viết chữ Hán, ngữ pháp tiếng Trung, HSKK">
+<meta property="og:title" content="Hán Tự Việt – Học tiếng Trung theo chuẩn HSK 3.0">
+<meta property="og:description" content="Từ vựng HSK 1–9 nghĩa tiếng Việt, nét bút, hội thoại, ngữ pháp, thi thử HSK miễn phí.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://le-hye.github.io/hantuviet/">
+<link rel="canonical" href="https://le-hye.github.io/hantuviet/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23f0506e'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='white'%3E汉%3C/text%3E%3C/svg%3E">
+<title>Hán Tự Việt – Tra chữ Hán HSK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#070d1a;--bg2:#0d1526;--card:#111a2e;--card2:#16213a;--line:#22304d;--line2:#2c3d60;
+  --tx:#e8eefb;--tx2:#a9b6d0;--tx3:#71809f;
+  --pri:#3b6cf6;--pri2:#6f95ff;--red:#f0506e;--red2:#ff7a90;--org:#f97316;--yel:#f5b83d;--grn:#2fbf8f;--pur:#8b7cf6;--cyan:#38bdf8;
+  --hz:"Noto Serif SC","Noto Sans SC",serif;--r:16px;
+  --shadow:0 10px 30px -12px rgba(0,0,0,.6);
+}
+[data-theme=light]{
+  --bg:#f3f6fc;--bg2:#ffffff;--card:#ffffff;--card2:#f6f8fd;--line:#e1e7f2;--line2:#cfd8ea;
+  --tx:#14203a;--tx2:#4b5a78;--tx3:#8391ad;--shadow:0 10px 30px -16px rgba(30,50,90,.25);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:"Be Vietnam Pro",system-ui,sans-serif;background:var(--bg);color:var(--tx);font-size:15px;line-height:1.5;min-height:100vh;padding-bottom:80px;
+  background-image:radial-gradient(900px 400px at 10% -10%,rgba(59,108,246,.12),transparent),radial-gradient(700px 400px at 100% 0,rgba(240,80,110,.08),transparent)}
+button{font:inherit;color:inherit;cursor:pointer;border:none;background:none}
+input{font:inherit;color:inherit}
+.hz{font-family:var(--hz)}
+.wrap{max-width:1240px;margin:0 auto;padding:0 16px}
+
+/* top bar */
+.top{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.top .wrap{max-width:1580px}
+.row1{display:flex;align-items:center;gap:10px;height:66px;border-bottom:1px solid var(--line)}
+.logo{display:flex;align-items:center;gap:10px;flex-shrink:0;margin-right:auto;cursor:pointer}
+.logo-mark{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--red),var(--org));display:grid;place-items:center;font-family:var(--hz);font-size:24px;color:#fff;font-weight:700;box-shadow:0 0 0 3px rgba(255,255,255,.08),0 6px 18px -6px rgba(240,80,110,.7)}
+.logo b{font-size:27px;font-weight:800;letter-spacing:-.8px;display:block;line-height:1;background:linear-gradient(90deg,#4f8cff,var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.logo small{font-size:13px;color:var(--tx2);display:block;margin-top:3px;font-weight:500}
+.r1{display:flex;align-items:center;gap:8px}
+.hb{height:38px;padding:0 12px;border-radius:12px;border:1px solid var(--line2);background:var(--card);display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:14px;white-space:nowrap;transition:.15s}
+.hb:hover{border-color:var(--pri2)}
+.hb.sq{width:42px;padding:0;justify-content:center;font-size:18px;background:var(--card2)}
+.hb.ghost{border-color:transparent;background:none;color:var(--tx2);font-weight:500}
+.hb.ghost:hover{color:var(--tx)}
+.h-pur{border-color:rgba(168,85,247,.45);background:rgba(168,85,247,.12);color:#d8b4fe}
+.h-cyan{border-color:rgba(56,189,248,.4);background:rgba(56,189,248,.1);color:#7dd3fc}
+.h-org{border-color:rgba(249,115,22,.45);background:rgba(249,115,22,.12);color:#fdba74}
+.h-org .sep{width:1px;height:16px;background:rgba(249,115,22,.5)}
+.h-org .gold{color:var(--yel)}
+.h-out{border-color:var(--pri2);color:var(--pri2);background:none}
+.h-blue{background:linear-gradient(135deg,#2f80ff,#1d6bf0);border-color:transparent;color:#fff}
+[data-theme=light] .h-pur{color:#7e22ce}[data-theme=light] .h-cyan{color:#0369a1}[data-theme=light] .h-org{color:#c2410c}
+.bdg{font-style:normal;font-size:10.5px;font-weight:800;padding:1px 5px;border-radius:5px;color:#fff;letter-spacing:.3px}
+.bdg.pink{background:linear-gradient(90deg,#a855f7,#ec4899)}
+.bdg.red{background:#ef4444}
+.vsep{width:1px;height:24px;background:var(--line2);margin:0 2px}
+.dd{position:relative}
+.ddm{position:absolute;top:calc(100% + 6px);left:0;min-width:230px;background:var(--card);border:1px solid var(--line2);border-radius:14px;box-shadow:var(--shadow);padding:6px;display:none;z-index:60}
+.ddm.right{left:auto;right:0}
+.dd:hover .ddm,.dd:focus-within .ddm,.dd.open .ddm{display:block}
+.dd:before{content:"";position:absolute;left:0;right:0;top:100%;height:8px}
+.ddm button{display:flex;width:100%;align-items:center;gap:10px;padding:9px 11px;border-radius:10px;text-align:left;font-size:14px;font-weight:500}
+.ddm button:hover{background:var(--card2)}
+.ddm button small{margin-left:auto;font-size:11px;color:var(--tx3)}
+.ddm .hd{font-size:11px;font-weight:700;color:var(--tx3);letter-spacing:.6px;padding:6px 11px 2px;text-transform:uppercase}
+.row2{display:flex;align-items:center;gap:4px;height:54px;justify-content:space-between}
+.row2::-webkit-scrollbar{display:none}
+.nv{height:38px;padding:0 10px;border-radius:11px;display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:15px;color:var(--tx);white-space:nowrap;border:1px solid transparent}
+.nv:hover{background:var(--card2)}
+.nv .car{font-size:10px;opacity:.6}
+.nv.on{background:rgba(59,108,246,.16);color:var(--pri2);border-color:rgba(59,108,246,.35)}
+.nv.n-blue{background:rgba(59,108,246,.16);color:var(--pri2)}
+.nv.n-org{border-color:rgba(249,115,22,.5);background:rgba(249,115,22,.12);color:#fdba74}
+.nv.n-ind{border-color:rgba(111,149,255,.5);background:rgba(111,149,255,.12)}
+.nv.n-gold{border-color:rgba(245,184,61,.6);background:linear-gradient(135deg,rgba(245,184,61,.25),rgba(249,115,22,.2));color:var(--yel)}
+[data-theme=light] .nv.n-org{color:#c2410c}[data-theme=light] .nv.n-gold{color:#a16207}
+.burger,.msearch{display:none}
+.authA{display:contents}
+.user{display:inline-flex;align-items:center;gap:8px}
+.ava{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--pri),var(--cyan));color:#fff;display:grid;place-items:center;font-weight:700;font-size:13px}
+/* palette */
+.pal{position:fixed;inset:0;background:rgba(3,7,16,.6);backdrop-filter:blur(4px);z-index:70;display:none;align-items:flex-start;justify-content:center;padding:80px 16px 16px}
+.pal.on{display:flex}
+.palbox{width:100%;max-width:600px;padding:12px}
+.search{position:relative}
+.search input{width:100%;height:50px;border-radius:12px;border:1px solid var(--line2);background:var(--card2);padding:0 60px 0 44px;outline:none;font-size:16px}
+.search input:focus{border-color:var(--pri);box-shadow:0 0 0 3px rgba(59,108,246,.2)}
+.search svg{position:absolute;left:15px;top:16px;color:var(--tx3)}
+.search kbd,.kbd{font-size:11px;border:1px solid var(--line2);border-radius:6px;padding:1px 6px;color:var(--tx3);font-family:inherit;background:var(--card2)}
+.search kbd{position:absolute;right:12px;top:15px}
+.drop{max-height:60vh;overflow:auto;padding-top:8px}
+.drop a{display:flex;align-items:center;gap:12px;padding:8px 10px;border-radius:10px;cursor:pointer;text-decoration:none;color:inherit}
+.drop a:hover,.drop a.act{background:var(--card2)}
+.drop .dc{font-family:var(--hz);font-size:26px;width:40px;text-align:center;color:var(--red2)}
+.drop .dm{font-size:13px;color:var(--tx2)}
+.drop .empty{padding:14px;color:var(--tx3);font-size:14px}
+/* drawer */
+.drawer{position:fixed;inset:0;z-index:75;display:none}
+.drawer.on{display:block}
+.drawer .bg{position:absolute;inset:0;background:rgba(3,7,16,.6)}
+.drawer .pn{position:absolute;right:0;top:0;bottom:0;width:min(330px,88vw);background:var(--card);border-left:1px solid var(--line2);overflow:auto;padding:16px;display:flex;flex-direction:column;gap:6px}
+.drawer .pn>*{flex-shrink:0}
+.drawer .pn .hb{width:100%;justify-content:flex-start;height:44px}
+.drawer .pn .hb.sq{width:42px;justify-content:center}
+.drawer .pn .hd{font-size:11px;font-weight:700;color:var(--tx3);letter-spacing:.6px;margin:10px 4px 2px}
+.field{display:block;margin-top:12px}
+.field span{font-size:13px;color:var(--tx2);font-weight:600}
+.field input,.field textarea{width:100%;margin-top:5px;border-radius:11px;border:1px solid var(--line2);background:var(--card2);padding:11px 13px;outline:none;font:inherit;color:inherit}
+.field input:focus,.field textarea:focus{border-color:var(--pri)}
+.note{font-size:12.5px;color:var(--tx3);margin-top:10px;padding:9px 11px;border-radius:10px;background:var(--card2)}
+.plan{border:1px solid var(--line2);border-radius:14px;padding:14px;margin-top:10px}
+.plan.best{border-color:var(--yel);background:rgba(245,184,61,.06)}
+.rk{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:12px;background:var(--card2);margin-top:8px}
+.rk b.big{font-size:22px}
+.trout{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}
+.trw{border:1px solid var(--line2);border-radius:12px;padding:6px 10px;text-align:center;background:var(--card2);cursor:pointer}
+.trw .hz{font-size:24px;display:block}
+.trw small{display:block;font-size:11.5px;color:var(--tx2)}
+.trw.unk{opacity:.5;cursor:default}
+.radg{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin-bottom:30px}
+.radc{padding:14px}
+.radc .top2{display:flex;align-items:center;gap:10px}
+.radc .top2 .hz{font-size:40px;color:var(--yel);width:52px;text-align:center}
+[data-theme=light] .radc .top2 .hz{color:#b07a06}
+.radc .chs{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.radc .chs span{font-family:var(--hz);font-size:22px;padding:2px 8px;border-radius:8px;background:var(--card2);cursor:pointer;color:var(--red2)}
+.soonbox{text-align:center;padding:10px 0}
+.soonbox .ic{font-size:54px}
+@media (max-width:1520px){.nv{padding:0 7px;font-size:14px;gap:4px}.hb{padding:0 10px;font-size:13.5px}}
+@media (max-width:1400px){.r1 .lg-only{display:none}}
+@media (max-width:1360px){.nv .ni{display:none}}
+@media (max-width:1100px){.nv{font-size:13px;padding:0 6px}}
+@media (max-width:1100px){.r1 .md-hide{display:none}}
+@media (max-width:1024px){
+  .r1>*:not(.keep){display:none}
+  .burger,.msearch{display:inline-flex}
+  .row2{display:none}
+  .logo b{font-size:22px}
+}
+/* crumb */
+.crumb{margin:18px 0 16px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:10px 12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.crumb .path{display:flex;align-items:center;gap:8px;color:var(--tx3);font-size:14px;flex:1;min-width:0}
+.crumb .path a{color:var(--tx3);text-decoration:none;cursor:pointer}
+.crumb .path a:hover{color:var(--tx)}
+.crumb .path b{color:var(--tx)}
+.pill{height:36px;padding:0 14px;border-radius:11px;border:1px solid var(--line2);background:var(--card2);display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:14px}
+.pill:hover{border-color:var(--pri2)}
+.pill.blue{background:var(--pri);border-color:var(--pri);color:#fff}
+.pill:disabled{opacity:.4;cursor:default}
+
+/* hero */
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow)}
+.hero{padding:22px;display:grid;grid-template-columns:1.25fr 1fr;gap:20px}
+.hl{display:flex;flex-direction:column}
+.hl-top{display:flex;gap:20px;align-items:flex-start}
+.bigc{width:124px;height:124px;flex-shrink:0;border-radius:18px;border:1px solid rgba(240,80,110,.35);background:
+  linear-gradient(rgba(240,80,110,.18),rgba(240,80,110,.18)) center/100% 1px no-repeat,
+  linear-gradient(rgba(240,80,110,.18),rgba(240,80,110,.18)) center/1px 100% no-repeat,
+  linear-gradient(160deg,#3a1420,#1c0e18);display:grid;place-items:center;font-family:var(--hz);font-size:84px;color:var(--red2);font-weight:700;cursor:pointer;position:relative;transition:.2s}
+[data-theme=light] .bigc{background:linear-gradient(rgba(240,80,110,.2),rgba(240,80,110,.2)) center/100% 1px no-repeat,linear-gradient(rgba(240,80,110,.2),rgba(240,80,110,.2)) center/1px 100% no-repeat,linear-gradient(160deg,#fff1f4,#ffe4ea);color:#d6294c}
+.bigc:hover{transform:scale(1.03)}
+.pyrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:6px}
+.py{font-size:34px;font-weight:500;letter-spacing:.5px}
+.lv{background:var(--pur);color:#fff;font-weight:700;font-size:13px;padding:4px 11px;border-radius:99px}
+.au{height:34px;padding:0 12px;border-radius:10px;border:1px solid var(--line2);display:inline-flex;align-items:center;gap:6px;font-size:13.5px;color:var(--tx2)}
+.au:hover{color:var(--tx);border-color:var(--pri2)}
+.au svg{color:var(--red2)}
+.mean{font-size:21px;font-weight:600;margin-top:14px;line-height:1.4}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:18px;border-top:1px dashed var(--line2)}
+.chip{font-size:14px;padding:5px 12px;border-radius:9px;border:1px solid;display:inline-flex;gap:6px;align-items:center}
+.chip b{font-weight:700}
+.c-red{border-color:rgba(240,80,110,.4);background:rgba(240,80,110,.08);color:var(--red2)}
+.c-yel{border-color:rgba(245,184,61,.4);background:rgba(245,184,61,.08);color:var(--yel)}
+.c-grn{border-color:rgba(47,191,143,.4);background:rgba(47,191,143,.08);color:var(--grn)}
+.c-blu{border-color:rgba(111,149,255,.4);background:rgba(111,149,255,.08);color:var(--pri2)}
+[data-theme=light] .c-yel{color:#b07a06}[data-theme=light] .c-grn{color:#178a63}
+.hr{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.box{border:1px solid var(--line);background:var(--card2);border-radius:14px;padding:13px 14px;min-height:118px}
+.box h4{font-size:12.5px;letter-spacing:.6px;color:var(--tx2);font-weight:700;text-transform:uppercase;display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.box h4 span{background:rgba(59,108,246,.18);color:var(--pri2);border-radius:99px;padding:1px 9px;font-size:12px;text-transform:none;letter-spacing:0}
+.mini{display:flex;flex-wrap:wrap;gap:6px}
+.mini svg{width:32px;height:32px;border-radius:8px;border:1px solid rgba(240,80,110,.3);background:rgba(240,80,110,.06)}
+.mini .more{font-size:12px;color:var(--tx3);align-self:center}
+.muted{color:var(--tx3);font-size:14px}
+.tag{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:9px;border:1px solid rgba(245,184,61,.35);background:rgba(245,184,61,.08);font-size:13.5px;color:var(--yel);font-weight:600}
+.tag .hz{font-size:16px}
+[data-theme=light] .tag{color:#9a6a00}
+.tag.link{cursor:pointer;border-color:rgba(111,149,255,.4);background:rgba(111,149,255,.1);color:var(--pri2)}
+.tools{grid-column:1/-1;display:flex;align-items:center;gap:10px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:16px}
+.tools .lbl{font-weight:700;font-size:13.5px;letter-spacing:.5px;color:var(--tx2);margin-right:auto}
+.tb{height:44px;padding:0 16px;border-radius:12px;border:1px solid;display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14.5px;transition:.15s}
+.tb:hover{transform:translateY(-1px)}
+.t1{border-color:rgba(240,80,110,.45);color:var(--red2);background:rgba(240,80,110,.07)}
+.t1.on{background:var(--red);color:#fff}
+.t2{border-color:rgba(111,149,255,.45);color:var(--pri2);background:rgba(111,149,255,.07)}
+.t3{border-color:rgba(249,115,22,.45);color:#fb923c;background:rgba(249,115,22,.07)}
+.t4{border-color:rgba(139,124,246,.45);color:#a598ff;background:rgba(139,124,246,.07)}
+.t5{border-color:rgba(47,191,143,.45);color:var(--grn);background:rgba(47,191,143,.07)}
+
+/* tabs */
+.tabs{margin:18px 0;padding:6px;display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.tab{height:50px;border-radius:13px;display:flex;align-items:center;justify-content:center;gap:9px;font-weight:600;color:var(--tx2);font-size:15px}
+.tab:hover{color:var(--tx)}
+.tab.on{background:linear-gradient(135deg,var(--pri),#2f5be0);color:#fff;box-shadow:0 8px 20px -8px rgba(59,108,246,.8)}
+.tab .k{background:rgba(255,255,255,.12);border-radius:99px;padding:0 9px;font-size:13px}
+.tab:not(.on) .k{background:var(--card2)}
+
+.grid2{display:grid;grid-template-columns:1.3fr 1fr;gap:18px;margin-bottom:18px}
+.sec{padding:20px}
+.sec>h3{font-size:19px;font-weight:700;display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.sec>h3 svg{color:var(--pri2)}
+.sec>h3 .r{margin-left:auto;display:flex;gap:6px}
+.tree{display:flex;gap:24px;align-items:center}
+.troot{width:110px;height:120px;border-radius:16px;background:linear-gradient(160deg,var(--org),#ea580c);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 12px 26px -10px rgba(249,115,22,.7)}
+.troot .hz{font-size:50px;line-height:1.1}
+.troot i{font-size:12px;opacity:.9}
+.troot small{font-size:11.5px;opacity:.9;text-align:center;padding:0 6px}
+.tnodes{display:flex;flex-direction:column;gap:12px;flex:1;position:relative;padding-left:18px;border-left:2px solid var(--line2)}
+.tnode{display:flex;align-items:center;gap:14px;padding:10px 14px;border-radius:14px;border:1px solid var(--line2);background:var(--card2);position:relative}
+.tnode:before{content:"";position:absolute;left:-20px;top:50%;width:18px;border-top:2px solid var(--line2)}
+.tnode .hz{font-size:32px;color:var(--yel);width:40px;text-align:center}
+[data-theme=light] .tnode .hz{color:#c48400}
+.tnode b{font-size:15px}
+.tnode .pb{font-size:11.5px;font-style:italic;color:var(--yel);border:1px solid rgba(245,184,61,.4);border-radius:99px;padding:0 8px;margin-left:6px}
+.tnode p{font-size:13.5px;color:var(--tx2)}
+.tip{margin-top:16px;border:1px solid rgba(245,184,61,.35);background:rgba(245,184,61,.06);border-radius:14px;padding:12px 14px;font-size:14.5px}
+.tip b{color:var(--yel);font-size:12.5px;letter-spacing:.5px;display:block;margin-bottom:3px}
+[data-theme=light] .tip b{color:#b07a06}
+.illus{display:flex;gap:16px;align-items:stretch}
+.ipic{flex:1;min-height:170px;border-radius:16px;display:grid;place-items:center;font-size:92px;background:radial-gradient(circle at 30% 20%,rgba(56,189,248,.25),transparent 60%),radial-gradient(circle at 80% 90%,rgba(240,80,110,.22),transparent 60%),var(--card2);border:1px solid var(--line)}
+.icard{flex:1;border:1px dashed var(--line2);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:6px}
+.icard .t{display:flex;align-items:center;gap:10px}
+.icard .t .hz{font-size:40px;color:var(--red2)}
+.icard .t b{color:var(--cyan);font-size:17px;display:block}
+.icard .t small{color:var(--tx3);font-size:12px}
+.icard p{font-size:14px;color:var(--tx2)}
+
+.tg{height:32px;padding:0 11px;border-radius:9px;border:1px solid var(--line2);font-size:12.5px;font-weight:600;display:inline-flex;align-items:center;gap:5px;color:var(--tx3)}
+.tg.on{color:var(--pri2);border-color:rgba(111,149,255,.6);background:rgba(111,149,255,.1)}
+.def{border:1px solid var(--line);background:var(--card2);border-radius:16px;padding:16px;margin-bottom:14px}
+.dh{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.dn{width:26px;height:26px;border-radius:50%;background:var(--pri);color:#fff;font-weight:700;font-size:13px;display:grid;place-items:center}
+.dl{font-size:15px;margin:3px 0}
+.dl .lab{font-size:10.5px;font-weight:700;padding:1px 5px;border-radius:4px;margin-right:6px;vertical-align:2px}
+.lab.vi{background:rgba(47,191,143,.15);color:var(--grn)}
+.lab.en{background:rgba(139,124,246,.15);color:#a598ff}
+.exs{margin-top:12px;border-top:1px solid var(--line);padding-top:12px;display:flex;flex-direction:column;gap:10px}
+.exs>small{color:var(--tx3);font-size:13px}
+.ex{display:flex;gap:12px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.ex .no{font-size:11px;font-weight:700;color:var(--pri2);background:rgba(111,149,255,.12);border-radius:6px;padding:1px 6px;height:fit-content}
+.ex .acts{display:flex;flex-direction:column;gap:6px}
+.ex .acts button{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:rgba(111,149,255,.12);color:var(--pri2)}
+.ex .acts button.slow{background:rgba(47,191,143,.12);color:var(--grn)}
+.sent{display:flex;flex-wrap:wrap;gap:2px 6px;align-items:flex-end}
+.tok{display:inline-flex;flex-direction:column;align-items:center;cursor:pointer;border-radius:6px;padding:0 2px}
+.tok:hover{background:var(--card2)}
+.tok .p{font-size:11.5px;color:var(--tx2);min-height:16px;font-weight:500}
+.tok .h{font-family:var(--hz);font-size:22px;line-height:1.3}
+.tok.hit .h,.tok.hit .p{color:var(--red2)}
+.hidepy .tok .p{visibility:hidden}
+.ex .vi{margin-top:6px;font-size:14.5px}
+.ex .vi mark{background:none;color:var(--red2);font-weight:700}
+.ex .en{font-size:13.5px;color:var(--tx3);font-style:italic}
+.hidevi .ex .vi,.hidevi .dl.v{filter:blur(5px);cursor:pointer}
+.hideen .ex .en,.hideen .dl.e{filter:blur(5px);cursor:pointer}
+
+.wgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.w{border:1px solid var(--line);background:var(--card2);border-radius:14px;padding:12px 14px;cursor:pointer;transition:.15s}
+.w:hover{border-color:var(--pri2);transform:translateY(-2px)}
+.w .hz{font-size:26px}
+.w .hz em{font-style:normal;color:var(--red2)}
+.w .p{color:var(--cyan);font-size:14px}
+.w .m{color:var(--tx2);font-size:13.5px}
+h5{font-size:15px;margin:18px 0 10px;color:var(--tx2)}
+.homo{display:flex;gap:10px;flex-wrap:wrap}
+.hcard{display:flex;align-items:center;gap:10px;padding:8px 14px;border-radius:12px;border:1px solid var(--line2);cursor:pointer;background:var(--card2)}
+.hcard:hover{border-color:var(--pri2)}
+.hcard .hz{font-size:28px;color:var(--red2)}
+
+.swrap{display:grid;grid-template-columns:320px 1fr;gap:20px;align-items:start}
+.hwbox{width:300px;height:300px;border-radius:18px;border:1px solid var(--line2);background:var(--card2);position:relative;overflow:hidden}
+.hwbox svg.grid{position:absolute;inset:0}
+.hwbox #hw,.hwbox #hwq{position:absolute;inset:0}
+.ctl{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.steps{display:grid;grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:10px}
+.step{border:1px solid var(--line);border-radius:12px;background:var(--card2);padding:6px;text-align:center}
+.step svg{width:100%;aspect-ratio:1;display:block}
+.step small{font-size:11.5px;color:var(--tx3)}
+
+/* home */
+.hhead{margin:26px 0 18px;display:flex;align-items:flex-end;gap:14px;flex-wrap:wrap}
+.hhead h1{font-size:30px;font-weight:800;letter-spacing:-.5px}
+.hhead p{color:var(--tx2)}
+.hfil{margin-left:auto;display:flex;gap:6px}
+.cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px;margin-bottom:30px}
+.cc{padding:16px 12px;text-align:center;cursor:pointer;transition:.18s;position:relative}
+.cc:hover{transform:translateY(-3px);border-color:var(--pri2)}
+.cc .hz{font-size:54px;line-height:1.25;color:var(--red2)}
+.cc .p{color:var(--cyan);font-weight:600}
+.cc .m{font-size:13px;color:var(--tx2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cc .s{position:absolute;top:8px;right:10px;color:var(--yel);font-size:14px}
+.banner{padding:22px;display:flex;gap:18px;align-items:center;margin-bottom:22px;background:linear-gradient(120deg,rgba(59,108,246,.18),rgba(240,80,110,.12)),var(--card)}
+.banner .hz{font-size:64px;color:var(--red2)}
+.banner h2{font-size:20px}
+.banner p{color:var(--tx2);font-size:14px}
+
+/* modal */
+.mask{position:fixed;inset:0;background:rgba(3,7,16,.65);backdrop-filter:blur(4px);z-index:60;display:none;align-items:center;justify-content:center;padding:16px}
+.mask.on{display:flex}
+.modal{width:100%;max-width:520px;max-height:90vh;overflow:auto;padding:22px;position:relative}
+.modal h3{font-size:19px;margin-bottom:6px}
+.modal .x{position:absolute;top:14px;right:14px;width:34px;height:34px;border-radius:10px;border:1px solid var(--line2)}
+.qopt{display:block;width:100%;text-align:left;padding:12px 14px;border-radius:12px;border:1px solid var(--line2);margin-top:9px;background:var(--card2);font-weight:500}
+.qopt:hover{border-color:var(--pri2)}
+.qopt.ok{border-color:var(--grn);background:rgba(47,191,143,.15)}
+.qopt.no{border-color:var(--red);background:rgba(240,80,110,.12)}
+.qbar{height:6px;border-radius:9px;background:var(--card2);overflow:hidden;margin:12px 0}
+.qbar i{display:block;height:100%;background:linear-gradient(90deg,var(--pri),var(--cyan));transition:.3s}
+.qq{font-family:var(--hz);font-size:70px;text-align:center;color:var(--red2);line-height:1.3}
+.nb{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);margin-top:8px;cursor:pointer}
+.nb:hover{border-color:var(--pri2)}
+.nb .hz{font-size:30px;color:var(--red2);width:40px;text-align:center}
+.nb .del{margin-left:auto;color:var(--tx3);width:30px;height:30px;border-radius:8px}
+.nb .del:hover{color:var(--red2);background:var(--card2)}
+.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);background:var(--tx);color:var(--bg);padding:10px 18px;border-radius:12px;font-weight:600;font-size:14px;opacity:0;transition:.25s;z-index:80;pointer-events:none}
+.toast.on{opacity:1;transform:translateX(-50%)}
+
+/* side rail & bottom nav */
+.rail{position:fixed;right:14px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:10px;z-index:30}
+.rail button{width:62px;height:62px;border-radius:16px;border:1px solid var(--line2);background:var(--card);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:10.5px;font-weight:600;color:var(--tx2);box-shadow:var(--shadow)}
+.rail button:hover{color:var(--tx);border-color:var(--pri2)}
+.rail svg{color:var(--pri2)}
+.bnav{display:none}
+@media (max-width:1380px){.rail{display:none}}
+@media (max-width:980px){
+  .hero{grid-template-columns:1fr}
+  .grid2{grid-template-columns:1fr}
+  .swrap{grid-template-columns:1fr}
+  .hwbox{margin:0 auto}
+}
+@media (max-width:720px){
+  body{font-size:14.5px}
+  .row1{height:58px}
+  .logo-mark{width:38px;height:38px;font-size:20px}
+  .logo small{font-size:11.5px}
+  .crumb .qk{display:none}
+  .crumb .path{display:none}
+  .crumb{justify-content:space-between;flex-wrap:nowrap;gap:6px;padding:8px}
+  .crumb .pill{padding:0 10px;font-size:13px}
+  .crumb .pill.blue{display:none}
+  .hero{padding:16px}
+  .bigc{width:96px;height:96px;font-size:64px}
+  .py{font-size:28px}
+  .mean{font-size:18px}
+  .hr{grid-template-columns:1fr 1fr;gap:8px}
+  .box{padding:10px;min-height:0}
+  .mini svg{width:26px;height:26px}
+  .tools .lbl{width:100%}
+  .tb{flex:1 1 calc(50% - 10px);justify-content:center;height:42px;padding:0 8px;font-size:13.5px}
+  .tabs{grid-template-columns:repeat(4,1fr);gap:4px;padding:4px}
+  .tab{flex-direction:column;gap:0;height:56px;font-size:11.5px;text-align:center;line-height:1.2}
+  .tab svg{display:none}
+  .tab .k{font-size:11px}
+  .tree{flex-direction:column;align-items:stretch}
+  .troot{width:100%;height:auto;flex-direction:row;gap:12px;padding:10px}
+  .illus{flex-direction:column}
+  .sec{padding:16px}
+  .sec>h3{font-size:17px;flex-wrap:wrap}
+  .sec>h3 .r{margin-left:0;width:100%}
+  .cgrid{grid-template-columns:repeat(3,1fr);gap:10px}
+  .cc .hz{font-size:42px}
+  .cc{padding:12px 6px}
+  .hhead h1{font-size:24px}
+  .hwbox{width:280px;height:280px}
+  .bnav{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:50;background:var(--card);border-top:1px solid var(--line);padding:6px 6px calc(6px + env(safe-area-inset-bottom))}
+  .bnav button{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:11px;font-weight:600;color:var(--tx3);padding:4px 0}
+  .bnav button.on{color:var(--pri2)}
+}
+
+/* ===== v3 ===== */
+.hzl{cursor:pointer;border-radius:4px}.hzl:hover{background:rgba(111,149,255,.18)}.hzl.hit,.hit{color:var(--red2)}
+.lvpill{display:inline-block;color:#fff;font-weight:700;font-size:12px;padding:2px 10px;border-radius:99px;margin-bottom:6px}
+.tvbar{padding:12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.tvbar input{flex:1;min-width:200px;height:42px;border-radius:11px;border:1px solid var(--line2);background:var(--card2);padding:0 14px;outline:none}
+.tvbar input:focus{border-color:var(--pri)}
+select{height:36px;border-radius:10px;border:1px solid var(--line2);background:var(--card2);color:var(--tx);padding:0 10px;font:inherit}
+.vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
+.vc{padding:14px;cursor:pointer;position:relative;transition:.15s;text-align:center}
+.vc:hover{transform:translateY(-2px);border-color:var(--pri2)}
+.vc .hz{font-size:34px;color:var(--red2);line-height:1.3}
+.vc .p{color:var(--cyan);font-weight:600}.vc .m{font-size:13px;color:var(--tx2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.vc .vsp{position:absolute;left:8px;top:8px;width:28px;height:28px;border-radius:50%;background:rgba(111,149,255,.12);color:var(--pri2);display:grid;place-items:center}
+.vc .s{position:absolute;top:8px;right:10px;color:var(--yel)}
+.bigc.long{width:auto;min-width:124px;padding:0 18px;font-size:64px;white-space:nowrap}
+.bt .sent,.rz{display:block}
+.wwr{display:flex;gap:12px;flex-wrap:wrap}
+.wcell{width:140px}.wbox{width:140px;height:140px;border-radius:14px;border:1px solid var(--line2);background:var(--card);position:relative}
+.wbox svg.grid{position:absolute;inset:0}.wbox>div{position:absolute;inset:0}
+.exzh{font-size:21px;line-height:1.5}.exzh b{font-weight:700}
+.expy{font-size:13.5px;color:var(--cyan)}
+.lgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-bottom:24px}
+.lc{padding:16px;cursor:pointer;transition:.15s}.lc:hover{transform:translateY(-2px);border-color:var(--pri2)}
+.ln{display:inline-block;background:var(--pri);color:#fff;font-weight:700;font-size:12px;padding:2px 10px;border-radius:99px}
+.lt{font-size:24px;color:var(--red2);margin-top:8px}.lc .p{color:var(--cyan);font-size:13.5px}.lc .m{color:var(--tx2);font-size:14px}
+.scn{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.scn span{font-size:12px;padding:2px 8px;border-radius:8px;background:var(--card2);color:var(--tx2)}
+.lhead{display:flex;gap:16px;align-items:center}
+.lnum{width:64px;height:64px;border-radius:16px;background:linear-gradient(135deg,var(--org),#ea580c);color:#fff;font-size:32px;font-weight:800;display:grid;place-items:center;flex-shrink:0}
+.dlg{margin-top:16px}
+.bub{display:flex;gap:10px;align-items:flex-start;margin:10px 0;max-width:86%}
+.bub.r{margin-left:auto;flex-direction:row-reverse}
+.who{width:34px;height:34px;border-radius:50%;background:var(--pri);color:#fff;font-weight:800;display:grid;place-items:center;flex-shrink:0}
+.who.b{background:var(--red)}
+.bt{background:var(--card2);border:1px solid var(--line);border-radius:16px;padding:10px 14px;transition:.2s}
+.bub.r .bt{background:rgba(240,80,110,.08);border-color:rgba(240,80,110,.25)}
+.ex.play{border-color:var(--yel);box-shadow:0 0 0 3px rgba(245,184,61,.25)}
+details.rd{border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-top:8px;background:var(--card2)}details.rd summary{cursor:pointer}
+.bub.play .bt{border-color:var(--yel);box-shadow:0 0 0 3px rgba(245,184,61,.25)}
+.bt .sent{font-family:var(--hz);font-size:22px}.bt .vi{font-size:14px;color:var(--tx2)}
+.bt.hidden{cursor:pointer}.bt.hidden .sent,.bt.hidden .expy{filter:blur(7px)}
+.bsp{width:32px;height:32px;border-radius:50%;background:rgba(111,149,255,.12);color:var(--pri2);display:grid;place-items:center;flex-shrink:0;margin-top:4px}
+.vt{width:100%;border-collapse:collapse}.vt th{text-align:left;font-size:12.5px;color:var(--tx3);padding:8px;border-bottom:1px solid var(--line2)}
+.vt td{padding:8px;border-bottom:1px solid var(--line)}.vt tr{cursor:pointer}.vt tbody tr:hover{background:var(--card2)}.vt td.hz{font-size:24px;color:var(--red2)}
+.gtoc{padding:14px;display:flex;flex-wrap:wrap;gap:6px 14px;margin-bottom:6px}.gtoc a{cursor:pointer;color:var(--pri2);font-size:14px}
+.gp{margin-top:14px}.gst{font-family:var(--hz);font-size:18px;padding:10px 14px;border-radius:12px;background:rgba(245,184,61,.08);border:1px dashed rgba(245,184,61,.4);margin-bottom:10px}
+.gex{color:var(--tx2);margin-bottom:12px}
+.rline{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}.rline:last-child{border:none}
+.rline .no{width:28px;height:28px;border-radius:8px;background:var(--card2);display:grid;place-items:center;font-size:12px;font-weight:700;flex-shrink:0}
+.rz{font-family:var(--hz);font-size:23px;line-height:1.6}
+.blur{filter:blur(6px);cursor:pointer;user-select:none}
+.lnk{color:var(--pri2);cursor:pointer}
+.blank{color:var(--red2);font-weight:700}
+.flash{margin:16px 0;min-height:200px;border-radius:18px;border:1px solid var(--line2);background:var(--card2);display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;color:var(--red2);text-align:center;padding:16px}
+.flash.f{background:rgba(59,108,246,.08);color:var(--tx)}
+.lvgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;margin-bottom:14px}.lvgrid.lv2{grid-template-columns:repeat(5,1fr);margin-bottom:22px}
+.lvc{padding:16px;cursor:pointer;border-top:4px solid var(--c);transition:.15s}.lvc:hover{transform:translateY(-3px)}
+.lvc b{color:var(--c)}.lvc .big{font-size:32px;font-weight:800;line-height:1.2}.lvc small{color:var(--tx3);display:block}.lvc span{font-size:13px;color:var(--c);font-weight:600;display:block;margin-top:8px}
+@media (max-width:980px){.lvgrid,.lvgrid.lv2{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:720px){.lvgrid,.lvgrid.lv2{grid-template-columns:repeat(2,1fr)}.vgrid{grid-template-columns:repeat(2,1fr)}.bub{max-width:100%}.wcell,.wbox{width:120px}.wbox{height:120px}.vt th:nth-child(3),.vt td:nth-child(3){display:none}}
+</style>
+</head>
+<body>
+<header class="top">
+ <div class="wrap row1">
+  <a class="logo" onclick="go('home')"><div class="logo-mark">汉</div><div><b>Hán Tự Việt</b><small>Học Tiếng Trung</small></div></a>
+  <div class="r1">
+   <button class="hb h-pur md-hide" onclick="go('hskk')">💬 Luyện nói <i class="bdg pink">TALK</i></button>
+   <button class="hb h-cyan" onclick="openDictation()">🎬 Chép chính tả <i class="bdg red">NEW</i></button>
+   <button class="hb" onclick="focusSearch()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg> Tìm kiếm</button>
+   <button class="hb h-org" onclick="openRank()">🔥 <b id="streak">1</b><span class="sep"></span><span class="gold">🏆 BXH</span></button>
+   <div class="dd lg-only"><button class="hb ghost">📱 Tải app <span class="car">▾</span></button><div class="ddm">
+     <button onclick="openInstall()">📲 Thêm vào màn hình chính</button>
+     <button onclick="soon('App Android','🤖','Bản APK cho Android đang được đóng gói.')">🤖 Android <small>sắp có</small></button>
+     <button onclick="soon('App iOS','🍎','Bản iOS đang được chuẩn bị cho App Store.')">🍎 iOS <small>sắp có</small></button></div></div>
+   <button class="hb ghost lg-only" onclick="openContact()">✉️ Liên hệ</button>
+   <span class="vsep md-hide"></span>
+   <div class="dd md-hide"><button class="hb ghost" style="background:var(--card2)"><b>VN</b> VI <span class="car">▾</span></button><div class="ddm right">
+     <button onclick="toast('Đang dùng tiếng Việt')">🇻🇳 Tiếng Việt <small>✓</small></button>
+     <button onclick="soon('English UI','🌐','Giao diện tiếng Anh sẽ có trong bản cập nhật tới.')">🇬🇧 English <small>sắp có</small></button></div></div>
+   <button class="hb sq keep" id="themeBtn" onclick="toggleTheme()" title="Đổi giao diện">☀️</button>
+   <span id="authArea" class="authA"></span>
+  </div>
+  <button class="hb sq msearch" onclick="focusSearch()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+  <button class="hb sq burger" onclick="openDrawer()">☰</button>
+ </div>
+ <nav class="wrap row2" id="row2"></nav>
+</header>
+<div class="pal" id="pal" onclick="if(event.target===this)closePal()"><div class="palbox card">
+  <div class="search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="q" placeholder="Tra chữ Hán, pinyin, Hán Việt hoặc nghĩa…" autocomplete="off"><kbd>ESC</kbd></div>
+  <div class="drop" id="drop"></div></div></div>
+<div class="drawer" id="drawer"><div class="bg" onclick="closeDrawer()"></div><div class="pn" id="drawerPn"></div></div>
+
+<main class="wrap" id="app"></main>
+
+<div class="rail">
+  <button onclick="focusSearch()"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Tra từ</button>
+  <button onclick="openListen()"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="2" y="14" width="5" height="7" rx="2"/><rect x="17" y="14" width="5" height="7" rx="2"/></svg>Luyện nghe</button>
+  <button onclick="openQuiz()"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/></svg>Luyện tập</button>
+  <button onclick="openNotes()"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6"/></svg>Sổ tay</button>
+  <button onclick="toggleTheme()"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2"/></svg>Giao diện</button>
+</div>
+
+<nav class="bnav" id="bnav">
+  <button data-b="home" onclick="go('home')"><span style="font-size:20px">🏠</span>Trang chủ</button>
+  <button onclick="focusSearch()"><span style="font-size:20px">🔍</span>Tra từ</button>
+  <button onclick="openQuiz()"><span style="font-size:20px">🎯</span>Luyện tập</button>
+  <button onclick="openListen()"><span style="font-size:20px">🎧</span>Luyện nghe</button>
+  <button onclick="openNotes()"><span style="font-size:20px">📒</span>Sổ tay</button>
+</nav>
+
+<div class="mask" id="mask" onclick="if(event.target===this)closeModal()"><div class="modal card" id="modal"></div></div>
+<div class="toast" id="toast"></div>
+
+<script src="hw.js"></script>
+<script src="data.js"></script>
+<script src="strokes_all.js"></script>
+<script src="vocab.js"></script>
+<script src="grammar.js"></script>
+<script src="ext.js"></script>
+<script src="conv23.js"></script>
+<script src="lessons.js"></script>
+<script src="v3.js"></script>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+const store={get(k,d){try{const v=localStorage.getItem("htv_"+k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem("htv_"+k,JSON.stringify(v))}catch(e){}}};
+const IDX={};DICT.forEach((d,i)=>IDX[d.c]=i);
+const strip=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/ü/g,"v").toLowerCase();
+const plain=s=>strip(s).replace(/[^a-z]/g,"");
+let state={tab:store.get("tab",0),py:true,vi:true,en:true};
+let notes=store.get("notes",[]);
+let writer=null,qwriter=null;
+
+/* ---------- speech ---------- */
+let voices=[];
+function loadVoices(){try{voices=speechSynthesis.getVoices().filter(v=>/zh|cmn/i.test(v.lang))}catch(e){}}
+try{loadVoices();speechSynthesis.onvoiceschanged=loadVoices}catch(e){}
+function speak(text,opt={}){
+  try{
+    speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(text);u.lang="zh-CN";u.rate=opt.slow?0.55:0.85;
+    const cn=voices.filter(v=>/CN|cmn/i.test(v.lang));const pool=cn.length?cn:voices;
+    if(pool.length){
+      const male=pool.find(v=>/male|男|yunxi|yunyang|kangkang|liang|nan/i.test(v.name)&&!/female/i.test(v.name));
+      const female=pool.find(v=>/female|女|xiaoxiao|huihui|yaoyao|ting|li-mu|meijia/i.test(v.name));
+      u.voice=opt.male?(male||pool[pool.length-1]):(female||pool[0]);
+    }
+    u.pitch=opt.male?0.75:1.15;
+    speechSynthesis.speak(u);
+  }catch(e){toast("Trình duyệt này chưa hỗ trợ đọc tiếng Trung")}
+}
+const ICO_SP='<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+
+/* ---------- stroke svg ---------- */
+function strokeSvg(ch,upto,hi){
+  const d=STROKES[ch];if(!d)return"";
+  let p="";
+  d.strokes.forEach((s,i)=>{
+    const col=i===hi?"var(--red)":(i<upto?"var(--tx)":"var(--line2)");
+    p+=`<path d="${s}" fill="${col}"/>`;
+  });
+  return `<svg viewBox="0 0 1024 1024"><g transform="translate(0,900) scale(1,-1)">${p}</g></svg>`;
+}
+const GRID=`<svg class="grid" viewBox="0 0 100 100" preserveAspectRatio="none"><g stroke="rgba(240,80,110,.25)" stroke-width=".4" stroke-dasharray="1.5 1.5"><line x1="0" y1="0" x2="100" y2="100"/><line x1="100" y1="0" x2="0" y2="100"/><line x1="50" y1="0" x2="50" y2="100"/><line x1="0" y1="50" x2="100" y2="50"/></g></svg>`;
+
+/* ---------- routing ---------- */
+function go(r){if(location.hash==="#"+r)render();else location.hash=r}
+function cur(){const m=location.hash.match(/^#c-(\d+)$/);return m&&DICT[+m[1]]?+m[1]:-1}
+window.addEventListener("hashchange",render);
+
+function render(){
+  try{speechSynthesis.cancel()}catch(e){}
+  const i=cur();
+  document.querySelectorAll(".bnav button").forEach(b=>b.classList.toggle("on",b.dataset.b==="home"&&i<0));
+  closeDrawer();closePal();
+  const h=location.hash.slice(1);let m;
+  if(h==="radicals")renderRadicals();
+  else if(m=h.match(/^tv-(\d)$/))renderVocabList(m[1]);
+  else if(m=h.match(/^w-(\d)-(\d+)$/))renderWord(m[1],+m[2]);
+  else if(h==="hskk")renderHSKK();
+  else if(h==="nghe6")renderListenList();
+  else if(m=h.match(/^nghe6-(\d+)$/))renderListen(+m[1]);
+  else if(h==="hoithoai")renderConvList(1);
+  else if(m=h.match(/^hoithoai-(\d)$/))renderConvList(m[1]);
+  else if(m=h.match(/^ht-(\d)-(\d+)$/))renderConv(m[1],+m[2]);
+  else if(m=h.match(/^ht-(\d+)$/))renderConv(1,+m[1]);
+  else if(h==="giaotrinh")renderCourse();
+  else if(m=h.match(/^lop-(\d)$/))renderCourse3(m[1]);
+  else if(m=h.match(/^lop-(\d)-(\d+)$/))renderLesson3(m[1],+m[2]);
+  else if(m=h.match(/^bai-(\d+)$/))renderLesson(+m[1]);
+  else if(m=h.match(/^nguphap-(\d)$/))renderGrammar(m[1]);
+  else if(h==="dochieu")renderReading();
+  else if(h==="luyenthi")renderExamHub();
+  else if(i<0)renderHome();else renderChar(i);
+  buildNav();window.scrollTo({top:0});
+}
+
+/* ---------- home ---------- */
+let homeFilter="all";
+const cumV=l=>LVS.filter(x=>+x<=+l).reduce((a,x)=>a+VOCAB[x].length,0);
+const cumG=l=>LVS.filter(x=>+x<=+l).reduce((a,x)=>a+LV_INFO[x].goal,0);
+function renderHome(){
+  const list=DICT.map((d,i)=>[d,i]).filter(([d])=>homeFilter==="all"||(homeFilter==="saved"&&notes.includes(d.c)));
+  const today=DICT[new Date().getDate()%DICT.length];
+  const nV=LVS.reduce((a,l)=>a+VOCAB[l].length,0),nG=Object.values(GRAMMAR).reduce((a,g)=>a+g.length,0);
+  $("#app").innerHTML=`
+  <div class="hhead"><div><h1>Học tiếng Trung theo giáo trình</h1><p>${nV} từ vựng HSK 1–9 · ${CONVS[1].length+CONVS[2].length+CONVS[3].length} bài hội thoại HSK 1–3 · theo chuẩn HSK 3.0 · ${nG} điểm ngữ pháp · ${HSKK.length} đề HSKK · ${LISTEN6.length} bài nghe HSK 6</p></div></div>
+  <div class="lvgrid">${LVS.map(l=>`<div class="card lvc" onclick="TV={q:'',les:'',n:60};go('tv-${l}')" style="--c:${LV_INFO[l].c}"><b>${LV_INFO[l].n}</b><div class="big">${cumV(l).toLocaleString("vi-VN")}</div><small>từ tích lũy (chuẩn ${cumG(l).toLocaleString("vi-VN")})</small><small>+${VOCAB[l].length} từ mới của cấp</small><span>Học ngay →</span><span style="margin-top:2px" onclick="event.stopPropagation();go('lop-${l}')">📘 ${LESSONS[l].length} bài HSK 3.0 →</span></div>`).join("")}</div><div class="lvgrid lv2">
+   <div class="card lvc" onclick="go('hoithoai')" style="--c:#2fbf8f"><b>Hội thoại</b><div class="big">${CONVS[1].length+CONVS[2].length+CONVS[3].length}</div><small>bài HSK 1–3</small><span>Nghe & nhập vai →</span></div>
+   <div class="card lvc" onclick="go('nguphap-1')" style="--c:#f5b83d"><b>Ngữ pháp</b><div class="big">${nG}</div><small>điểm HSK 1–5</small><span>Xem →</span></div>
+   <div class="card lvc" onclick="go('hskk')" style="--c:#a855f7"><b>HSKK</b><div class="big">${HSKK.length}</div><small>đề nói cao cấp</small><span>Luyện nói →</span></div>
+   <div class="card lvc" onclick="go('nghe6')" style="--c:#38bdf8"><b>Nghe hiểu HSK 6</b><div class="big">${LISTEN6.reduce((a,o)=>a+o.p.length,0)}</div><small>đoạn nghe</small><span>Nghe →</span></div>
+   <div class="card lvc" onclick="go('luyenthi')" style="--c:#f0506e"><b>Thi thử</b><div class="big">20</div><small>câu / đề</small><span>Làm đề →</span></div></div>
+  <div class="hhead" style="margin-top:8px"><div><h1 style="font-size:22px">Chữ Hán phân tích chi tiết</h1><p>${DICT.length} chữ có chiết tự, mẹo nhớ, hình minh họa</p></div>
+   <div class="hfil"><button class="pill ${homeFilter==="all"?"blue":""}" onclick="homeFilter='all';renderHome()">Tất cả</button><button class="pill ${homeFilter==="saved"?"blue":""}" onclick="homeFilter='saved';renderHome()">⭐ Đã lưu (${notes.length})</button></div></div>
+  <div class="card banner"><div class="hz">${today.c}</div><div style="flex:1"><small class="muted">CHỮ CỦA NGÀY</small><h2>${today.py} · ${today.hv} – ${esc(today.defs[0].vi)}</h2><p>${esc(today.tip)}</p></div><button class="pill blue" onclick="go('c-${IDX[today.c]}')">Học ngay →</button></div>
+  <div class="cgrid">${list.length?list.map(([d,i])=>`<div class="card cc" onclick="go('c-${i}')">${notes.includes(d.c)?'<span class="s">★</span>':""}<div class="hz">${d.c}</div><div class="p">${d.py}</div><div class="m">${esc(d.defs[0].vi.split(/[,(;]/)[0])}</div></div>`).join(""):`<p class="muted">Chưa lưu chữ nào. Bấm “Lưu sổ tay” ở trang chữ để thêm.</p>`}</div>`;
+  document.title="Hán Tự Việt – Tra chữ Hán HSK";
+}
+
+/* ---------- character page ---------- */
+function renderChar(i){
+  const d=DICT[i],st=STROKES[d.c],n=st.strokes.length;
+  const homo=DICT.filter(x=>x.c!==d.c&&plain(x.py)===plain(d.py));
+  const exCount=d.defs.reduce((a,x)=>a+x.ex.length,0);
+  const saved=notes.includes(d.c);
+  document.title=`${d.c} (${d.py}) – ${d.hv} | Hán Tự Việt`;
+  const minis=[];for(let k=0;k<Math.min(n,12);k++)minis.push(strokeSvg(d.c,k,k));
+  $("#app").innerHTML=`
+  <div class="crumb">
+    <button class="pill" onclick="history.length>1?history.back():go('home')">← Quay lại</button>
+    <div class="path"><a onclick="go('home')">🏠 Trang chủ</a>›<a onclick="go('home')">Từ vựng</a>›<b>Từ vựng: <span class="hz">${d.c}</span></b></div>
+    <button class="pill qk" onclick="focusSearch()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg> Tra nhanh từ khác <span class="kbd">Ctrl+K</span></button>
+    <span class="pill blue">HSK ${d.lv}</span>
+    <button class="pill" ${i===0?"disabled":""} onclick="go('c-${i-1}')">‹ Từ trước</button>
+    <button class="pill" ${i===DICT.length-1?"disabled":""} onclick="go('c-${i+1}')">Từ sau ›</button>
+  </div>
+
+  <section class="card hero">
+    <div class="hl">
+      <div class="hl-top">
+        <div class="bigc" onclick="speak('${d.c}')" title="Bấm để nghe">${d.c}</div>
+        <div>
+          <div class="pyrow"><span class="py">${d.py}</span><span class="lv">HSK ${d.lv}</span>
+            <button class="au" onclick="speak('${d.c}',{male:1})">${ICO_SP} Nam</button>
+            <button class="au" onclick="speak('${d.c}')">${ICO_SP} Nữ</button></div>
+          <div class="mean">${esc(d.defs[0].vi)}.</div>
+        </div>
+      </div>
+      <div class="chips">
+        <span class="chip c-red">Hán Việt: <b>${d.hv}</b></span>
+        <span class="chip c-yel">Bộ thủ: <b><span class="hz">${d.rad[0]}</span> ${d.rad[1]}</b></span>
+        <span class="chip c-grn">Loại từ: <b>${d.pos}</b></span>
+        <span class="chip c-blu">Số nét: <b>${n}</b></span>
+      </div>
+    </div>
+    <div class="hr">
+      <div class="box"><h4>Thứ tự nét bút <span>${n} nét</span></h4><div class="mini" onclick="setTab(3)" style="cursor:pointer">${minis.join("")}${n>12?`<span class="more">+${n-12}</span>`:""}</div></div>
+      <div class="box"><h4>Lượng từ đi kèm</h4>${d.mw?`<span class="tag"><span class="hz">${esc(d.mw)}</span></span>`:`<p class="muted">Không dùng lượng từ riêng</p>`}</div>
+      <div class="box"><h4>Cấu tạo chiết tự</h4><div class="mini" style="gap:6px;align-items:center">${d.parts.map(p=>`<span class="tag"><span class="hz">${p[0]}</span> ${p[1].replace(/^(Bộ|Chữ) /,"")}</span>`).join('<span class="muted">+</span>')}</div></div>
+      <div class="box"><h4>Từ trái nghĩa</h4>${d.anti?`<span class="tag ${IDX[d.anti[0]]!=null?"link":""}" ${IDX[d.anti[0]]!=null?`onclick="go('c-${IDX[d.anti[0]]}')"`:""}><span class="hz">${d.anti[0]}</span> ${d.anti[1]} · ${d.anti[2]}</span>`:`<p class="muted">Chưa có dữ liệu</p>`}</div>
+    </div>
+    <div class="tools">
+      <span class="lbl">CÔNG CỤ HỌC NHANH:</span>
+      <button class="tb t1 ${saved?"on":""}" onclick="toggleNote('${d.c}')">${saved?"★ Đã lưu":"☆ Lưu sổ tay"}</button>
+      <button class="tb t2" onclick="openWrite('${d.c}')">✏️ Luyện viết</button>
+      <button class="tb t3" onclick="openQuiz('${d.c}')">🎯 Luyện tập</button>
+      <button class="tb t4" onclick="speak('${d.c}',{slow:1})">🎙️ Phát âm chậm</button>
+      <button class="tb t5" onclick="speakAll(${i})">🔊 Nghe ví dụ</button>
+    </div>
+  </section>
+
+  <nav class="card tabs">
+    ${[["📖","Định nghĩa & Ví dụ",d.defs.length],["🏷️","Từ ghép & Đồng âm",d.words.length+homo.length],["🔍","Phân tích ký tự",d.parts.length+" bộ"],["✍️","Thứ tự nét viết",n]]
+      .map((t,k)=>`<button class="tab ${state.tab===k?"on":""}" onclick="setTab(${k})"><svg width="0" height="0"></svg>${t[0]} ${t[1]} <span class="k">${t[2]}</span></button>`).join("")}
+  </nav>
+  <div id="tabc"></div>`;
+  renderTab(i);
+}
+function setTab(k){state.tab=k;store.set("tab",k);const i=cur();if(i<0)return;document.querySelectorAll(".tab").forEach((t,j)=>t.classList.toggle("on",j===k));renderTab(i);if(k===3)document.querySelector(".tabs").scrollIntoView({behavior:"smooth"})}
+
+function sentHtml(toks){return `<div class="sent">${toks.map(([h,p])=>{const hit=h.endsWith("*");h=h.replace("*","");return `<span class="tok ${hit?"hit":""}" ${IDX[h]!=null?`onclick="event.stopPropagation();go('c-${IDX[h]}')" title="Xem chữ ${h}"`:`onclick="speak('${h}')"`}><span class="p">${p}</span><span class="h">${h}</span></span>`}).join("")}</div>`}
+const sentText=toks=>toks.map(t=>t[0].replace("*","")).join("");
+function markVi(vi,d){const k=d.defs[0].vi.split(/[,(;]/)[0].trim();const re=new RegExp("("+k.split(/\s+/).slice(0,2).join("\\s+").replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","i");return esc(vi).replace(re,"<mark>$1</mark>")}
+
+function renderTab(i){
+  const d=DICT[i],n=STROKES[d.c].strokes.length;let h="";
+  if(writer){try{writer.pauseAnimation()}catch(e){}writer=null}
+  if(state.tab===0){
+    h=`<div class="grid2">
+      <section class="card sec"><h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="6" r="2"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="8" r="2"/><path d="M6 8v8M18 10c0 4-6 3-10 7"/></svg>Thành phần cấu tạo & Chiết tự</h3>
+        <div class="tree"><div class="troot"><span class="hz">${d.c}</span><div><i>${d.py}</i><br><small>${esc(d.defs[0].vi.split(/[,(;]/)[0])}, ${d.hv.toLowerCase()}</small></div></div>
+        <div class="tnodes">${d.parts.map(p=>`<div class="tnode"><span class="hz">${p[0]}</span><div><b>${p[1]}</b>${p[2]?`<span class="pb">${p[2]}</span>`:""}<p>${esc(p[3])}</p></div></div>`).join("")}</div></div>
+        <div class="tip"><b>💡 MẸO NHỚ NHANH</b>${esc(d.tip)}</div></section>
+      <section class="card sec"><h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg>Hình ảnh minh họa</h3>
+        <div class="illus"><div class="ipic">${d.emo}</div><div class="icard"><div class="t"><span class="hz">${d.c}</span><div><b>${d.py}</b><small>Hán Việt: ${d.hv}</small></div></div><p>${esc(d.defs[0].vi)}.</p><button class="pill" style="margin-top:auto" onclick="speak('${d.c}')">${ICO_SP} Nghe phát âm</button></div></div></section>
+    </div>
+    <section class="card sec ${state.py?"":"hidepy"} ${state.vi?"":"hidevi"} ${state.en?"":"hideen"}" id="defsec" style="margin-bottom:18px">
+      <h3>📝 Định nghĩa & Câu ví dụ (${d.defs.length})<span class="r"><small class="muted" style="align-self:center;font-size:12px">Chế độ tự dò:</small>
+        <button class="tg ${state.py?"on":""}" onclick="tog('py')">👁 Pinyin</button><button class="tg ${state.vi?"on":""}" onclick="tog('vi')">👁 Nghĩa Việt</button><button class="tg ${state.en?"on":""}" onclick="tog('en')">👁 Tiếng Anh</button></span></h3>
+      ${d.defs.map((df,k)=>`<div class="def"><div class="dh"><span class="dn">${k+1}</span><span class="tag">${d.pos}</span><button class="au" onclick="speak('${d.c}')">${ICO_SP} ${d.py}</button></div>
+        <div class="dl v"><span class="lab vi">VI</span>Nghĩa: <b>${esc(df.vi)}</b></div><div class="dl e"><span class="lab en">EN</span><span class="muted">Tiếng Anh: <i>${esc(df.en)}</i></span></div>
+        <div class="exs"><small>💬 Câu ví dụ thực tế (${df.ex.length})</small>
+        ${df.ex.map((e,j)=>`<div class="ex"><span class="no">#${j+1}</span><div class="acts"><button onclick="speak('${sentText(e[0])}')" title="Nghe">${ICO_SP}</button><button class="slow" onclick="speak('${sentText(e[0])}',{slow:1})" title="Nghe chậm">🐢</button></div>
+          <div>${sentHtml(e[0])}<div class="vi" onclick="this.style.filter='none'">${markVi(e[1],d)}</div><div class="en" onclick="this.style.filter='none'">${esc(e[2])}</div></div></div>`).join("")}</div></div>`).join("")}
+    </section>`;
+  }else if(state.tab===1){
+    const homo=DICT.filter(x=>x.c!==d.c&&plain(x.py)===plain(d.py));
+    h=`<section class="card sec" style="margin-bottom:18px"><h3>🏷️ Từ ghép chứa “<span class="hz">${d.c}</span>” (${d.words.length})</h3>
+      <div class="wgrid">${d.words.map(w=>`<div class="w" onclick="speak('${w[0]}')"><div class="hz">${[...w[0]].map(c=>c===d.c?`<em>${c}</em>`:c).join("")}</div><div class="p">${w[1]}</div><div class="m">${esc(w[2])}</div></div>`).join("")}</div>
+      <h5>🔁 Chữ đồng âm (cùng âm “${plain(d.py)}”, khác thanh hoặc khác chữ)</h5>
+      <div class="homo">${homo.length?homo.map(x=>`<div class="hcard" onclick="go('c-${IDX[x.c]}')"><span class="hz">${x.c}</span><div><b>${x.py}</b><div class="muted">${esc(x.defs[0].vi.split(/[,(;]/)[0])}</div></div></div>`).join(""):`<p class="muted">Không có chữ đồng âm trong bộ HSK 1 hiện tại.</p>`}</div></section>`;
+  }else if(state.tab===2){
+    const sameRad=DICT.filter(x=>x.c!==d.c&&(x.rad[0]===d.rad[0]||x.parts.some(p=>d.parts.some(q=>q[0]===p[0]))));
+    h=`<section class="card sec" style="margin-bottom:18px"><h3>🔍 Phân tích ký tự</h3>
+      <div class="wgrid">
+        <div class="w" style="cursor:default"><small class="muted">Bộ thủ chính</small><div class="hz" style="color:var(--yel)">${d.rad[0]}</div><div class="p">${d.rad[1]} · ${d.rad[2]}</div><div class="m">Nghĩa gốc: ${d.rad[3]}</div></div>
+        <div class="w" style="cursor:default"><small class="muted">Hán Việt</small><div style="font-size:24px;font-weight:800;color:var(--red2)">${d.hv}</div><div class="m">Âm Hán Việt giúp đoán nghĩa từ ghép: ${d.words.slice(0,2).map(w=>w[0]).join(", ")}</div></div>
+        <div class="w" style="cursor:default"><small class="muted">Số nét · Loại từ</small><div style="font-size:24px;font-weight:800">${n} nét</div><div class="m">${d.pos}</div></div>
+      </div>
+      <h5>Các thành phần</h5>
+      <div class="tnodes" style="border:none;padding:0">${d.parts.map(p=>`<div class="tnode" style="margin:0"><span class="hz">${p[0]}</span><div><b>${p[1]}</b>${p[2]?`<span class="pb">${p[2]}</span>`:""}<p>${esc(p[3])}</p></div></div>`).join("")}</div>
+      <div class="tip"><b>💡 GHÉP NGHĨA</b>${esc(d.tip)}</div>
+      <h5>Chữ có cùng bộ / thành phần</h5>
+      <div class="homo">${sameRad.length?sameRad.map(x=>`<div class="hcard" onclick="go('c-${IDX[x.c]}')"><span class="hz">${x.c}</span><div><b>${x.py}</b><div class="muted">${x.hv}</div></div></div>`).join(""):`<p class="muted">Chưa có chữ nào khác cùng bộ trong dữ liệu.</p>`}</div></section>`;
+  }else{
+    const steps=[];for(let k=0;k<n;k++)steps.push(`<div class="step">${strokeSvg(d.c,k+1,k)}<small>Nét ${k+1}</small></div>`);
+    h=`<section class="card sec" style="margin-bottom:18px"><h3>✍️ Thứ tự nét viết (${n} nét)</h3>
+      <div class="swrap"><div><div class="hwbox">${GRID}<div id="hw"></div></div>
+        <div class="ctl"><button class="pill blue" onclick="writer&&writer.animateCharacter()">▶ Phát</button><button class="pill" onclick="loopAnim()">🔁 Lặp</button><button class="pill" onclick="stepAnim()">⏭ Từng nét</button><button class="pill" onclick="openWrite('${d.c}')">✏️ Tự viết</button></div></div>
+        <div class="steps">${steps.join("")}</div></div></section>`;
+  }
+  $("#tabc").innerHTML=h;
+  if(state.tab===3)mountWriter(d.c);
+}
+function tog(k){state[k]=!state[k];renderTab(cur())}
+function speakAll(i){const d=DICT[i];speak(d.defs.flatMap(f=>f.ex.map(e=>sentText(e[0]))).join("。"))}
+
+/* ---------- hanzi writer ---------- */
+const loader=(ch,ok,err)=>STROKES[ch]?ok(STROKES[ch]):err&&err();
+function hwColors(){const l=document.documentElement.dataset.theme==="light";return{strokeColor:l?"#14203a":"#e8eefb",radicalColor:"#f0506e",outlineColor:l?"#d9e0ee":"#2a3858",highlightColor:"#38bdf8",drawingColor:"#3b6cf6"}}
+let stepI=0,looping=false;
+function mountWriter(ch){
+  const el=$("#hw");if(!el||!window.HanziWriter)return;
+  const size=el.clientWidth||300;
+  writer=HanziWriter.create(el,ch,{width:size,height:size,padding:18,charDataLoader:loader,showOutline:true,strokeAnimationSpeed:1.1,delayBetweenStrokes:250,...hwColors()});
+  stepI=0;looping=false;setTimeout(()=>writer&&writer.animateCharacter(),300);
+}
+function loopAnim(){if(!writer)return;looping=!looping;if(looping)writer.loopCharacterAnimation();else{writer.pauseAnimation();writer.showCharacter()}}
+function stepAnim(){if(!writer)return;const n=STROKES[DICT[cur()].c].strokes.length;if(stepI===0||stepI>=n){writer.hideCharacter();stepI=0}writer.animateStroke(stepI);stepI++}
+
+/* ---------- modals ---------- */
+function openModal(h){$("#modal").innerHTML=`<button class="x" onclick="closeModal()">✕</button>`+h;$("#mask").classList.add("on")}
+function closeModal(){$("#mask").classList.remove("on");qwriter=null}
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
+
+function openWrite(ch){
+  openModal(`<h3>✏️ Luyện viết chữ <span class="hz" style="color:var(--red2)">${ch}</span></h3><p class="muted">Viết từng nét theo đúng thứ tự bằng chuột hoặc ngón tay. Sai 3 lần sẽ có gợi ý.</p>
+  <div class="hwbox" style="margin:14px auto">${GRID}<div id="hwq"></div></div>
+  <div style="text-align:center;font-weight:600" id="wmsg">Bắt đầu với nét 1</div>
+  <div class="ctl" style="justify-content:center"><button class="pill" onclick="startQuiz('${ch}',true)">👁 Hiện mờ chữ</button><button class="pill" onclick="startQuiz('${ch}',false)">🙈 Viết không nhìn</button><button class="pill blue" onclick="speak('${ch}')">${ICO_SP} Nghe</button></div>`);
+  startQuiz(ch,true);
+}
+function startQuiz(ch,outline){if(!STROKES[ch]){needStrokes([ch],()=>startQuiz(ch,outline));return}
+  const el=$("#hwq");el.innerHTML="";const size=el.clientWidth||300;
+  qwriter=HanziWriter.create(el,ch,{width:size,height:size,padding:18,charDataLoader:loader,showCharacter:false,showOutline:outline,showHintAfterMisses:3,...hwColors()});
+  $("#wmsg").textContent="Bắt đầu với nét 1";
+  qwriter.quiz({onCorrectStroke:s=>{$("#wmsg").textContent=`✅ Đúng nét ${s.strokeNum+1}! Còn ${s.strokesRemaining} nét`},
+    onMistake:s=>{$("#wmsg").textContent=`❌ Chưa đúng nét ${s.strokeNum+1}, thử lại nhé`},
+    onComplete:s=>{$("#wmsg").textContent=`🎉 Hoàn thành! Sai ${s.totalMistakes} lần`;speak(ch)}});
+}
+
+/* quiz: chọn nghĩa / pinyin */
+let Q=null;
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a}
+function openQuiz(focus){
+  const pool=shuffle(DICT);let qs=pool.slice(0,8);
+  if(focus){qs=qs.filter(x=>x.c!==focus);qs.unshift(DICT[IDX[focus]]);qs=qs.slice(0,8)}
+  Q={qs,k:0,score:0,mode:"read"};nextQ();
+}
+function openListen(){Q={qs:shuffle(DICT).slice(0,8),k:0,score:0,mode:"listen"};nextQ()}
+function nextQ(){
+  if(Q.k>=Q.qs.length){openModal(`<h3>🏆 Kết quả</h3><div class="qq" style="font-family:inherit;font-size:54px;font-weight:800">${Q.score}/${Q.qs.length}</div><p style="text-align:center" class="muted">${Q.score===Q.qs.length?"Xuất sắc! Bạn nhớ hết rồi.":Q.score>=Q.qs.length/2?"Khá lắm, ôn thêm một chút nữa nhé.":"Cố lên, hãy xem lại các chữ bên dưới."}</p><div class="ctl" style="justify-content:center"><button class="pill blue" onclick="${Q.mode==="listen"?"openListen()":"openQuiz()"}">Làm lại</button><button class="pill" onclick="closeModal()">Đóng</button></div>`);return}
+  const d=Q.qs[Q.k];const type=Q.mode==="listen"?2:Q.k%2;
+  const wrong=shuffle(DICT.filter(x=>x.c!==d.c)).slice(0,3);const opts=shuffle([d,...wrong]);
+  const label=x=>type===0?esc(x.defs[0].vi.split(/[(;]/)[0]):type===1?x.py+" · "+x.hv:`<span class="hz" style="font-size:26px">${x.c}</span> &nbsp;${esc(x.defs[0].vi.split(/[,(;]/)[0])}`;
+  openModal(`<h3>${Q.mode==="listen"?"🎧 Luyện nghe":"🎯 Luyện tập"} · Câu ${Q.k+1}/${Q.qs.length}</h3><div class="qbar"><i style="width:${Q.k/Q.qs.length*100}%"></i></div>
+   ${type===2?`<div style="text-align:center;margin:18px 0"><button class="tb t2" style="height:64px;font-size:18px" onclick="speak('${d.c}')">${ICO_SP} Nghe lại</button></div><p class="muted" style="text-align:center">Chọn chữ bạn vừa nghe</p>`:`<div class="qq">${d.c}</div><p class="muted" style="text-align:center">${type===0?"Chữ này có nghĩa là gì?":"Chữ này đọc là gì?"}</p>`}
+   ${opts.map(o=>`<button class="qopt" data-c="${o.c}" onclick="ans(this,'${d.c}')">${label(o)}</button>`).join("")}`);
+  if(type===2)setTimeout(()=>speak(d.c),250);
+}
+function ans(btn,c){
+  document.querySelectorAll(".qopt").forEach(b=>{b.disabled=true;if(b.dataset.c===c)b.classList.add("ok")});
+  if(btn.dataset.c===c){Q.score++;addPts(10)}else btn.classList.add("no");
+  speak(c);Q.k++;setTimeout(nextQ,1100);
+}
+
+/* notebook */
+function toggleNote(c){const i=notes.indexOf(c);if(i<0){notes.push(c);toast("Đã lưu “"+c+"” vào sổ tay")}else{notes.splice(i,1);toast("Đã bỏ “"+c+"” khỏi sổ tay")}store.set("notes",notes);updBadge();if($("#mask").classList.contains("on"))openNotes();else render()}
+function updBadge(){const b=$("#nbadge");if(b)b.textContent=notes.length}
+function openNotes(){
+  openModal(`<h3>📒 Sổ tay của tôi (${notes.length})</h3><p class="muted">Các chữ bạn đã lưu, lưu ngay trên trình duyệt này.</p>
+  ${notes.length?notes.map(c=>{const x=WIDX[c],v=x?VOCAB[x[0]][x[1]]:null,d=IDX[c]!=null?DICT[IDX[c]]:null;const py=d?d.py:v?v[1]:"",m=d?d.defs[0].vi:v?v[3]:"";return `<div class="nb" onclick="closeModal();goWord('${c}')"><span class="hz">${c}</span><div><b>${py}</b>${d?" · "+d.hv:""}<div class="muted">${esc(m)}</div></div><button class="del" onclick="event.stopPropagation();toggleNote('${c}')">✕</button></div>`}).join("")+`<div class="ctl"><button class="pill blue" onclick="notes.length>=4?openQuizWords(notes,'sổ tay'):toast('Cần ít nhất 4 từ để ôn')">🎯 Ôn tập sổ tay</button></div>`:`<p style="margin-top:14px" class="muted">Chưa có chữ nào. Mở một chữ và bấm “Lưu sổ tay”.</p>`}`);
+}
+
+/* search */
+const qi=$("#q"),dr=$("#drop");let sel=0,res=[];
+function search(t){
+  t=t.trim();if(!t)return[];const tp=plain(t),tl=strip(t);
+  return DICT.map((d,i)=>{let s=0;
+    if(t.includes(d.c))s=100;
+    else if(plain(d.py)===tp)s=90;else if(tp&&plain(d.py).startsWith(tp))s=70;
+    else if(strip(d.hv)===tl)s=85;else if(tl.length>1&&strip(d.hv).startsWith(tl))s=60;
+    else if(d.defs.some(f=>strip(f.vi).includes(tl)||f.en.toLowerCase().includes(tl)))s=40;
+    else if(d.words.some(w=>w[0].includes(t)||strip(w[2]).includes(tl)))s=20;
+    return [s,i]}).filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]).map(x=>x[1]).slice(0,10);
+}
+function searchV(t){t=t.trim();if(!t)return[];const tp=plain(t),tl=strip(t);const out=[];
+  LVS.forEach(l=>VOCAB[l].forEach((w,i)=>{let s=0;if(w[0]===t)s=95;else if(tp&&plain(w[1])===tp)s=80;else if(w[0].includes(t)&&isHz(t[0]))s=60;else if(tp.length>1&&plain(w[1]).startsWith(tp))s=50;else if(tl.length>1&&strip(w[3]).split(/[,;()]/).some(x=>x.trim()===tl))s=45;else if(tl.length>2&&strip(w[3]).includes(tl))s=25;if(s)out.push([s-(+l)*.1,l,i])}));
+  return out.sort((a,b)=>b[0]-a[0]).slice(0,14)}
+function pickW(l,i){qi.value="";closePal();go(`w-${l}-${i}`)}
+function showDrop(){res=search(qi.value);sel=0;const rv=searchV(qi.value).filter(([s,l,i])=>!(VOCAB[l][i][0].length===1&&IDX[VOCAB[l][i][0]]!=null&&res.includes(IDX[VOCAB[l][i][0]])));
+  dr.innerHTML=(res.length||rv.length)?res.map((i,k)=>{const d=DICT[i];return `<a class="${k===0?"act":""}" onmousedown="pick(${i})"><span class="dc">${d.c}</span><div><b>${d.py}</b> · ${d.hv} <span class="lv" style="font-size:10px;padding:1px 7px">Chữ chi tiết</span><div class="dm">${esc(d.defs[0].vi)}</div></div></a>`}).join("")+rv.map(([s,l,i],k)=>{const w=VOCAB[l][i];return `<a class="${!res.length&&k===0?"act":""}" onmousedown="pickW(${l},${i})"><span class="dc">${w[0]}</span><div><b>${w[1]}</b> <span class="lv" style="font-size:10px;padding:1px 7px;background:${LV_INFO[l].c}">${LV_INFO[l].n}</span><div class="dm">${esc(w[3])}</div></div></a>`}).join(""):`<div class="empty">Không tìm thấy “${esc(qi.value)}” trong từ vựng HSK 1–9.</div>`;
+  if(!qi.value.trim()){res=DICT.map((d,i)=>i).slice(0,8);dr.innerHTML=`<div class="empty" style="padding:6px 10px">Gợi ý: gõ <b>xin</b>, <b>tân</b>, <b>mới</b> hoặc chữ <b class="hz">新</b></div>`+res.map((i,k)=>{const d=DICT[i];return `<a class="${k===0?"act":""}" onmousedown="pick(${i})"><span class="dc">${d.c}</span><div><b>${d.py}</b> · ${d.hv}<div class="dm">${esc(d.defs[0].vi)}</div></div></a>`}).join("")}}
+function pick(i){qi.value="";closePal();go("c-"+i)}
+qi.addEventListener("input",showDrop);
+qi.addEventListener("keydown",e=>{const a=dr.querySelectorAll("a");
+  if(e.key==="ArrowDown"||e.key==="ArrowUp"){e.preventDefault();if(!a.length)return;sel=(sel+(e.key==="ArrowDown"?1:-1)+a.length)%a.length;a.forEach((x,k)=>x.classList.toggle("act",k===sel))}
+  else if(e.key==="Enter"&&a[sel])a[sel].dispatchEvent(new MouseEvent("mousedown"));else if(e.key==="Escape")closePal()});
+function focusSearch(){closeDrawer();$("#pal").classList.add("on");showDrop();setTimeout(()=>qi.focus(),30)}
+function closePal(){$("#pal").classList.remove("on");qi.blur()}
+document.addEventListener("keydown",e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="k"){e.preventDefault();focusSearch()}
+  if(e.key==="Escape"){closePal();closeDrawer()}
+  if(document.activeElement!==qi&&!$("#pal").classList.contains("on")&&!$("#mask").classList.contains("on")&&cur()>=0){if(e.key==="ArrowRight"&&cur()<DICT.length-1)go("c-"+(cur()+1));if(e.key==="ArrowLeft"&&cur()>0)go("c-"+(cur()-1))}});
+
+
+/* ---------- header: nav, streak, auth ---------- */
+const NAV=[
+ {t:"Trang chủ",i:"🏠",go:"home"},
+ {t:"Hán ngữ",i:"📘",cls:"n-blue",dd:[...LVS.map(l=>["📘","Giáo trình "+LV_INFO[l].n+" – HSK 3.0 ("+LESSONS[l].length+" bài)",()=>go("lop-"+l)]),["📕","Sách Giáo trình chuẩn HSK 1 (bản cũ, 15 bài)",()=>go("giaotrinh")],...Object.keys(GRAMMAR).map(l=>["📐","Ngữ pháp HSK "+l+" ("+GRAMMAR[l].length+" điểm)",()=>go("nguphap-"+l)])]},
+ {t:"HSK 3.0",i:"🎓",cls:"n-org",dd:LVS.map(l=>["📗",LV_INFO[l].n+" – "+VOCAB[l].length+" từ",()=>{TV={q:'',les:'',n:60};go("tv-"+l)}])},
+ {t:"Luyện tập",i:"🎮",dd:[...LVS.map(l=>["🎯","Ôn từ vựng "+LV_INFO[l].n,()=>openQuizLv(l)]),["🎤","Luyện nói HSKK",()=>go("hskk")],["🎧","Nghe hiểu HSK 6",()=>go("nghe6")],["🃏","Thẻ ghi nhớ",()=>openFlash(1)],["🎧","Luyện nghe chọn chữ",()=>openListen()],["✏️","Luyện viết ngẫu nhiên",()=>openWrite(DICT[Math.random()*DICT.length|0].c)],["🎬","Chép chính tả",()=>openDictation()]]},
+ {t:"Từ vựng",i:"📗",dd:[...LVS.map(l=>["📗","Từ vựng "+LV_INFO[l].n,()=>{TV={q:'',les:'',n:60};go("tv-"+l)}]),["🔠","Chữ Hán phân tích chi tiết",()=>go("home")],["📒","Sổ tay của tôi",()=>openNotes(),'<span id="nbadge">0</span>']]},
+ {t:"Hội thoại",i:"💬",dd:[1,2,3].map(l=>["💬","Hội thoại HSK "+l+" ("+CONVS[l].length+" bài)",()=>go("hoithoai-"+l)])},
+ {t:"Đọc hiểu",i:"📰",dd:[["📰","Luyện đọc câu HSK 3",()=>go("dochieu")],["🎧","Nghe – đọc HSK 6 (205 đoạn)",()=>go("nghe6")],["🎤","Đề nói HSKK cao cấp",()=>go("hskk")]]},
+ {t:"Bộ thủ",i:"🧩",go:"radicals"},
+ {t:"Luyện thi",i:"📝",go:"luyenthi"},
+ {t:"Thi HSK 3.0",i:"🖥️",cls:"n-ind",dd:[...LVS.map(l=>["⏱️","Thi thử "+LV_INFO[l].n,()=>startExam(l)]),["🎤","Thi nói HSKK cao cấp",()=>hskkRandom()],["📊","Kết quả & lịch sử thi",()=>go("luyenthi")]]},
+ {t:"Đề thi mới",i:"🗒️",fn:()=>startExam(LVS[Math.random()*LVS.length|0])},
+ {t:"Dịch",i:"🔤",fn:()=>openTranslate()},
+ {t:"Nâng cấp",i:"👑",cls:"n-gold",fn:()=>openUpgrade()}
+];
+const NAVF={};
+function buildNav(){
+  const h=location.hash.replace("#","")||"home",i=cur();
+  const act=t=>(t.go&&t.go===h)||(t.go==="home"&&!h)||(t.t==="Từ vựng"&&(i>=0||/^(tv|w)-/.test(h)))||(t.t==="Hội thoại"&&/^(hoithoai|ht-)/.test(h))||(t.t==="Hán ngữ"&&/^(giaotrinh|bai-|nguphap|lop-)/.test(h))||(t.t==="Đọc hiểu"&&/^(dochieu|nghe6|hskk)/.test(h));
+  $("#row2").innerHTML=NAV.map((t,k)=>{
+    if(t.dd){t.dd.forEach((x,j)=>NAVF[k+"_"+j]=x[2]);
+      return `<div class="dd"><button class="nv ${t.cls||""} ${act(t)?"on":""}"><span class="ni">${t.i}</span> ${t.t} <span class="car">▾</span></button><div class="ddm">${t.dd.map((x,j)=>`<button onclick="this.blur();NAVF['${k}_${j}']()">${x[0]} ${x[1]}${x[3]?`<small>${x[3]}</small>`:""}</button>`).join("")}</div></div>`}
+    NAVF[k]=t.go?()=>go(t.go):t.fn;
+    return `<button class="nv ${t.cls||""} ${act(t)?"on":""}" onclick="NAVF[${k}]()"><span class="ni">${t.i}</span> ${t.t}</button>`}).join("");
+  updBadge();
+}
+function openDrawer(){
+  const u=store.get("user",null);
+  let h=`<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px"><b style="font-size:17px">Menu</b><button class="hb sq" onclick="closeDrawer()">✕</button></div>`;
+  h+=u?`<div class="rk"><span class="ava">${esc(u.name[0].toUpperCase())}</span><div><b>${esc(u.name)}</b><div class="muted">${store.get("pts",0)} điểm · 🔥 ${store.get("streak",1)} ngày</div></div></div>`:`<div style="display:flex;gap:8px"><button class="hb h-out" style="flex:1;justify-content:center" onclick="closeDrawer();openAuth('login')">Đăng nhập</button><button class="hb h-blue" style="flex:1;justify-content:center" onclick="closeDrawer();openAuth('reg')">Đăng ký</button></div>`;
+  h+=`<div class="hd">HỌC NHANH</div>
+   <button class="hb h-pur" onclick="closeDrawer();go('hskk')">💬 Luyện nói <i class="bdg pink">TALK</i></button>
+   <button class="hb h-cyan" onclick="closeDrawer();openDictation()">🎬 Chép chính tả <i class="bdg red">NEW</i></button>
+   <button class="hb h-org" onclick="closeDrawer();openRank()">🔥 ${store.get("streak",1)} ngày · 🏆 Bảng xếp hạng</button>
+   <div class="hd">DANH MỤC</div>`;
+  NAV.forEach((t,k)=>{
+    if(t.dd){h+=`<div class="hd" style="margin-top:6px">${t.i} ${t.t.toUpperCase()}</div>`+t.dd.map((x,j)=>`<button class="hb ghost" onclick="closeDrawer();NAVF['${k}_${j}']()">${x[0]} ${x[1]}</button>`).join("")}
+    else h+=`<button class="hb ${t.cls==="n-gold"?"h-org":""}" onclick="closeDrawer();NAVF[${k}]()">${t.i} ${t.t}</button>`});
+  h+=`<div class="hd">KHÁC</div><button class="hb ghost" onclick="closeDrawer();openInstall()">📱 Tải app</button><button class="hb ghost" onclick="closeDrawer();openContact()">✉️ Liên hệ</button>`;
+  if(u)h+=`<button class="hb ghost" onclick="logout()">🚪 Đăng xuất</button>`;
+  $("#drawerPn").innerHTML=h;$("#drawer").classList.add("on");
+}
+function closeDrawer(){const d=$("#drawer");if(d)d.classList.remove("on")}
+
+function calcStreak(){
+  const today=new Date().toDateString(),last=store.get("lastDay",null);let st=store.get("streak",0);
+  if(last!==today){const y=new Date(Date.now()-864e5).toDateString();st=last===y?st+1:1;store.set("streak",st);store.set("lastDay",today)}
+  $("#streak").textContent=st||1;
+}
+function addPts(n){store.set("pts",store.get("pts",0)+n)}
+function renderAuth(){
+  const u=store.get("user",null);
+  $("#authArea").innerHTML=u?`<div class="dd"><button class="hb"><span class="ava">${esc(u.name[0].toUpperCase())}</span>${esc(u.name)} <span class="car">▾</span></button><div class="ddm right">
+     <div class="hd">${store.get("pts",0)} điểm</div><button onclick="openNotes()">📒 Sổ tay</button><button onclick="openRank()">🏆 Thành tích</button><button onclick="logout()">🚪 Đăng xuất</button></div></div>`
+   :`<button class="hb h-out" onclick="openAuth('login')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4M10 17l5-5-5-5M15 12H3"/></svg> Đăng nhập</button>
+     <button class="hb h-blue" onclick="openAuth('reg')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="9" cy="8" r="4"/><path d="M2 21a7 7 0 0 1 14 0M19 8v6M16 11h6"/></svg> Đăng ký</button>`;
+}
+function openAuth(m){
+  const reg=m==="reg";
+  openModal(`<h3>${reg?"Tạo tài khoản":"Đăng nhập"}</h3><p class="muted">${reg?"Lưu tiến độ học, sổ tay và điểm xếp hạng.":"Chào mừng bạn quay lại!"}</p>
+  <form onsubmit="event.preventDefault();doAuth(${reg})">
+   ${reg?`<label class="field"><span>Họ tên</span><input id="aName" required placeholder="Nguyễn Văn A"></label>`:""}
+   <label class="field"><span>Email</span><input id="aMail" type="email" required placeholder="ban@email.com"></label>
+   <label class="field"><span>Mật khẩu</span><input type="password" required minlength="6" placeholder="Tối thiểu 6 ký tự"></label>
+   <button class="hb h-blue" style="width:100%;justify-content:center;margin-top:16px;height:46px">${reg?"Đăng ký":"Đăng nhập"}</button></form>
+  <p style="text-align:center;margin-top:12px" class="muted">${reg?`Đã có tài khoản? <a style="color:var(--pri2);cursor:pointer" onclick="openAuth('login')">Đăng nhập</a>`:`Chưa có tài khoản? <a style="color:var(--pri2);cursor:pointer" onclick="openAuth('reg')">Đăng ký</a>`}</p>
+  <div class="note">ℹ️ Bản thử nghiệm: tài khoản chỉ lưu trên trình duyệt này, mật khẩu không được lưu. Đồng bộ nhiều thiết bị cần máy chủ – sẽ có ở bản chính thức.</div>`);
+}
+function doAuth(reg){const mail=$("#aMail").value.trim();const name=reg?$("#aName").value.trim():(store.get("user",null)?.name||mail.split("@")[0]);store.set("user",{name,mail});closeModal();renderAuth();toast("Xin chào, "+name+"!")}
+function logout(){store.set("user",null);closeDrawer();closeModal();renderAuth();toast("Đã đăng xuất")}
+
+function soon(title,ic,desc){openModal(`<div class="soonbox"><div class="ic">${ic||"🚧"}</div><h3>${esc(title)}</h3><p class="muted" style="margin:8px 0 16px">${esc(desc||"Tính năng đang được phát triển.")}</p><span class="tag">⏳ Sắp ra mắt</span><div class="ctl" style="justify-content:center;margin-top:18px"><button class="pill blue" onclick="closeModal();go('home')">Học từ vựng HSK 1</button><button class="pill" onclick="closeModal()">Đóng</button></div></div>`)}
+function openInstall(){openModal(`<h3>📱 Cài Hán Tự Việt lên điện thoại</h3><p class="muted">Dùng như một ứng dụng, mở nhanh từ màn hình chính.</p>
+  <h5>Android (Chrome)</h5><p>Mở trang → bấm <b>⋮</b> góc trên → <b>Thêm vào màn hình chính</b>.</p>
+  <h5>iPhone (Safari)</h5><p>Mở trang → bấm nút <b>Chia sẻ</b> ⬆️ → <b>Thêm vào MH chính</b>.</p>
+  <div class="note">Bản app Android/iOS chính thức đang được đóng gói.</div>`)}
+function openContact(){openModal(`<h3>✉️ Liên hệ</h3><p class="muted">Góp ý, báo lỗi hoặc hợp tác.</p>
+  <form onsubmit="event.preventDefault();const m=$('#cMsg').value.trim();if(!m)return;store.set('msgs',[...store.get('msgs',[]),{m,t:Date.now()}]);closeModal();toast('Đã lưu góp ý của bạn, cảm ơn!')">
+  <label class="field"><span>Họ tên</span><input placeholder="Tên của bạn"></label>
+  <label class="field"><span>Nội dung</span><textarea id="cMsg" rows="4" placeholder="Bạn muốn góp ý điều gì?"></textarea></label>
+  <button class="hb h-blue" style="width:100%;justify-content:center;margin-top:14px;height:44px">Gửi</button></form>
+  <div class="note">Góp ý hiện được lưu trên máy bạn; khi có máy chủ sẽ gửi thẳng tới đội ngũ.</div>`)}
+function openRank(){
+  const u=store.get("user",null),pts=store.get("pts",0),st=store.get("streak",1);
+  openModal(`<h3>🏆 Bảng xếp hạng & Chuỗi ngày học</h3>
+   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:12px">
+    <div class="rk" style="flex-direction:column;gap:2px"><b class="big">🔥 ${st}</b><small class="muted">ngày liên tiếp</small></div>
+    <div class="rk" style="flex-direction:column;gap:2px"><b class="big">⭐ ${pts}</b><small class="muted">điểm</small></div>
+    <div class="rk" style="flex-direction:column;gap:2px"><b class="big">📒 ${notes.length}</b><small class="muted">chữ đã lưu</small></div></div>
+   <h5>Xếp hạng tuần này</h5>
+   <div class="rk"><b class="big">#1</b><span class="ava">${u?esc(u.name[0].toUpperCase()):"?"}</span><div><b>${u?esc(u.name):"Bạn"}</b><div class="muted">${pts} điểm</div></div></div>
+   <div class="note">Mỗi câu trắc nghiệm / chép chính tả đúng được +10 điểm. Bảng xếp hạng với người học khác sẽ hiển thị khi có máy chủ.</div>
+   ${u?"":`<button class="hb h-blue" style="width:100%;justify-content:center;margin-top:12px" onclick="openAuth('reg')">Đăng ký để giữ thành tích</button>`}`);
+}
+function openUpgrade(){openModal(`<h3>👑 Nâng cấp Hán Tự Việt</h3><p class="muted">Mở khóa toàn bộ HSK 1–6 và luyện nói AI.</p>
+  <div class="plan"><b>Miễn phí</b><p class="muted">HSK 1 · nét bút · luyện viết · trắc nghiệm · sổ tay</p></div>
+  <div class="plan best"><b style="color:var(--yel)">PRO ⭐</b><p class="muted">HSK 1–6 · luyện nói chấm phát âm · đề thi thử HSK 3.0 · đồng bộ đa thiết bị · không quảng cáo</p></div>
+  <div class="note">Gói PRO và thanh toán sẽ mở khi có bản chính thức.</div>`)}
+
+/* dictation */
+let DT=null;
+function openDictation(){DT={qs:shuffle(DICT).slice(0,8),k:0,score:0};dtQ()}
+function dtQ(){
+  if(DT.k>=DT.qs.length){openModal(`<h3>🎬 Kết quả chép chính tả</h3><div class="qq" style="font-family:inherit;font-size:54px;font-weight:800">${DT.score}/${DT.qs.length}</div><div class="ctl" style="justify-content:center"><button class="pill blue" onclick="openDictation()">Làm lại</button><button class="pill" onclick="closeModal()">Đóng</button></div>`);return}
+  const d=DT.qs[DT.k];
+  openModal(`<h3>🎬 Chép chính tả · ${DT.k+1}/${DT.qs.length}</h3><div class="qbar"><i style="width:${DT.k/DT.qs.length*100}%"></i></div>
+   <p class="muted">Nghe rồi gõ <b>chữ Hán</b> hoặc <b>pinyin</b> (không cần dấu).</p>
+   <div style="text-align:center;margin:18px 0;display:flex;gap:10px;justify-content:center"><button class="tb t2" style="height:56px" onclick="speak('${d.c}')">${ICO_SP} Nghe</button><button class="tb t5" style="height:56px" onclick="speak('${d.c}',{slow:1})">🐢 Nghe chậm</button></div>
+   <form onsubmit="event.preventDefault();dtCheck()"><label class="field"><input id="dtIn" autocomplete="off" placeholder="Ví dụ: xin hoặc 新" style="font-size:18px;text-align:center"></label>
+   <div class="ctl" style="justify-content:center"><button class="pill blue">Kiểm tra</button><button type="button" class="pill" onclick="DT.k++;dtQ()">Bỏ qua</button></div></form><div id="dtRes" style="text-align:center;margin-top:12px"></div>`);
+  setTimeout(()=>{speak(d.c);const i=$("#dtIn");i&&i.focus()},250);
+}
+function dtCheck(){
+  const d=DT.qs[DT.k],v=$("#dtIn").value.trim();if(!v)return;
+  const ok=v.includes(d.c)||plain(v)===plain(d.py);
+  if(ok){DT.score++;addPts(10)}
+  $("#dtRes").innerHTML=`<div style="font-size:18px;font-weight:700;color:${ok?"var(--grn)":"var(--red2)"}">${ok?"✅ Chính xác!":"❌ Chưa đúng"}</div><div class="hz" style="font-size:48px;color:var(--red2)">${d.c}</div><b>${d.py}</b> · ${d.hv} – ${esc(d.defs[0].vi)}`;
+  $("#dtIn").disabled=true;DT.k++;setTimeout(dtQ,1800);
+}
+
+/* translate (tra nghĩa từng từ) */
+let LEX=null;
+function buildLex(){if(LEX)return;LEX={};DICT.forEach(d=>{d.words.forEach(w=>{if(!LEX[w[0]])LEX[w[0]]={py:w[1],m:w[2],c:[...w[0]].find(x=>IDX[x]!=null)}});d.defs.forEach(f=>f.ex.forEach(e=>e[0].forEach(([h,p])=>{h=h.replace("*","");if(h.length>1&&!LEX[h])LEX[h]={py:p,m:""}})));LEX[d.c]={py:d.py,m:d.defs[0].vi.split(/[(;]/)[0],c:d.c}});LVS.slice().reverse().forEach(l=>VOCAB[l].forEach(w=>{LEX[w[0]]={py:w[1],m:w[3],c:w[0]}}))}
+function openTranslate(){buildLex();openModal(`<h3>🔤 Dịch – tra nghĩa từng từ</h3><p class="muted">Dán câu tiếng Trung, app tách từ và hiện pinyin, nghĩa. Bấm vào từ để nghe.</p>
+  <label class="field"><textarea id="trIn" rows="3" oninput="doTr()" placeholder="Ví dụ: 我爱我的家">我爱我的家，今天很好。</textarea></label>
+  <div class="ctl"><button class="pill" onclick="speak($('#trIn').value)">${ICO_SP} Nghe cả câu</button></div><div class="trout" id="trOut"></div>
+  <div class="note">Dịch theo từ điển HSK 1 có sẵn; từ ngoài dữ liệu hiện mờ.</div>`);doTr()}
+function doTr(){
+  const t=$("#trIn").value;let out="",i=0;
+  while(i<t.length){let f=null;for(let L=4;L>=1;L--){const w=t.substr(i,L);if(LEX[w]){f=w;break}}
+    if(f){const x=LEX[f];out+=`<div class="trw" onclick="${wordHref(f)?`closeModal();goWord('${f}')`:`speak('${f}')`}"><small style="color:var(--cyan)">${x.py}</small><span class="hz">${f}</span><small>${esc(x.m||"")}</small></div>`;i+=f.length}
+    else{const ch=t[i];if(/[一-鿿]/.test(ch))out+=`<div class="trw unk" onclick="speak('${ch}')"><small>?</small><span class="hz">${ch}</span><small>chưa có</small></div>`;else if(ch.trim())out+=`<span class="hz" style="align-self:center;font-size:22px">${esc(ch)}</span>`;i++}}
+  $("#trOut").innerHTML=out;
+}
+
+/* radicals page */
+function renderRadicals(){
+  const g={};DICT.forEach(d=>{(g[d.rad[0]]=g[d.rad[0]]||{r:d.rad,cs:[]}).cs.push(d.c)});
+  const list=Object.values(g).sort((a,b)=>b.cs.length-a.cs.length);
+  $("#app").innerHTML=`<div class="hhead"><div><h1>🧩 Bộ thủ</h1><p>${list.length} bộ thủ xuất hiện trong ${DICT.length} chữ HSK 1 · bấm vào chữ để học</p></div></div>
+  <div class="radg">${list.map(x=>`<div class="card radc"><div class="top2"><span class="hz">${x.r[0]}</span><div><b>Bộ ${x.r[1]}</b><div class="muted">${x.r[2]} · ${esc(x.r[3])}</div></div></div><div class="chs">${x.cs.map(c=>`<span onclick="go('c-${IDX[c]}')">${c}</span>`).join("")}</div></div>`).join("")}</div>`;
+  document.title="Bộ thủ – Hán Tự Việt";
+}
+
+/* misc */
+function toast(t){const el=$("#toast");el.textContent=t;el.classList.add("on");clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove("on"),1800)}
+function toggleTheme(){const l=document.documentElement.dataset.theme==="light";document.documentElement.dataset.theme=l?"dark":"light";store.set("theme",l?"dark":"light");$("#themeBtn").textContent="☀️";if(cur()>=0&&state.tab===3)renderTab(cur())}
+(function(){const t=store.get("theme","dark");document.documentElement.dataset.theme=t;$("#themeBtn").textContent="☀️";calcStreak();renderAuth();updBadge();render()})();
+</script>
+</body>
+</html>
