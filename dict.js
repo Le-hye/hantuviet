@@ -52,12 +52,13 @@ function renderDLib(){
 }
 function dCard(x,k){const st=dStat(x.id),p=dProg()[x.id],gr=GRADS[(String(x.id).length+k)%GRADS.length];
   const yt=x.yt?`https://i.ytimg.com/vi/${x.yt}/hqdefault.jpg`:"";
-  return `<div class="dcard" onclick="go('${x.custom?"vd-":"ct-"}${x.id}')"><div class="dthumb" style="background:${yt?`url(${yt}) center/cover`:`linear-gradient(135deg,${gr[0]},${gr[1]})`}">
+  return `<div class="dcard" onclick="store.set('ltab','ln');go('${x.custom?"vd-":"ct-"}${x.id}')"><div class="dthumb" style="background:${yt?`url(${yt}) center/cover`:`linear-gradient(135deg,${gr[0]},${gr[1]})`}">
    ${yt?"":`<div class="demo">${x.emo}</div><div class="dbub hz">${esc(x.sent[0].zh.slice(0,14))}${x.sent[0].zh.length>14?"…":""}</div>`}
    <span class="dst ${st}">${st==="done"?"✓ Đã làm":st==="doing"?"↻ Đang làm":"○ Chưa làm"}</span><span class="dfree">${x.custom?"Của bạn":"Miễn phí"}</span>
    <span class="dlen">🎧 ${x.sent.length} câu</span></div>
    <div class="dbody"><b><span class="hz">${esc(x.title)}</span> | ${x.lv==="tc"?"Tự chọn":"HSK"+x.lv}</b><div class="muted">${esc(x.sub)}</div>
-   <div class="dft"><span class="muted">📚 ${esc(x.src||"")}</span><span class="lnk">${st==="done"?`${p.score}% · Làm lại`:st==="doing"?"Làm tiếp":"Luyện tập"} ›</span></div></div></div>`}
+   <div class="dft"><span class="muted">📚 ${esc(x.src||"")}</span><span class="lnk">${st==="done"?`${p.score}% · Làm lại`:st==="doing"?"Làm tiếp":"Luyện tập"} ›</span></div>
+   <div class="dmini">${LTABS.map(([k,ic,t])=>`<button onclick="event.stopPropagation();store.set('ltab','${k}');go('${x.custom?"vd-":"ct-"}${x.id}')">${ic} ${t}</button>`).join("")}</div></div></div>`}
 
 function dCustomDlg(){openModal(`<h3>✍️ Tạo bài chép chính tả</h3>
   <form onsubmit="event.preventDefault();dCustomSave()"><label class="field"><span>Tên bài</span><input id="dct" required maxlength="60" placeholder="VD: Hội thoại đi chợ"></label>

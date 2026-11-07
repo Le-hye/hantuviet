@@ -45,10 +45,10 @@ function vPrev(){const u=$("#vl").value,z=$("#vz").value;const y=ytId(u),t=ttId(
 function vSave(){const u=$("#vl").value.trim(),y=ytId(u),t=ttId(u);const segs=parseTr($("#vz").value);if(!segs.length){toast("Chưa có câu tiếng Trung nào");return}
   const vis=$("#vv").value.split(/\n+/).map(s=>s.trim()).filter(Boolean);segs.forEach((s,i)=>{if(!s.vi&&vis[i])s.vi=vis[i]});
   const c={id:"tc"+Date.now().toString(36),title:$("#vt").value.trim(),lvl:+$("#vlv").value,sub:y?"Video YouTube":t?"Video TikTok":"Đoạn văn tự nhập",src:"Bài của bạn",emo:"🎬",yt:y,tt:t,url:u,sent:segs.map(s=>({zh:s.zh,py:"",vi:s.vi,t:s.t,e:s.e}))};
-  store.set("dcustom",[...store.get("dcustom",[]),c]);DLIB.list=null;closeModal();toast("Đã tạo bài "+segs.length+" câu");go("vd-"+c.id)}
+  store.set("dcustom",[...store.get("dcustom",[]),c]);DLIB.list=null;closeModal();toast("Đã tạo bài "+segs.length+" câu");store.set("ltab","ln");go("vd-"+c.id)}
 function vExport(id){const c=store.get("dcustom",[]).find(x=>x.id===id);if(!c)return;const code=btoa(unescape(encodeURIComponent(JSON.stringify(c))));
   openModal(`<h3>📤 Chia sẻ bài</h3><p class="muted">Gửi mã này cho học viên. Họ vào <b>Chép chính tả → Tự chọn → Tạo bài → Nhập bài từ mã</b>.</p><textarea class="dta" rows="6" style="font-size:12px;font-family:monospace" onclick="this.select()" readonly>${code}</textarea><div class="ctl"><button class="gbtn sm" onclick="navigator.clipboard.writeText(document.querySelector('#modal textarea').value).then(()=>toast('Đã sao chép mã'),()=>toast('Hãy bôi đen và Ctrl+C'))">📋 Sao chép mã</button></div>`)}
-function vImport(){try{const c=JSON.parse(decodeURIComponent(escape(atob($("#vimp").value.trim()))));if(!c.sent)throw 0;c.id="tc"+Date.now().toString(36);store.set("dcustom",[...store.get("dcustom",[]),c]);DLIB.list=null;closeModal();toast("Đã nhập bài");go("vd-"+c.id)}catch(e){toast("Mã bài không hợp lệ")}}
+function vImport(){try{const c=JSON.parse(decodeURIComponent(escape(atob($("#vimp").value.trim()))));if(!c.sent)throw 0;c.id="tc"+Date.now().toString(36);store.set("dcustom",[...store.get("dcustom",[]),c]);DLIB.list=null;closeModal();toast("Đã nhập bài");store.set("ltab","ln");go("vd-"+c.id)}catch(e){toast("Mã bài không hợp lệ")}}
 function vDelete(id){if(!window.__delOk){window.__delOk=1;toast("Bấm Xoá lần nữa để xác nhận");setTimeout(()=>window.__delOk=0,3000);return}store.set("dcustom",store.get("dcustom",[]).filter(x=>x.id!==id));const P=dProg();delete P[id];store.set("dprog",P);DLIB.list=null;go("chinhta")}
 
 /* ---------- học ---------- */
@@ -128,5 +128,5 @@ function vKeys(){openModal(`<h3>⌨️ Phím tắt</h3><table class="vt"><tbody>
  <tr><td><span class="kbd">Ctrl + ↓</span></td><td>Phát chậm</td></tr>
  <tr><td><span class="kbd">Ctrl + H</span></td><td>Gợi ý thêm 1 chữ</td></tr>
  <tr><td><span class="kbd">Ctrl + → / ←</span></td><td>Câu tiếp / câu trước</td></tr></tbody></table>`)}
-document.addEventListener("keydown",e=>{if(!VX||!/^#vd-/.test(location.hash)||!e.ctrlKey)return;
-  const k=e.key;if(k===" "){e.preventDefault();vPlay()}else if(k==="ArrowDown"){e.preventDefault();vPlay(1)}else if(k.toLowerCase()==="h"){e.preventDefault();vHint()}else if(k==="ArrowRight"){e.preventDefault();vGo(1);vPlay()}else if(k==="ArrowLeft"){e.preventDefault();vGo(-1);vPlay()}});
+document.addEventListener("keydown",e=>{if(typeof LX==="undefined"||!LX||!/^#(vd|ct)-/.test(location.hash)||!e.ctrlKey)return;
+  const k=e.key;if(k===" "){e.preventDefault();lPlay()}else if(k==="ArrowDown"){e.preventDefault();lPlay(1)}else if(k.toLowerCase()==="h"){e.preventDefault();LX.hint++;lPanel()}else if(k==="ArrowRight"){e.preventDefault();lGo(1);lPlay()}else if(k==="ArrowLeft"){e.preventDefault();lGo(-1);lPlay()}});
