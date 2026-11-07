@@ -71,7 +71,14 @@ input{font:inherit;color:inherit}
 .ddm button:hover{background:var(--card2)}
 .ddm button small{margin-left:auto;font-size:11px;color:var(--tx3)}
 .ddm .hd{font-size:11px;font-weight:700;color:var(--tx3);letter-spacing:.6px;padding:6px 11px 2px;text-transform:uppercase}
-.row2{display:flex;align-items:center;gap:4px;height:54px;justify-content:space-between}
+.r2wrap{position:relative;max-width:1580px;margin:0 auto}
+.row2{display:flex;align-items:center;gap:4px;height:54px;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;padding:0 16px}
+.row2>*{flex-shrink:0}
+.row2 .ddm{position:fixed}
+.r2btn{position:absolute;top:0;bottom:0;width:44px;display:none;align-items:center;z-index:2;font-size:18px;color:var(--tx)}
+.r2btn.l{left:0;justify-content:flex-start;padding-left:6px;background:linear-gradient(90deg,var(--bg) 55%,transparent)}
+.r2btn.r{right:0;justify-content:flex-end;padding-right:6px;background:linear-gradient(270deg,var(--bg) 55%,transparent)}
+.r2btn.on{display:flex}
 .row2::-webkit-scrollbar{display:none}
 .nv{height:38px;padding:0 10px;border-radius:11px;display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:15px;color:var(--tx);white-space:nowrap;border:1px solid transparent}
 .nv:hover{background:var(--card2)}
@@ -134,15 +141,15 @@ input{font:inherit;color:inherit}
 .radc .chs span{font-family:var(--hz);font-size:22px;padding:2px 8px;border-radius:8px;background:var(--card2);cursor:pointer;color:var(--red2)}
 .soonbox{text-align:center;padding:10px 0}
 .soonbox .ic{font-size:54px}
-@media (max-width:1520px){.nv{padding:0 7px;font-size:14px;gap:4px}.hb{padding:0 10px;font-size:13.5px}}
+@media (max-width:1520px){.hb{padding:0 10px;font-size:13.5px}}
 @media (max-width:1400px){.r1 .lg-only{display:none}}
-@media (max-width:1360px){.nv .ni{display:none}}
-@media (max-width:1100px){.nv{font-size:13px;padding:0 6px}}
+
+
 @media (max-width:1100px){.r1 .md-hide{display:none}}
 @media (max-width:1024px){
   .r1>*:not(.keep){display:none}
   .burger,.msearch{display:inline-flex}
-  .row2{display:none}
+  .row2{height:48px;padding:0 8px}.nv{font-size:13.5px;height:34px}
   .logo b{font-size:22px}
 }
 /* crumb */
@@ -470,7 +477,7 @@ details.rd{border:1px solid var(--line);border-radius:12px;padding:10px 14px;mar
   <button class="hb sq msearch" onclick="focusSearch()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
   <button class="hb sq burger" onclick="openDrawer()">☰</button>
  </div>
- <nav class="wrap row2" id="row2"></nav>
+ <div class="r2wrap"><button class="r2btn l" onclick="r2s(-1)" aria-label="Trượt trái">‹</button><nav class="row2" id="row2"></nav><button class="r2btn r" onclick="r2s(1)" aria-label="Trượt phải">›</button></div>
 </header>
 <div class="pal" id="pal" onclick="if(event.target===this)closePal()"><div class="palbox card">
   <div class="search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
@@ -847,7 +854,7 @@ function buildNav(){
       return `<div class="dd"><button class="nv ${t.cls||""} ${act(t)?"on":""}"><span class="ni">${t.i}</span> ${t.t} <span class="car">▾</span></button><div class="ddm">${t.dd.map((x,j)=>`<button onclick="this.blur();NAVF['${k}_${j}']()">${x[0]} ${x[1]}${x[3]?`<small>${x[3]}</small>`:""}</button>`).join("")}</div></div>`}
     NAVF[k]=t.go?()=>go(t.go):t.fn;
     return `<button class="nv ${t.cls||""} ${act(t)?"on":""}" onclick="NAVF[${k}]()"><span class="ni">${t.i}</span> ${t.t}</button>`}).join("");
-  updBadge();
+  updBadge();setTimeout(r2upd,50);const a=$('#row2 .nv.on');if(a)a.scrollIntoView({inline:'nearest',block:'nearest'});
 }
 function openDrawer(){
   const u=store.get("user",null);
@@ -966,6 +973,23 @@ function renderRadicals(){
   <div class="radg">${list.map(x=>`<div class="card radc"><div class="top2"><span class="hz">${x.r[0]}</span><div><b>Bộ ${x.r[1]}</b><div class="muted">${x.r[2]} · ${esc(x.r[3])}</div></div></div><div class="chs">${x.cs.map(c=>`<span onclick="go('c-${IDX[c]}')">${c}</span>`).join("")}</div></div>`).join("")}</div>`;
   document.title="Bộ thủ – Hán Tự Việt";
 }
+
+/* thanh menu trượt ngang */
+function r2s(d){const r=$("#row2");r.scrollBy({left:d*Math.max(200,r.clientWidth*.6)})}
+function r2upd(){const r=$("#row2");if(!r)return;$(".r2btn.l").classList.toggle("on",r.scrollLeft>4);$(".r2btn.r").classList.toggle("on",r.scrollLeft+r.clientWidth<r.scrollWidth-4)}
+(function(){const r=$("#row2");
+  r.addEventListener("scroll",()=>{r2upd();document.activeElement&&r.contains(document.activeElement)&&document.activeElement.blur()},{passive:true});
+  r.addEventListener("wheel",e=>{if(Math.abs(e.deltaY)>Math.abs(e.deltaX)&&r.scrollWidth>r.clientWidth){r.scrollLeft+=e.deltaY;e.preventDefault()}},{passive:false});
+  const place=dd=>{const b=dd.getBoundingClientRect(),m=dd.querySelector(".ddm");if(!m)return;m.style.top=(b.bottom+4)+"px";m.style.left=Math.max(8,Math.min(b.left,innerWidth-(m.offsetWidth||240)-8))+"px"};
+  r.addEventListener("mouseover",e=>{const dd=e.target.closest(".dd");if(dd)place(dd)});
+  r.addEventListener("focusin",e=>{const dd=e.target.closest(".dd");if(dd)place(dd)});
+  let down=false,sx=0,sl=0,moved=false;
+  r.addEventListener("mousedown",e=>{down=true;moved=false;sx=e.pageX;sl=r.scrollLeft});
+  addEventListener("mouseup",()=>{down=false});
+  r.addEventListener("mousemove",e=>{if(!down)return;const dx=e.pageX-sx;if(Math.abs(dx)>5){moved=true;r.style.scrollBehavior="auto";r.scrollLeft=sl-dx}});
+  r.addEventListener("click",e=>{if(moved){e.stopPropagation();e.preventDefault();moved=false;r.style.scrollBehavior=""}},true);
+  addEventListener("resize",r2upd);
+})();
 
 /* misc */
 function toast(t){const el=$("#toast");el.textContent=t;el.classList.add("on");clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove("on"),1800)}
