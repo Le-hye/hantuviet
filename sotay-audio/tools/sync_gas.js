@@ -19,7 +19,12 @@ function tamXemMC() {
   rows('Đoạn thoại', 4, 9).forEach(r => add(norm(r[1]), String(r[3]).trim() === 'B' ? 'L' : 'M', r[5]));
   ['Động từ ly hợp','Lượng từ','Thương mại – Logistics','Công xưởng','Công nghệ AI'].forEach(n => rows(n, 7, 10).forEach(r => { const lv = norm(r[1]); add(lv, 'L', r[4]); lines(r[9]).forEach(l => { if (H.test(l)) add(lv, 'L', l); }); }));
   rows('Cấu trúc ngữ pháp', 4, 5).forEach(r => lines(r[4]).forEach(l => add(norm(r[0]), 'L', l)));
-  rows('_Luyện đọc dữ liệu', 3, 7).forEach(r => lines(r[6]).forEach(l => add(norm(r[3]), 'L', l)));
+  rows('_Luyện đọc dữ liệu', 3, 10).forEach(r => { lines(r[6]).forEach(l => add(norm(r[3]), 'L', l)); String(r[9] || '').split(/[;；]/).forEach(w => add(norm(r[3]), 'L', w.split('|')[0])); });
+  const byHead = (name, head, dlv) => { const sh = ss.getSheetByName(name); if (!sh) return; const v = sh.getDataRange().getDisplayValues();
+    for (let i = 0; i < Math.min(20, v.length); i++) { const j = v[i].indexOf(head); if (j < 0) continue; const lj = v[i].findIndex(h => /^Cấp/.test(String(h)));
+      v.slice(i + 1).forEach(r => lines(r[j]).forEach(l => add(lj >= 0 && /HSK/i.test(r[lj]) ? norm(r[lj]) : dlv, 'L', l))); return; } };
+  byHead('Đảo ngữ & Kết cấu', 'Câu tiếng Trung thực chiến', 'HSK5');
+  byHead('Kịch bản phiên dịch', 'Khẩu ngữ tiếng Trung', 'HSK5');
   let out = ss.getSheetByName('_TTS'); if (!out) { out = ss.insertSheet('_TTS'); out.hideSheet(); } out.clear();
   const data = [...M].map(([k, lv]) => { const i = k.indexOf('|'); return [lv, k.slice(0, i), k.slice(i + 1)]; });
   if (data.length) out.getRange(1, 1, data.length, 3).setNumberFormat('@').setValues(data);
