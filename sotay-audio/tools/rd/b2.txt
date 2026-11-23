@@ -1,0 +1,101 @@
+@BD06
+面试官：你好，请坐。请先简单介绍一下你自己。|Người phỏng vấn: Chào bạn, mời ngồi. Trước tiên, mời bạn giới thiệu ngắn gọn về bản thân.
+我：您好！我叫阿明，今年二十四岁，大学学的是国际贸易，会说中文和英语。|Tôi: Chào anh! Tôi tên là Minh, năm nay hai mươi bốn tuổi, đại học học ngành Thương mại quốc tế, biết nói tiếng Trung và tiếng Anh.
+面试官：你为什么想来我们公司？|Người phỏng vấn: Vì sao bạn muốn đến công ty chúng tôi?
+我：贵公司在越南发展很快，我希望能在这里积累经验，跟公司一起成长。|Tôi: Quý công ty phát triển rất nhanh ở Việt Nam, tôi mong được tích lũy kinh nghiệm ở đây và cùng trưởng thành với công ty.
+面试官：你以前有过工作经验吗？|Người phỏng vấn: Trước đây bạn đã có kinh nghiệm làm việc chưa?
+我：有。大四的时候，我在一家进出口公司实习了半年，主要负责联系中国客户。|Tôi: Có ạ. Hồi năm thứ tư đại học, tôi thực tập nửa năm ở một công ty xuất nhập khẩu, chủ yếu phụ trách liên hệ với khách hàng Trung Quốc.
+面试官：实习的时候，你遇到过什么困难？是怎么解决的？|Người phỏng vấn: Trong thời gian thực tập, bạn từng gặp khó khăn gì? Bạn đã giải quyết thế nào?
+我：有一次，客户突然要求提前一个星期发货，我们的时间非常紧张。|Tôi: Có một lần, khách hàng đột nhiên yêu cầu giao hàng sớm một tuần, thời gian của chúng tôi vô cùng gấp.
+我：我马上跟工厂商量，重新安排了生产计划，最后按时把货发了出去。|Tôi: Tôi lập tức bàn bạc với nhà máy, sắp xếp lại kế hoạch sản xuất, cuối cùng đã gửi hàng đi đúng hạn.
+面试官：不错。那你觉得自己有什么缺点？|Người phỏng vấn: Khá lắm. Vậy bạn thấy mình có khuyết điểm gì?
+我：我做事有时候太着急，不过现在我会先列好计划，再一步一步地完成。|Tôi: Tôi làm việc đôi khi quá vội vàng, nhưng bây giờ tôi sẽ lập kế hoạch trước, rồi hoàn thành từng bước một.
+面试官：如果我们录取你，你什么时候可以开始上班？|Người phỏng vấn: Nếu chúng tôi nhận bạn, khi nào bạn có thể bắt đầu đi làm?
+我：下个月一号就可以。|Tôi: Ngày mùng một tháng sau là được ạ.
+面试官：好的，今天就到这儿。我们下周会通知你结果。|Người phỏng vấn: Được rồi, hôm nay đến đây thôi. Tuần sau chúng tôi sẽ báo kết quả cho bạn.
+我：谢谢您给我这次机会，我等您的消息。|Tôi: Cảm ơn anh đã cho tôi cơ hội này, tôi xin chờ tin của anh.
+W=面试|phỏng vấn; 简单|đơn giản, ngắn gọn; 国际贸易|thương mại quốc tế; 积累|tích lũy; 经验|kinh nghiệm; 通知|thông báo; 成长|trưởng thành; 实习|thực tập; 负责|phụ trách; 客户|khách hàng; 解决|giải quyết; 提前|sớm hơn, trước thời hạn; 商量|bàn bạc; 按时|đúng giờ, đúng hạn; 缺点|khuyết điểm; 录取|tuyển, nhận
+@BD11
+每年农历八月十五是中秋节。|Rằm tháng Tám âm lịch hằng năm là Tết Trung thu.
+这一天月亮又圆又亮，象征着团圆。|Hôm ấy trăng vừa tròn vừa sáng, tượng trưng cho sự đoàn viên.
+中国人喜欢一边赏月，一边吃月饼。|Người Trung Quốc thích vừa ngắm trăng vừa ăn bánh trung thu.
+月饼大多是圆形的，里面有豆沙、莲蓉、五仁等不同的馅儿，有的还放了咸鸭蛋黄。|Bánh trung thu phần lớn có hình tròn, bên trong có nhiều loại nhân khác nhau như đậu đỏ, hạt sen, thập cẩm, có loại còn cho thêm lòng đỏ trứng vịt muối.
+关于中秋节，有一个很有名的传说。|Về Tết Trung thu có một truyền thuyết rất nổi tiếng.
+传说古时候天上有十个太阳，一位叫后羿的英雄射下了九个，救了老百姓。|Tương truyền thời xưa trên trời có mười mặt trời, một vị anh hùng tên là Hậu Nghệ đã bắn rơi chín cái, cứu muôn dân.
+后来，他的妻子嫦娥吃了仙药，飞到了月亮上，再也回不来了。|Về sau, vợ ông là Hằng Nga uống thuốc tiên, bay lên cung trăng và không bao giờ trở về được nữa.
+后羿非常想念她，就在月圆的晚上摆上她爱吃的水果和点心。|Hậu Nghệ vô cùng nhớ nàng, bèn bày hoa quả và bánh trái nàng thích ăn vào những đêm trăng tròn.
+慢慢地，人们也开始在这一天赏月、吃月饼，盼望家人团聚。|Dần dần, mọi người cũng bắt đầu ngắm trăng, ăn bánh trung thu vào ngày này, mong người thân được đoàn tụ.
+在越南，孩子们还会提着灯笼去玩，看舞狮表演。|Ở Việt Nam, trẻ em còn cầm đèn lồng đi chơi và xem múa lân.
+越南的中秋节也叫“儿童节”，大人们会给孩子买玩具和糖果。|Tết Trung thu ở Việt Nam còn được gọi là "Tết thiếu nhi", người lớn sẽ mua đồ chơi và bánh kẹo cho trẻ em.
+今年中秋，我在国外留学，不能回家。|Trung thu năm nay, tôi đang du học ở nước ngoài, không thể về nhà.
+晚上我一个人看着天上的月亮，吃着妈妈寄来的月饼，忽然特别想家。|Buổi tối, tôi một mình ngắm vầng trăng trên trời, ăn chiếc bánh trung thu mẹ gửi sang, bỗng thấy nhớ nhà vô cùng.
+虽然习俗不太一样，但思念家人的心情是一样的。|Tuy phong tục không hoàn toàn giống nhau, nhưng nỗi nhớ gia đình thì ở đâu cũng như nhau.
+W=农历|âm lịch; 象征|tượng trưng; 团圆|đoàn viên; 赏月|ngắm trăng; 灯笼|đèn lồng; 习俗|phong tục; 思念|nhớ nhung; 月饼|bánh trung thu; 馅儿|nhân bánh; 传说|truyền thuyết; 英雄|anh hùng; 射|bắn; 想念|nhớ; 盼望|mong mỏi; 团聚|đoàn tụ; 舞狮|múa lân; 留学|du học
+@BD16
+很多孩子都问过这样一个问题：天为什么是蓝色的？|Nhiều trẻ em từng hỏi một câu như thế này: Vì sao bầu trời có màu xanh?
+要回答这个问题，我们得先了解一下阳光。|Muốn trả lời câu hỏi này, trước hết chúng ta phải tìm hiểu một chút về ánh nắng.
+阳光看起来是白色的，其实是由七种颜色组成的。|Ánh nắng trông có màu trắng, nhưng thực ra được tạo thành từ bảy màu.
+用一块三棱镜，就能把阳光分成从红到紫的七种颜色。|Chỉ cần một lăng kính là có thể tách ánh nắng thành bảy màu, từ đỏ đến tím.
+空气里有很多非常小的气体分子。|Trong không khí có rất nhiều phân tử khí vô cùng nhỏ.
+阳光穿过空气时，会碰到这些分子，向四面八方散开，这就叫“散射”。|Khi ánh nắng đi qua không khí, nó va vào những phân tử này rồi tỏa ra khắp mọi hướng, hiện tượng đó gọi là "tán xạ".
+不同颜色的光，被散射的程度也不同。|Ánh sáng có màu khác nhau thì mức độ bị tán xạ cũng khác nhau.
+波长越短的光越容易被散射，而蓝光的波长比较短。|Ánh sáng có bước sóng càng ngắn thì càng dễ bị tán xạ, mà bước sóng của ánh sáng xanh lại khá ngắn.
+因此，阳光穿过空气时，蓝光最容易被散射，布满了整个天空。|Vì thế, khi ánh nắng đi qua không khí, ánh sáng xanh dễ bị tán xạ nhất và phủ kín cả bầu trời.
+所以我们抬头看天空，看到的是蓝色。|Vì vậy khi ngẩng đầu nhìn bầu trời, chúng ta thấy màu xanh.
+那么，紫光的波长更短，天空为什么不是紫色的呢？|Vậy ánh sáng tím có bước sóng còn ngắn hơn, sao bầu trời lại không có màu tím?
+一方面，阳光里的紫光本来就比较少；另一方面，人的眼睛对蓝光更敏感。|Một mặt, trong ánh nắng vốn có ít ánh sáng tím; mặt khác, mắt người nhạy cảm với ánh sáng xanh hơn.
+早上和傍晚，阳光要走更长的路，蓝光在路上被散射掉了。|Buổi sáng sớm và chiều tối, ánh nắng phải đi quãng đường dài hơn, ánh sáng xanh đã bị tán xạ mất dọc đường.
+剩下的主要是红光和橙光，这就是为什么日出和日落时天空是红色的。|Phần còn lại chủ yếu là ánh sáng đỏ và cam, đó là lý do vì sao lúc bình minh và hoàng hôn bầu trời có màu đỏ.
+下次看到美丽的天空，你就知道其中的道理了。|Lần sau nhìn thấy bầu trời đẹp, bạn sẽ hiểu được lý do đằng sau nó.
+W=阳光|ánh nắng; 组成|tạo thành; 空气|không khí; 散射|tán xạ; 抬头|ngẩng đầu; 傍晚|chiều tối; 了解|tìm hiểu; 三棱镜|lăng kính; 分子|phân tử; 四面八方|khắp mọi hướng; 程度|mức độ; 波长|bước sóng; 布满|phủ kín; 敏感|nhạy cảm; 道理|lý lẽ, lý do
+@BD23
+造纸术是中国古代的四大发明之一，另外三个是指南针、火药和印刷术。|Kỹ thuật làm giấy là một trong bốn phát minh lớn của Trung Quốc cổ đại, ba phát minh còn lại là la bàn, thuốc súng và kỹ thuật in.
+更早的时候，人们把字刻在龟甲和兽骨上。|Thời xa xưa hơn, người ta khắc chữ lên mai rùa và xương thú.
+在纸出现以前，人们把字写在竹子或者丝绸上。|Trước khi có giấy, người ta viết chữ lên tre hoặc lụa.
+竹子太重，丝绸又太贵，都不方便。|Tre quá nặng, lụa lại quá đắt, đều bất tiện.
+据说，秦始皇每天要看的竹简有一百多斤重。|Nghe nói số thẻ tre mà Tần Thủy Hoàng phải xem mỗi ngày nặng hơn một trăm cân.
+西汉时，人们已经能造出一种很粗糙的纸，但是不适合写字。|Thời Tây Hán, người ta đã làm được một loại giấy rất thô, nhưng không thích hợp để viết chữ.
+东汉时期，蔡伦改进了造纸的方法。|Thời Đông Hán, Thái Luân đã cải tiến phương pháp làm giấy.
+他用树皮、破布、旧渔网等便宜的材料来造纸。|Ông dùng vỏ cây, vải rách, lưới đánh cá cũ và những nguyên liệu rẻ tiền khác để làm giấy.
+先把这些材料泡在水里，再把它们捣烂，做成纸浆。|Trước tiên ngâm những nguyên liệu này vào nước, rồi giã nát chúng thành bột giấy.
+然后把纸浆薄薄地铺在帘子上，晒干以后就成了纸。|Sau đó trải bột giấy thật mỏng lên tấm mành, phơi khô là thành giấy.
+这种纸又轻又薄，价格也便宜，很快就受到了人们的欢迎。|Loại giấy này vừa nhẹ vừa mỏng, giá lại rẻ, nên nhanh chóng được mọi người ưa chuộng.
+公元一零五年，蔡伦把这种纸献给了皇帝，后来人们把它叫做“蔡侯纸”。|Năm 105, Thái Luân dâng loại giấy này lên hoàng đế, về sau người ta gọi nó là "giấy Thái hầu".
+后来，造纸术先后传到了朝鲜、越南、日本，又经过阿拉伯传到了欧洲。|Về sau, kỹ thuật làm giấy lần lượt truyền sang Triều Tiên, Việt Nam, Nhật Bản, rồi qua Ả Rập truyền đến châu Âu.
+纸的普及让知识更容易传播。|Giấy được phổ biến giúp tri thức lan truyền dễ dàng hơn.
+今天，虽然电脑和手机越来越常用，但纸仍然是我们生活中离不开的东西。|Ngày nay, tuy máy tính và điện thoại ngày càng được dùng nhiều, nhưng giấy vẫn là thứ không thể thiếu trong cuộc sống của chúng ta.
+W=造纸术|kỹ thuật làm giấy; 发明|phát minh; 竹子|tre; 改进|cải tiến; 普及|phổ cập; 传播|truyền bá; 指南针|la bàn; 火药|thuốc súng; 印刷术|kỹ thuật in; 丝绸|lụa; 竹简|thẻ tre; 粗糙|thô ráp; 材料|nguyên liệu; 纸浆|bột giấy; 献|dâng tặng; 仍然|vẫn
+@BD24
+河内是一座有一千多年历史的城市。|Hà Nội là thành phố có lịch sử hơn một nghìn năm.
+一零一零年，李公蕴把首都从华闾迁到了这里。|Năm 1010, Lý Công Uẩn dời đô từ Hoa Lư về đây.
+传说他坐船来到这里的时候，看见一条金龙从水面飞上了天空。|Tương truyền, khi ông đi thuyền đến đây, thấy một con rồng vàng từ mặt nước bay vút lên trời.
+于是他把这里叫做“升龙”，意思是飞起来的龙。|Thế là ông đặt tên nơi này là "Thăng Long", nghĩa là rồng bay lên.
+一八三一年，这座城市改名为“河内”，意思是“河的里面”，因为城市被几条河围着。|Năm 1831, thành phố đổi tên thành "Hà Nội", nghĩa là "phía trong sông", vì thành phố được mấy con sông bao quanh.
+今天的河内既有古老的街道，也有现代化的高楼。|Hà Nội ngày nay vừa có những con phố cổ kính, vừa có những tòa nhà cao tầng hiện đại.
+老城区有三十六条古街，以前每条街卖一种商品，比如卖银器的街就叫“银街”。|Khu phố cổ có ba mươi sáu phố phường, ngày trước mỗi phố bán một loại hàng, chẳng hạn phố bán đồ bạc gọi là "Hàng Bạc".
+在河内，还剑湖和文庙是游客最喜欢的地方。|Ở Hà Nội, Hồ Gươm và Văn Miếu là những nơi du khách yêu thích nhất.
+还剑湖在市中心，湖中间有一座小小的龟塔。|Hồ Gươm nằm ở trung tâm thành phố, giữa hồ có một ngọn Tháp Rùa nhỏ xinh.
+关于还剑湖也有一个传说：黎利打败敌人以后，把神剑还给了湖里的金龟。|Về Hồ Gươm cũng có một truyền thuyết: sau khi Lê Lợi đánh thắng giặc, ông đã trả lại gươm thần cho Rùa Vàng dưới hồ.
+文庙建于一零七零年，几年以后这里又建了国子监，它是越南的第一所大学。|Văn Miếu được xây dựng năm 1070, vài năm sau nơi đây lại xây thêm Quốc Tử Giám, đó là trường đại học đầu tiên của Việt Nam.
+院子里有八十二块进士碑，上面刻着古代考中进士的人的名字。|Trong sân có tám mươi hai tấm bia tiến sĩ, trên đó khắc tên những người đỗ tiến sĩ thời xưa.
+早上，很多人在湖边跑步、打太极拳、跳舞。|Buổi sáng, nhiều người chạy bộ, tập thái cực quyền và nhảy múa bên hồ.
+晚上，老街上的小吃摊坐满了人，非常热闹。|Buổi tối, các hàng quán ăn vặt trên phố cổ chật kín người, vô cùng náo nhiệt.
+一千年过去了，这座古老的城市依然充满活力。|Một nghìn năm đã trôi qua, thành phố cổ kính này vẫn tràn đầy sức sống.
+W=历史|lịch sử; 首都|thủ đô; 迁|dời; 古老|cổ kính; 现代化|hiện đại hóa; 游客|du khách; 传说|truyền thuyết; 改名|đổi tên; 围|bao quanh; 商品|hàng hóa; 银器|đồ bạc; 敌人|kẻ thù, giặc; 进士|tiến sĩ; 碑|bia đá; 热闹|náo nhiệt; 依然|vẫn; 充满活力|tràn đầy sức sống
+@BD28
+如果每天进步百分之一，一年以后你会比现在强很多。|Nếu mỗi ngày tiến bộ 1%, một năm sau bạn sẽ giỏi hơn bây giờ rất nhiều.
+有人算过：每天进步百分之一，一年以后大约是原来的三十七倍。|Có người đã tính: mỗi ngày tiến bộ 1%, một năm sau sẽ gấp khoảng 37 lần ban đầu.
+相反，如果每天退步百分之一，一年以后就只剩下原来的不到百分之三。|Ngược lại, nếu mỗi ngày thụt lùi 1%, một năm sau chỉ còn lại chưa đến 3% so với ban đầu.
+这说明，小小的变化，时间长了也会带来很大的差别。|Điều này cho thấy những thay đổi nhỏ bé, lâu dần cũng sẽ tạo ra khác biệt rất lớn.
+学中文也是这样，不需要一天学一百个词。|Học tiếng Trung cũng vậy, không cần một ngày học một trăm từ.
+很多人刚开始的时候热情很高，一天学好几个小时，可是没过几个星期就放弃了。|Nhiều người lúc mới bắt đầu rất hăng hái, một ngày học liền mấy tiếng, nhưng chưa được mấy tuần đã bỏ cuộc.
+其实，每天记十个词，复习前一天的内容，就够了。|Thực ra, mỗi ngày nhớ mười từ, ôn lại nội dung của hôm trước là đủ.
+你还可以每天听一段中文录音，或者用中文写两三句日记。|Bạn còn có thể mỗi ngày nghe một đoạn ghi âm tiếng Trung, hoặc viết vài ba câu nhật ký bằng tiếng Trung.
+这些事情每次只要十几分钟，在公共汽车上、睡觉前都可以做。|Mỗi lần làm những việc này chỉ mất mười mấy phút, lúc ngồi trên xe buýt hay trước khi đi ngủ đều làm được.
+重要的是养成习惯，而不是靠一时的热情。|Quan trọng là hình thành thói quen, chứ không phải dựa vào nhiệt huyết nhất thời.
+如果哪天特别忙，学五分钟也比一点儿都不学好。|Nếu hôm nào đặc biệt bận, học năm phút cũng còn hơn không học chút nào.
+你可以准备一个本子，把每天学过的内容记下来。|Bạn có thể chuẩn bị một cuốn sổ, ghi lại những nội dung đã học mỗi ngày.
+过一段时间再翻开看看，你会发现自己已经走了很远。|Một thời gian sau mở ra xem lại, bạn sẽ thấy mình đã đi được một chặng đường rất xa.
+坚持一百天，你一定会看到变化。|Kiên trì một trăm ngày, nhất định bạn sẽ thấy sự thay đổi.
+从今天开始，每天进步一点点吧！|Hãy bắt đầu từ hôm nay, mỗi ngày tiến bộ một chút nhé!
+W=进步|tiến bộ; 强|giỏi, mạnh; 复习|ôn tập; 养成|hình thành; 习惯|thói quen; 一时|nhất thời; 原来|ban đầu, vốn; 倍|lần (gấp…lần); 相反|ngược lại; 退步|thụt lùi; 差别|khác biệt; 热情|nhiệt tình, hăng hái; 放弃|từ bỏ; 录音|ghi âm; 坚持|kiên trì
