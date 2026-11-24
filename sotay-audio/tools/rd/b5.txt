@@ -1,0 +1,135 @@
+@BD17
+很多人觉得人工智能离自己很远，其实它早就在我们身边。|Nhiều người nghĩ trí tuệ nhân tạo ở rất xa mình, thực ra nó đã ở ngay bên cạnh chúng ta từ lâu.
+早上醒来，你对手机说一句“今天天气怎么样”，语音助手马上就能回答你。|Sáng thức dậy, bạn nói với điện thoại một câu “Hôm nay thời tiết thế nào”, trợ lý giọng nói lập tức trả lời bạn ngay.
+打开购物网站，首页推荐的往往正是你最近想买的东西。|Mở trang mua sắm, những thứ được gợi ý ở trang chủ thường chính là món đồ bạn đang muốn mua gần đây.
+这些看起来很普通的功能，其实都用到了人工智能。|Những chức năng trông rất bình thường này thực ra đều dùng đến trí tuệ nhân tạo.
+简单地说，人工智能就是让机器像人一样学习、思考和做出判断。|Nói đơn giản, trí tuệ nhân tạo là làm cho máy móc học tập, suy nghĩ và đưa ra phán đoán giống như con người.
+它通过分析大量数据，找出其中的规律，然后根据这些规律完成任务。|Nó phân tích một lượng lớn dữ liệu, tìm ra quy luật trong đó, rồi dựa vào những quy luật này để hoàn thành nhiệm vụ.
+在工厂，机器人可以二十四小时不停地工作，而且很少出错。|Trong nhà máy, robot có thể làm việc liên tục 24 giờ, hơn nữa rất ít khi mắc lỗi.
+在医院，人工智能能帮医生更快地发现疾病，比如从大量的片子中及早找出肺部的问题。|Ở bệnh viện, trí tuệ nhân tạo có thể giúp bác sĩ phát hiện bệnh nhanh hơn, ví dụ sớm tìm ra vấn đề ở phổi từ rất nhiều phim chụp.
+在马路上，智能交通系统能根据车流量调整红绿灯，减少堵车。|Trên đường phố, hệ thống giao thông thông minh có thể điều chỉnh đèn xanh đèn đỏ theo lưu lượng xe, giảm tắc đường.
+在学校，一些学习软件能根据学生的水平安排练习，哪里不会就多练哪里。|Ở trường học, một số phần mềm học tập có thể sắp xếp bài luyện theo trình độ của học sinh, chỗ nào chưa biết thì luyện nhiều chỗ đó.
+可以说，人工智能正在改变我们工作和生活的方式。|Có thể nói, trí tuệ nhân tạo đang thay đổi cách chúng ta làm việc và sinh sống.
+不过，也有不少人对它感到担心。|Tuy nhiên, cũng có không ít người cảm thấy lo lắng về nó.
+有人担心机器会代替人，让很多人失去工作。|Có người lo máy móc sẽ thay thế con người, khiến nhiều người mất việc làm.
+专家认为，一些简单、重复的工作确实可能会被机器代替，但同时也会出现很多新的职业。|Các chuyên gia cho rằng một số công việc đơn giản, lặp đi lặp lại quả thật có thể bị máy móc thay thế, nhưng đồng thời cũng sẽ xuất hiện nhiều nghề nghiệp mới.
+还有人担心，自己的个人信息会被随便收集和使用。|Cũng có người lo thông tin cá nhân của mình bị thu thập và sử dụng một cách tùy tiện.
+所以，我们在享受方便的同时，也要注意保护个人隐私和数据安全。|Vì vậy, trong khi tận hưởng sự tiện lợi, chúng ta cũng phải chú ý bảo vệ quyền riêng tư cá nhân và an toàn dữ liệu.
+比如，不要随便把身份证号码、银行卡密码告诉别人，也不要随便点击陌生的链接。|Ví dụ, đừng tùy tiện cho người khác biết số căn cước, mật khẩu thẻ ngân hàng, cũng đừng tùy tiện bấm vào những đường link lạ.
+技术本身并没有好坏之分，要看人们怎样去使用它。|Bản thân công nghệ không có phân biệt tốt hay xấu, mà phải xem con người sử dụng nó như thế nào.
+只要使用得当，人工智能就能成为我们生活和工作中的好帮手。|Chỉ cần sử dụng đúng cách, trí tuệ nhân tạo có thể trở thành trợ thủ đắc lực trong cuộc sống và công việc của chúng ta.
+W=人工智能|trí tuệ nhân tạo; 语音助手|trợ lý giọng nói; 推荐|gợi ý, giới thiệu; 功能|chức năng; 判断|phán đoán; 分析|phân tích; 数据|dữ liệu; 规律|quy luật; 机器人|robot; 疾病|bệnh tật; 调整|điều chỉnh; 代替|thay thế; 职业|nghề nghiệp; 隐私|riêng tư; 得当|thỏa đáng, đúng cách
+@BD22
+两千多年前，中国的商人带着丝绸向西出发。|Hơn hai nghìn năm trước, các thương nhân Trung Quốc mang tơ lụa lên đường đi về phía tây.
+他们穿过沙漠和高山，一直走到中亚和欧洲。|Họ băng qua sa mạc và núi cao, đi đến tận Trung Á và châu Âu.
+这条贸易路线后来被称为“丝绸之路”。|Tuyến đường thương mại này về sau được gọi là “Con đường tơ lụa”.
+说到丝绸之路，就不能不提一个人——张骞。|Nói đến Con đường tơ lụa thì không thể không nhắc tới một người, đó là Trương Khiên.
+公元前一百三十八年，汉朝的皇帝派张骞出使西域。|Năm 138 trước Công nguyên, hoàng đế nhà Hán cử Trương Khiên đi sứ Tây Vực.
+一路上，他遇到了许多困难，还被扣留了大约十年，但他始终没有放弃自己的使命。|Trên đường đi, ông gặp rất nhiều khó khăn, còn bị giam giữ khoảng mười năm, nhưng ông trước sau vẫn không từ bỏ sứ mệnh của mình.
+张骞回来以后，中国和西方的联系越来越多，这条路也越来越热闹。|Sau khi Trương Khiên trở về, liên hệ giữa Trung Quốc và phương Tây ngày càng nhiều, con đường này cũng ngày càng nhộn nhịp.
+丝绸之路的起点是当时的首都长安，也就是今天的西安。|Điểm khởi đầu của Con đường tơ lụa là kinh đô Trường An thời bấy giờ, tức là Tây An ngày nay.
+商人们骑着骆驼，往往要走好几个月甚至好几年，才能到达目的地。|Các thương nhân cưỡi lạc đà, thường phải đi mấy tháng, thậm chí mấy năm mới đến được nơi cần đến.
+路上不但有风沙和缺水的危险，有时候还会遇到强盗。|Dọc đường không những có hiểm nguy vì gió cát và thiếu nước, có lúc còn gặp phải bọn cướp.
+中国的丝绸、瓷器等商品通过这条路运到了西方，在那里非常受欢迎。|Tơ lụa, đồ sứ và nhiều hàng hóa khác của Trung Quốc theo con đường này được chở sang phương Tây và rất được ưa chuộng ở đó.
+同时，葡萄、核桃、黄瓜等也从西方传到了中国。|Đồng thời, nho, óc chó, dưa chuột… cũng từ phương Tây truyền vào Trung Quốc.
+通过丝绸之路，东西方交流了商品、技术和文化。|Qua Con đường tơ lụa, phương Đông và phương Tây đã trao đổi hàng hóa, kỹ thuật và văn hóa.
+中国的造纸术就是沿着这条路传到西方的，而佛教也是通过这条路传入中国的。|Kỹ thuật làm giấy của Trung Quốc chính là theo con đường này truyền sang phương Tây, còn đạo Phật cũng theo con đường này du nhập vào Trung Quốc.
+除了陆地上的丝绸之路，还有一条海上丝绸之路。|Ngoài Con đường tơ lụa trên đất liền, còn có một Con đường tơ lụa trên biển.
+商船从中国南方的港口出发，经过东南亚，一直到达印度和非洲东部。|Thuyền buôn xuất phát từ các bến cảng miền nam Trung Quốc, đi qua Đông Nam Á, đến tận Ấn Độ và miền đông châu Phi.
+越南中部的会安古城，就曾经是这条航线上一个热闹的港口。|Phố cổ Hội An ở miền Trung Việt Nam từng là một bến cảng nhộn nhịp trên tuyến đường biển này.
+2014年，丝绸之路的一部分被列入了《世界遗产名录》。|Năm 2014, một phần của Con đường tơ lụa được đưa vào Danh sách Di sản Thế giới.
+今天，“一带一路”倡议也借用了这个历史名字。|Ngày nay, sáng kiến “Vành đai và Con đường” cũng mượn cái tên lịch sử này.
+丝绸之路告诉我们，不同国家和民族之间的交流，能让彼此的生活变得更加丰富。|Con đường tơ lụa cho chúng ta thấy giao lưu giữa các quốc gia và dân tộc khác nhau có thể làm cho cuộc sống của nhau trở nên phong phú hơn.
+W=丝绸|tơ lụa; 商人|thương nhân; 沙漠|sa mạc; 贸易|thương mại; 路线|tuyến đường; 出使|đi sứ; 扣留|giam giữ, cầm giữ; 使命|sứ mệnh; 骆驼|lạc đà; 强盗|kẻ cướp; 瓷器|đồ sứ; 佛教|đạo Phật; 港口|bến cảng; 遗产|di sản; 倡议|sáng kiến; 彼此|lẫn nhau
+@BD26
+现在，刷短视频已经成了很多人的日常习惯。|Hiện nay, lướt video ngắn đã trở thành thói quen hằng ngày của rất nhiều người.
+不管是在地铁上、排队的时候，还是睡觉以前，总能看到有人低着头，用手指在手机屏幕上一下一下地往上划。|Dù là trên tàu điện ngầm, lúc xếp hàng hay trước khi đi ngủ, lúc nào cũng thấy có người cúi đầu, dùng ngón tay vuốt màn hình điện thoại lên từng cái một.
+短视频为什么这么受欢迎呢？|Vì sao video ngắn lại được ưa chuộng đến vậy?
+首先，短视频时间短，一般只有几十秒到几分钟，用零碎的时间就能看。|Trước hết, video ngắn có thời lượng ngắn, thường chỉ từ vài chục giây đến vài phút, tranh thủ chút thời gian rảnh lẻ tẻ là xem được.
+其次，短视频内容丰富，有搞笑的、有美食的、有旅游的，几十秒就能让人笑出来。|Thứ hai, video ngắn có nội dung phong phú, có video hài, video ẩm thực, video du lịch, chỉ vài chục giây đã khiến người ta bật cười.
+另外，平台会根据你的爱好推荐视频，你越看，它就越懂你。|Ngoài ra, nền tảng sẽ đề xuất video theo sở thích của bạn, bạn càng xem thì nó càng hiểu bạn.
+但是一刷就是几个小时，很容易浪费时间。|Nhưng hễ lướt là mất mấy tiếng đồng hồ, rất dễ lãng phí thời gian.
+很多人本来只想看五分钟，结果一抬头，发现已经半夜了。|Nhiều người vốn chỉ định xem năm phút, kết quả ngẩng đầu lên thì đã nửa đêm.
+长时间看手机，不仅对眼睛不好，还会影响睡眠。|Xem điện thoại trong thời gian dài không chỉ có hại cho mắt mà còn ảnh hưởng đến giấc ngủ.
+有人担心，经常刷短视频，注意力会越来越难集中，很难静下心来读完一本书。|Có người lo rằng thường xuyên lướt video ngắn thì sự chú ý sẽ ngày càng khó tập trung, khó tĩnh tâm đọc hết một cuốn sách.
+此外，网上的信息真真假假，有些视频为了吸引眼球，故意夸大事实。|Ngoài ra, thông tin trên mạng thật giả lẫn lộn, có những video vì muốn thu hút sự chú ý mà cố tình phóng đại sự thật.
+如果不加判断就相信，很容易被误导。|Nếu tin ngay mà không suy xét thì rất dễ bị dẫn dắt sai lệch.
+当然，短视频也有很多好处。|Đương nhiên, video ngắn cũng có nhiều lợi ích.
+有人用短视频学外语、学做饭，收获很大。|Có người dùng video ngắn để học ngoại ngữ, học nấu ăn và thu được rất nhiều điều bổ ích.
+还有一些农民通过短视频介绍家乡的水果和风景，帮助家乡增加了收入。|Còn có một số nông dân giới thiệu hoa quả và phong cảnh quê nhà qua video ngắn, giúp quê hương tăng thêm thu nhập.
+一些博物馆和医生也通过短视频介绍知识，让更多的人了解历史和健康常识。|Một số bảo tàng và bác sĩ cũng giới thiệu kiến thức qua video ngắn, giúp nhiều người hiểu thêm về lịch sử và những kiến thức sức khỏe thường thức.
+那么，怎样才能更好地使用短视频呢？|Vậy làm thế nào để sử dụng video ngắn tốt hơn?
+我们可以给自己规定每天看的时间，时间一到就放下手机。|Chúng ta có thể tự quy định thời gian xem mỗi ngày, hết giờ là đặt điện thoại xuống.
+也可以多关注一些有用的内容，少看没有意义的视频。|Cũng có thể theo dõi nhiều nội dung hữu ích hơn, bớt xem những video vô nghĩa.
+短视频就像一把刀，可以用来切菜，也可能伤到自己。|Video ngắn giống như một con dao, có thể dùng để thái rau, cũng có thể làm chính mình bị thương.
+关键在于我们怎么使用它。|Mấu chốt nằm ở việc chúng ta sử dụng nó như thế nào.
+W=刷|lướt; 短视频|video ngắn; 屏幕|màn hình; 零碎|lẻ tẻ, vụn vặt; 内容|nội dung; 丰富|phong phú; 平台|nền tảng; 推荐|đề xuất, gợi ý; 浪费|lãng phí; 睡眠|giấc ngủ; 注意力|sự chú ý; 集中|tập trung; 夸大|phóng đại; 误导|dẫn dắt sai, làm hiểu lầm; 收获|thu hoạch, điều thu được; 常识|kiến thức thường thức; 规定|quy định; 关键|then chốt, mấu chốt
+@BD29
+没有人一生都不失败。|Không ai cả đời không thất bại.
+考试没考好、比赛输了、工作出了错，这些都是生活中常见的事。|Thi không tốt, thua trận đấu, làm việc mắc lỗi, đó đều là những chuyện thường gặp trong cuộc sống.
+面对失败，有的人很快就重新站了起来，有的人却从此失去了信心，再也不敢尝试。|Đối mặt với thất bại, có người nhanh chóng đứng dậy, có người lại từ đó mất niềm tin, không dám thử thêm lần nào nữa.
+其实，失败并不可怕，可怕的是害怕失败。|Thực ra thất bại không đáng sợ, đáng sợ là sợ thất bại.
+因为害怕失败，很多人不敢接受新的挑战，结果错过了很多机会。|Vì sợ thất bại, nhiều người không dám đón nhận thử thách mới, kết quả là bỏ lỡ rất nhiều cơ hội.
+重要的是失败以后，你能不能从中吸取教训。|Điều quan trọng là sau khi thất bại, bạn có rút ra được bài học từ đó hay không.
+爱迪生发明电灯以前，为了找到合适的灯丝，试验了一千多种材料。|Trước khi phát minh ra đèn điện, để tìm được dây tóc phù hợp, Edison đã thử nghiệm hơn một nghìn loại vật liệu.
+一次又一次的失败，让很多人都觉得他不可能成功。|Thất bại hết lần này đến lần khác khiến nhiều người cho rằng ông không thể thành công.
+有人问他：“你已经失败了一千多次，为什么还不放弃？”|Có người hỏi ông: “Ông đã thất bại hơn một nghìn lần rồi, sao vẫn chưa bỏ cuộc?”
+他说：“我没有失败，我只是发现了一千种行不通的方法。”|Ông nói: “Tôi không thất bại, tôi chỉ tìm ra một nghìn cách không hiệu quả mà thôi.”
+正是这种态度，让他最后找到了合适的材料，给人类带来了光明。|Chính thái độ ấy đã giúp ông cuối cùng tìm ra vật liệu phù hợp, mang ánh sáng đến cho nhân loại.
+中国有句老话：“失败是成功之母。”|Trung Quốc có câu nói xưa: “Thất bại là mẹ thành công.”
+这句话的意思是，只要善于总结，每一次失败都能让我们离成功更近一步。|Câu này có nghĩa là chỉ cần biết đúc kết, mỗi lần thất bại đều có thể đưa chúng ta tiến gần thành công thêm một bước.
+当然，失败本身并不会自动带来成功。|Đương nhiên, bản thân thất bại không tự động mang lại thành công.
+如果每次都犯同样的错误，失败一百次也没有用。|Nếu lần nào cũng phạm cùng một lỗi thì thất bại một trăm lần cũng vô ích.
+所以，失败以后要冷静下来，认真分析原因，找出问题到底出在哪里。|Vì vậy, sau khi thất bại cần bình tĩnh lại, phân tích kỹ nguyên nhân, tìm ra rốt cuộc vấn đề nằm ở đâu.
+然后调整方法，再试一次。|Sau đó điều chỉnh phương pháp và thử lại một lần nữa.
+很多成功的人背后都有无数次失败的经历，只是我们平时只看到了他们成功的那一刻。|Phía sau nhiều người thành công đều là vô số lần thất bại, chỉ là bình thường chúng ta chỉ nhìn thấy khoảnh khắc họ thành công.
+换一个角度看问题，失败也是一种财富。|Nhìn vấn đề từ một góc độ khác, thất bại cũng là một loại tài sản.
+它让我们更了解自己的不足，也让我们变得更加坚强。|Nó giúp chúng ta hiểu rõ hơn những thiếu sót của bản thân, cũng khiến chúng ta trở nên kiên cường hơn.
+下次再遇到失败的时候，不妨对自己说：“没关系，我又发现了一种行不通的方法。”|Lần sau khi lại gặp thất bại, bạn cứ thử tự nhủ: “Không sao, mình lại vừa tìm ra thêm một cách không hiệu quả.”
+W=失败|thất bại; 面对|đối mặt; 尝试|thử; 挑战|thử thách; 经历|trải nghiệm, từng trải; 吸取教训|rút ra bài học; 试验|thử nghiệm; 材料|vật liệu; 放弃|từ bỏ; 行不通|không thực hiện được, không hiệu quả; 态度|thái độ; 人类|nhân loại; 总结|tổng kết, đúc kết; 冷静|bình tĩnh; 分析|phân tích; 角度|góc độ; 财富|của cải, tài sản; 不足|thiếu sót; 不妨|cứ thử, chi bằng
+@BD36
+每年十一月十一日是中国的网购狂欢节，人们叫它“双十一”。|Ngày 11 tháng 11 hằng năm là lễ hội mua sắm trực tuyến của Trung Quốc, người ta gọi nó là “Ngày đôi 11”.
+这个日期有四个“一”，所以最早被年轻人叫做“光棍节”，也就是单身的人过的节日。|Ngày này có bốn số “1”, nên lúc đầu được giới trẻ gọi là “Ngày độc thân”, tức là ngày lễ của những người độc thân.
+2009年，一家网上购物平台在这一天举办了打折活动，没想到效果非常好。|Năm 2009, một nền tảng mua sắm trực tuyến tổ chức chương trình giảm giá vào ngày này, không ngờ hiệu quả rất tốt.
+从那以后，越来越多的商家加入进来，双十一慢慢变成了全国性的购物节。|Từ đó về sau, ngày càng nhiều người bán tham gia, Ngày đôi 11 dần trở thành lễ hội mua sắm trên toàn quốc.
+这一天，很多商家推出大幅度的折扣。|Vào ngày này, nhiều người bán tung ra mức giảm giá mạnh.
+有的商品打五折，有的买一送一，还有各种各样的优惠券。|Có mặt hàng giảm 50%, có mặt hàng mua một tặng một, còn có đủ loại phiếu giảm giá.
+为了买到便宜的东西，很多人提前好几天就开始比较价格、挑选商品。|Để mua được đồ rẻ, nhiều người từ mấy ngày trước đã bắt đầu so sánh giá cả, lựa chọn hàng hóa.
+消费者提前把商品放进购物车，零点一到就付款。|Người tiêu dùng bỏ hàng vào giỏ trước, đúng 0 giờ là thanh toán.
+有时候，一些热门商品几分钟就被抢光了。|Có lúc, một số mặt hàng hot chỉ trong vài phút đã bị mua hết sạch.
+在过去的很多年里，购物平台的销售额几乎每年都创下新的纪录。|Trong nhiều năm qua, doanh số của các nền tảng mua sắm gần như năm nào cũng lập kỷ lục mới.
+双十一过后，最忙的要数快递公司了。|Sau Ngày đôi 11, bận rộn nhất phải kể đến các công ty chuyển phát nhanh.
+快递公司要连续好几天加班送货，把几亿个包裹送到全国各地。|Các công ty chuyển phát phải tăng ca giao hàng mấy ngày liền, đưa mấy trăm triệu bưu kiện đến khắp mọi nơi trong cả nước.
+现在，双十一不仅在中国很有名，越南等国家的购物网站也在这一天推出各种优惠活动。|Hiện nay, Ngày đôi 11 không chỉ nổi tiếng ở Trung Quốc, các trang mua sắm ở Việt Nam và nhiều nước khác cũng tung ra đủ loại chương trình ưu đãi vào ngày này.
+不过，双十一也带来了一些问题。|Tuy nhiên, Ngày đôi 11 cũng kéo theo một số vấn đề.
+有些商家先提高价格，再打折，看起来便宜，其实并没有便宜多少。|Một số người bán nâng giá trước rồi mới giảm giá, trông thì rẻ nhưng thật ra chẳng rẻ hơn bao nhiêu.
+还有的人一时冲动，买了很多根本用不上的东西，结果只好退货或者堆在家里。|Còn có người nhất thời bốc đồng, mua rất nhiều thứ hoàn toàn không dùng đến, kết quả đành phải trả hàng hoặc để chất đống trong nhà.
+大量的包装盒也给环境带来了不小的压力。|Lượng lớn hộp đóng gói cũng gây áp lực không nhỏ cho môi trường.
+因此，专家提醒大家理性消费，不要买不需要的东西。|Vì vậy, các chuyên gia nhắc nhở mọi người tiêu dùng có lý trí, đừng mua những thứ không cần thiết.
+购物之前最好先列一张清单，想清楚自己真正需要什么。|Trước khi mua sắm tốt nhất nên lập một danh sách, nghĩ cho rõ mình thật sự cần gì.
+这样，才能既省钱，又不浪费。|Như vậy mới vừa tiết kiệm được tiền, vừa không lãng phí.
+W=狂欢节|lễ hội cuồng nhiệt; 光棍节|Ngày độc thân; 单身|độc thân; 商家|người bán, nhà kinh doanh; 折扣|giảm giá, chiết khấu; 优惠券|phiếu giảm giá; 消费者|người tiêu dùng; 购物车|giỏ hàng; 抢|tranh mua, giành; 销售额|doanh số; 纪录|kỷ lục; 快递|chuyển phát nhanh; 包裹|bưu kiện; 冲动|bốc đồng; 包装|bao bì, đóng gói; 理性|lý trí; 清单|danh sách
+@BD39
+很多学生抱怨单词记了又忘。|Nhiều học sinh than phiền từ vựng nhớ rồi lại quên.
+昨天晚上背得滚瓜烂熟的单词，第二天考试的时候却怎么也想不起来。|Những từ tối qua học thuộc làu làu, hôm sau đến lúc thi lại thế nào cũng không nhớ ra.
+这是为什么呢？|Đây là vì sao?
+其实，这并不是因为你笨，而是因为人的大脑本来就会忘记。|Thực ra, đó không phải vì bạn kém, mà là vì bộ não con người vốn dĩ sẽ quên.
+心理学研究发现，人在学习后二十分钟就会忘掉近一半。|Nghiên cứu tâm lý học phát hiện sau khi học hai mươi phút, con người đã quên gần một nửa.
+一天以后，能记住的往往只剩下三分之一左右。|Sau một ngày, phần nhớ được thường chỉ còn lại khoảng một phần ba.
+德国心理学家艾宾浩斯把这个规律画成了一条曲线，叫做“遗忘曲线”。|Nhà tâm lý học người Đức Ebbinghaus đã vẽ quy luật này thành một đường cong, gọi là “đường cong lãng quên”.
+从这条曲线可以看出，遗忘的速度是先快后慢的。|Từ đường cong này có thể thấy tốc độ quên lúc đầu nhanh, về sau chậm dần.
+因此，及时复习比一次学很多更重要。|Do đó, ôn tập kịp thời quan trọng hơn học thật nhiều trong một lần.
+可以按照一天、三天、一周、一个月的间隔复习。|Có thể ôn tập theo khoảng cách một ngày, ba ngày, một tuần, một tháng.
+每复习一次，记忆就会更牢固一些，忘记的速度也会变慢。|Mỗi lần ôn tập, trí nhớ lại vững chắc hơn một chút, tốc độ quên cũng chậm lại.
+很多背单词的手机软件，就是根据这个原理来安排复习时间的。|Nhiều ứng dụng học từ vựng trên điện thoại chính là dựa vào nguyên lý này để sắp xếp thời gian ôn tập.
+除了及时复习，记的方法也很重要。|Ngoài ôn tập kịp thời, phương pháp ghi nhớ cũng rất quan trọng.
+只是一遍一遍地抄写单词，效果往往并不好。|Chỉ chép đi chép lại từ vựng thì hiệu quả thường không tốt.
+把单词放进句子里记，效果会更好。|Đặt từ vào câu để nhớ thì hiệu quả sẽ tốt hơn.
+比如学“抱怨”这个词，可以造一个句子：“他总是抱怨工作太多。”|Ví dụ khi học từ “抱怨”, có thể đặt một câu: “Anh ấy luôn than phiền công việc quá nhiều.”
+这样不但记住了词的意思，还知道了它的用法。|Như vậy không những nhớ được nghĩa của từ mà còn biết được cách dùng của nó.
+对越南学生来说，还有一个好办法，就是利用汉越词。|Đối với học sinh Việt Nam, còn có một cách hay nữa là tận dụng từ Hán Việt.
+很多汉语词在越南语里都有发音相近的汉越词，比如“经济”“历史”，记起来就容易多了。|Rất nhiều từ tiếng Hán có từ Hán Việt phát âm gần giống trong tiếng Việt, ví dụ “经济” (kinh tế), “历史” (lịch sử), nhớ sẽ dễ hơn nhiều.
+另外，还可以利用零碎的时间，比如在等车、排队的时候拿出手机复习几个单词。|Ngoài ra, còn có thể tận dụng thời gian rảnh lẻ tẻ, ví dụ lúc chờ xe, xếp hàng thì lấy điện thoại ra ôn vài từ.
+睡觉以前把当天学过的单词复习一遍，第二天早上再看一遍，也是一个不错的习惯。|Trước khi ngủ ôn lại một lượt những từ đã học trong ngày, sáng hôm sau xem lại thêm một lượt, cũng là một thói quen không tồi.
+记单词没有什么捷径，但是方法对了，就能事半功倍。|Học thuộc từ vựng không có đường tắt nào, nhưng phương pháp đúng thì sẽ làm ít mà hiệu quả nhiều.
+W=抱怨|than phiền; 滚瓜烂熟|thuộc làu làu; 心理学|tâm lý học; 大脑|bộ não; 原理|nguyên lý; 遗忘|quên, lãng quên; 曲线|đường cong; 及时|kịp thời; 间隔|khoảng cách, giãn cách; 记忆|trí nhớ; 牢固|vững chắc; 抄写|chép; 效果|hiệu quả; 用法|cách dùng; 利用|tận dụng; 零碎|lẻ tẻ, vụn vặt; 捷径|đường tắt; 事半功倍|làm ít được nhiều
