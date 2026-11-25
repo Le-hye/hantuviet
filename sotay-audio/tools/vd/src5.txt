@@ -1,0 +1,248 @@
+801|开机|他每天一到办公室就开机。|Ngày nào anh ấy cũng vừa đến văn phòng là bật máy tính.|请先开机，再上网。|Hãy bật máy trước rồi mới lên mạng.
+802|开心|孩子们在公园里开心地玩儿。|Các em nhỏ đang vui vẻ chơi đùa trong công viên.|我妹妹正在房间里开心地唱歌。|Em gái tôi đang vui vẻ hát trong phòng.
+803|开学|我们九月一号开学。|Chúng tôi khai giảng vào ngày 1 tháng 9.|快开学了，我得买个新书包。|Sắp khai giảng rồi, tôi phải mua một chiếc cặp sách mới.
+804|看法|我同意你对这个问题的看法。|Tôi đồng ý với quan điểm của bạn về vấn đề này.|你对这件事有什么看法？|Bạn có ý kiến gì về chuyện này?
+805|考生|考生们正在教室里认真地准备考试。|Các thí sinh đang chăm chỉ chuẩn bị cho kỳ thi trong phòng học.|考试开始以后，考生不能说话。|Sau khi bắt đầu thi, thí sinh không được nói chuyện.
+806|靠|他靠自己的努力找到了新工作。|Anh ấy tìm được công việc mới nhờ chính nỗ lực của mình.|请不要靠在门上。|Xin đừng dựa vào cửa.
+807|科|你最喜欢哪一科？|Bạn thích môn nào nhất?|我们科今天很忙。|Hôm nay khoa chúng tôi rất bận.
+808|科学|我弟弟对科学很感兴趣。|Em trai tôi rất hứng thú với khoa học.|数学是所有科学的基础。|Toán học là nền tảng của mọi ngành khoa học.
+809|科学家|他是一位有名的科学家。|Ông ấy là một nhà khoa học nổi tiếng.|他长大以后想当科学家。|Cậu bé muốn trở thành nhà khoa học khi lớn lên.
+810|可爱|她的眼睛又大又黑，非常可爱。|Đôi mắt cô bé vừa to vừa đen, rất đáng yêu.|你的小狗真可爱！|Chú cún của bạn đáng yêu quá!
+811|可能|明天可能会下雨。|Ngày mai có thể sẽ mưa.|他今天可能不来了。|Hôm nay có lẽ anh ấy không đến nữa.
+812|可怕|他生气的样子看起来很可怕。|Lúc tức giận, trông anh ấy rất đáng sợ.|昨天晚上的电影太可怕了。|Bộ phim tối qua đáng sợ quá.
+813|可是|可是你从来没告诉过我。|Nhưng bạn chưa bao giờ nói với tôi.|我想去，可是今天太忙了。|Tôi muốn đi, nhưng hôm nay bận quá.
+814|可以|如果你有问题，可以随时问我。|Nếu bạn có thắc mắc, có thể hỏi tôi bất cứ lúc nào.|你可以直接告诉我你的想法。|Bạn có thể nói thẳng với tôi suy nghĩ của bạn.
+815|克|一碗饭大约重一百八十克。|Một bát cơm nặng khoảng 180 gam.|这个蛋糕要用两百克面粉。|Chiếc bánh này cần 200 gam bột mì.
+816|刻|男孩把他的名字刻在树上。|Cậu bé khắc tên mình lên cây.|现在是三点一刻。|Bây giờ là ba giờ mười lăm phút.
+817|客人|今天晚上有客人来我们家。|Tối nay nhà chúng tôi có khách đến chơi.|客人来了，快去开门。|Khách đến rồi, mau ra mở cửa đi.
+818|课堂|学生在课堂上必须保持安静。|Học sinh phải giữ trật tự trong giờ học.|我复习时，总是会认真看课堂笔记。|Khi ôn bài, tôi luôn xem kỹ vở ghi trên lớp.
+819|空气|这里的空气很新鲜。|Không khí ở đây rất trong lành.|今天空气很潮湿，衣服不容易干。|Hôm nay không khí rất ẩm, quần áo khó khô.
+820|哭|孩子一见到妈妈就哭了起来。|Đứa trẻ vừa nhìn thấy mẹ là òa khóc.|别哭了，我们一起想办法。|Đừng khóc nữa, chúng ta cùng nghĩ cách.
+821|快餐|今天中午没时间做饭，我就买了快餐。|Trưa nay không có thời gian nấu cơm nên tôi mua đồ ăn nhanh.|虽然吃快餐很方便，但也有不少坏处。|Ăn đồ ăn nhanh tuy tiện nhưng cũng có không ít tác hại.
+822|快点儿|电影快开始了，我们快点儿走吧！|Phim sắp bắt đầu rồi, chúng ta đi nhanh lên!|快点儿起床，要迟到了！|Dậy nhanh lên, sắp muộn rồi!
+823|快乐|祝你生日快乐！|Chúc bạn sinh nhật vui vẻ!|我们一起唱了一首快乐的歌。|Chúng tôi cùng nhau hát một bài hát vui tươi.
+824|快要|快要考试了，大家都很忙。|Sắp thi rồi, mọi người đều rất bận.|快要下雨了，我们赶紧回家吧。|Trời sắp mưa rồi, chúng ta mau về nhà thôi.
+825|筷子|我吃饭时总是用筷子。|Tôi luôn dùng đũa khi ăn cơm.|请不要用一次性筷子。|Xin đừng dùng đũa dùng một lần.
+826|拉|您听见我儿子拉小提琴了吗？|Ông có nghe thấy con trai tôi kéo đàn violin không?|他拉开门走了进来。|Anh ấy kéo cửa ra rồi bước vào.
+827|来自|我来自越南。|Tôi đến từ Việt Nam.|我们的同学们来自不同的国家。|Các bạn cùng lớp của chúng tôi đến từ nhiều quốc gia khác nhau.
+828|蓝|今天的天特别蓝。|Bầu trời hôm nay xanh đặc biệt.|她穿着一条蓝裙子。|Cô ấy mặc một chiếc váy xanh lam.
+829|蓝色|他认为蓝色是最美丽的颜色。|Anh ấy cho rằng màu xanh lam là màu đẹp nhất.|你喜欢蓝色的还是红色的？|Bạn thích cái màu xanh lam hay cái màu đỏ?
+830|篮球|我们下课后去打篮球吧。|Tan học chúng ta đi chơi bóng rổ nhé.|我在中学的时候每天打篮球。|Hồi học cấp hai, ngày nào tôi cũng chơi bóng rổ.
+831|老年|老年人要多注意身体。|Người cao tuổi cần chú ý sức khỏe nhiều hơn.|他的老年生活过得很快乐。|Cuộc sống tuổi già của ông ấy rất vui vẻ.
+832|老朋友|我在超市碰见了一位老朋友。|Tôi tình cờ gặp một người bạn cũ ở siêu thị.|我和他是多年的老朋友。|Tôi và anh ấy là bạn lâu năm.
+833|老是|我老是忘记别人的名字。|Tôi cứ hay quên tên người khác.|他老是把我和我姐姐搞错。|Anh ấy cứ nhầm tôi với chị gái tôi.
+834|离|他们的房子离火车站很远。|Nhà của họ cách ga tàu rất xa.|我们学校离公园非常近。|Trường chúng tôi rất gần công viên.
+835|离开|他离开家的时候，我们都很难过。|Lúc anh ấy rời nhà, chúng tôi đều rất buồn.|他先离开了，后来我们也回家了。|Anh ấy đi trước, sau đó chúng tôi cũng về nhà.
+836|礼物|这是我得到过的最好的礼物。|Đây là món quà tuyệt nhất mà tôi từng nhận được.|谢谢你的礼物，我很喜欢。|Cảm ơn món quà của bạn, tôi rất thích.
+837|里头|书包里头有一些书和笔记本。|Trong cặp sách có mấy cuốn sách và vở.|盒子里头是什么？|Trong hộp là gì vậy?
+838|理想|我的理想是当一名老师。|Ước mơ của tôi là trở thành giáo viên.|这里很安静，是理想的学习地方。|Ở đây rất yên tĩnh, là nơi học tập lý tưởng.
+839|例如|我喜欢户外活动，例如爬山和骑车。|Tôi thích các hoạt động ngoài trời, chẳng hạn như leo núi và đạp xe.|我喜欢很多水果，例如苹果和香蕉。|Tôi thích nhiều loại trái cây, chẳng hạn như táo và chuối.
+840|例子|你能举个例子吗？|Bạn có thể cho một ví dụ không?|老师举了一个例子帮助我们理解。|Thầy giáo đưa ra một ví dụ để giúp chúng tôi hiểu.
+841|脸|他的脸一下子红了。|Mặt anh ấy bỗng đỏ lên.|早上起床后，我先洗脸。|Sáng dậy, tôi rửa mặt trước.
+842|练|我每天早上在公园练太极拳。|Mỗi sáng tôi tập Thái cực quyền ở công viên.|他每天练一个小时的字。|Mỗi ngày anh ấy luyện chữ một tiếng đồng hồ.
+843|练习|学习中文需要每天坚持练习。|Học tiếng Trung cần kiên trì luyện tập mỗi ngày.|老师要求我们每天练习听写。|Thầy giáo yêu cầu chúng tôi luyện nghe viết mỗi ngày.
+844|凉|今天早上有点凉，记得带件外套。|Sáng nay trời hơi lạnh, nhớ mang theo áo khoác nhé.|快点，菜要凉了！|Nhanh lên, thức ăn sắp nguội rồi!
+845|凉快|今天比昨天凉快多了。|Hôm nay mát hơn hôm qua nhiều.|夏天在树下休息很凉快。|Mùa hè nghỉ dưới bóng cây rất mát.
+846|亮|这间房间很亮，下午都不用开灯。|Căn phòng này rất sáng, buổi chiều cũng không cần bật đèn.|天亮了，快起床吧。|Trời sáng rồi, mau dậy đi.
+847|辆|他到了火车站，就叫了辆出租车。|Đến ga tàu, anh ấy liền gọi một chiếc taxi.|门口停着一辆红色的车。|Trước cửa có đỗ một chiếc xe màu đỏ.
+848|零下|今天早上气温零下五度。|Sáng nay nhiệt độ là âm năm độ.|北京的冬天常常到零下十几度。|Mùa đông ở Bắc Kinh thường xuống âm hơn mười độ.
+849|流|大家要节水，别让水一直流。|Mọi người hãy tiết kiệm nước, đừng để nước chảy mãi.|时间像水一样，不停地向前流。|Thời gian như dòng nước, không ngừng trôi về phía trước.
+850|流利|她的西班牙语说得很流利。|Cô ấy nói tiếng Tây Ban Nha rất lưu loát.|他的汉语说得非常流利。|Anh ấy nói tiếng Trung rất lưu loát.
+851|流行|网球在学生中非常流行。|Quần vợt rất được ưa chuộng trong giới học sinh.|现在女生穿牛仔裤很流行。|Bây giờ con gái mặc quần jeans rất thịnh hành.
+852|留|你走吧，我留在这儿等他。|Bạn đi đi, tôi ở lại đây đợi anh ấy.|他给我留了一张纸条。|Anh ấy để lại cho tôi một mẩu giấy.
+853|留下|他走的时候留下了一封信。|Lúc đi, anh ấy để lại một lá thư.|他的故事给我留下了很深的印象。|Câu chuyện của anh ấy để lại cho tôi ấn tượng sâu sắc.
+854|留学生|我是来自法国的留学生。|Tôi là du học sinh đến từ Pháp.|我们班有很多留学生。|Lớp chúng tôi có nhiều du học sinh.
+855|路边|我们在路边等公交车。|Chúng tôi đợi xe buýt bên lề đường.|早上路边有不少人在卖水果。|Buổi sáng có không ít người bán hoa quả bên đường.
+856|旅客|机场的旅客正在排队办理登机手续。|Hành khách ở sân bay đang xếp hàng làm thủ tục lên máy bay.|我们祝愿所有旅客旅途平安。|Chúc tất cả hành khách có chuyến đi bình an.
+857|旅行|我喜欢一个人去旅行。|Tôi thích đi du lịch một mình.|后天我们全家要去海边旅行。|Ngày kia cả nhà chúng tôi sẽ đi du lịch biển.
+858|旅游|我计划明年冬天去东北旅游。|Tôi dự định mùa đông năm sau đi du lịch vùng Đông Bắc.|暑假你想去哪儿旅游？|Kỳ nghỉ hè bạn muốn đi du lịch ở đâu?
+859|绿|公园里的草很绿，看起来非常舒服。|Cỏ trong công viên rất xanh, nhìn rất dễ chịu.|我听说英国的草在冬天也还是绿的。|Tôi nghe nói cỏ ở Anh mùa đông vẫn xanh.
+860|绿色|她喜欢穿绿色的衣服。|Cô ấy thích mặc quần áo màu xanh lá.|春天来了，树叶变成了绿色。|Mùa xuân đến, lá cây chuyển sang màu xanh lá.
+861|卖|你可以把你的车卖给我吗？|Bạn có thể bán xe của bạn cho tôi không?|我把房子卖了个好价钱。|Tôi đã bán căn nhà được giá tốt.
+862|满|杯子已经满了，别再倒了。|Cốc đầy rồi, đừng rót nữa.|我把杯子倒满了牛奶。|Tôi rót đầy sữa vào cốc.
+863|满意|你对我做的任何事都不满意。|Tôi làm gì bạn cũng không hài lòng.|我对我今天的表演不满意。|Tôi không hài lòng với màn biểu diễn hôm nay của mình.
+864|猫|这只猫非常可爱，我很喜欢它。|Con mèo này rất dễ thương, tôi rất thích nó.|我一边打电话，一边喂家里的猫。|Tôi vừa nghe điện thoại vừa cho mèo nhà mình ăn.
+865|米|家里没有米了，我去买一点。|Nhà hết gạo rồi, tôi đi mua một ít.|我家离学校只有五百米。|Nhà tôi cách trường chỉ năm trăm mét.
+866|面|他当着大家的面说了对不起。|Anh ấy nói xin lỗi trước mặt mọi người.|我中午吃了一碗面。|Buổi trưa tôi ăn một bát mì.
+867|面前|他站在我面前，一句话也不说。|Anh ấy đứng trước mặt tôi, không nói một lời.|他在我面前坐了下来。|Anh ấy ngồi xuống trước mặt tôi.
+868|名|他考了全班第一名。|Cậu ấy thi đứng thứ nhất cả lớp.|我们班有三十名学生。|Lớp chúng tôi có ba mươi học sinh.
+869|名称|这家公司的名称很好记。|Tên của công ty này rất dễ nhớ.|请填写公司名称。|Vui lòng điền tên công ty.
+870|名单|我的名字没有出现在名单上。|Tên tôi không có trong danh sách.|请把我的名字加在名单上。|Vui lòng thêm tên tôi vào danh sách.
+871|明星|她是一位很有名的电影明星。|Cô ấy là một ngôi sao điện ảnh rất nổi tiếng.|明星的一举一动都受到关注。|Mỗi cử chỉ của người nổi tiếng đều được chú ý.
+872|目的|你旅行的目的是什么？|Mục đích chuyến đi của bạn là gì?|他们终于达到了目的。|Cuối cùng họ đã đạt được mục đích.
+873|拿出|你把衣服从洗衣机里拿出来了吗？|Bạn đã lấy quần áo ra khỏi máy giặt chưa?|他从钱包里拿出一些钱。|Anh ấy lấy ra một ít tiền từ trong ví.
+874|拿到|他在比赛中拿到了金牌。|Anh ấy giành được huy chương vàng trong cuộc thi.|你可以把我的行李拿到楼上吗？|Bạn có thể mang hành lý của tôi lên lầu không?
+875|那会儿|我那会儿还在北京上学。|Hồi đó tôi vẫn còn đi học ở Bắc Kinh.|那会儿我们经常一起去图书馆学习。|Hồi đó chúng tôi thường cùng nhau đến thư viện học bài.
+876|那么|我的英语没有他说得那么好。|Tôi nói tiếng Anh không giỏi bằng anh ấy.|你那么喜欢，就买吧。|Bạn thích như vậy thì mua đi.
+877|那时|直到那时我才真正感到害怕。|Mãi đến lúc đó tôi mới thật sự cảm thấy sợ.|那时我才十岁。|Hồi đó tôi mới mười tuổi.
+878|那时候|那时候我们住在河内。|Hồi đó chúng tôi sống ở Hà Nội.|那时候我还在上大学。|Lúc đó tôi vẫn còn đang học đại học.
+879|那样|我不知道怎么回答那样的问题。|Tôi không biết trả lời câu hỏi như thế nào.|我不知道他为什么那样做。|Tôi không biết vì sao anh ấy làm như vậy.
+880|南方|我是南方人，不太习惯北方的冬天。|Tôi là người miền Nam, không quen lắm với mùa đông miền Bắc.|南方的冬天比北方暖和得多。|Mùa đông ở miền Nam ấm hơn miền Bắc nhiều.
+881|难过|听到这个消息，她很难过。|Nghe tin này, cô ấy rất buồn.|考试没考好，他心里很难过。|Thi không tốt, trong lòng cậu ấy rất buồn.
+882|难看|我的房子又旧又难看。|Nhà tôi vừa cũ vừa xấu.|这双鞋太难看了，我不想买。|Đôi giày này xấu quá, tôi không muốn mua.
+883|难受|我感冒了，身体很难受。|Tôi bị cảm, người rất khó chịu.|我今天有点难受，想早点回家休息。|Hôm nay tôi hơi khó chịu, muốn về nhà nghỉ sớm.
+884|难题|我们的老师会给我们出难题。|Thầy giáo sẽ ra những bài khó cho chúng tôi.|这道数学难题我想了很久。|Bài toán khó này tôi đã nghĩ rất lâu.
+885|难听|这首歌有点难听，我们换一首吧。|Bài hát này hơi khó nghe, chúng ta đổi bài khác nhé.|钢琴走调了，声音很难听。|Đàn piano bị lệch tông, tiếng rất khó nghe.
+886|能够|我希望能够去中国留学。|Tôi hy vọng có thể đi du học Trung Quốc.|我能够教你的就这么多了。|Những gì tôi có thể dạy bạn chỉ có bấy nhiêu thôi.
+887|年级|我妹妹今年上小学一年级。|Năm nay em gái tôi học lớp một.|你上几年级了？|Em học lớp mấy rồi?
+888|年轻|我们的老师很年轻。|Thầy giáo của chúng tôi rất trẻ.|我妈妈年轻的时候十分漂亮。|Hồi trẻ mẹ tôi rất xinh đẹp.
+889|鸟|这只鸟的翅膀受伤了。|Cánh của con chim này bị thương rồi.|不是所有的鸟都会飞。|Không phải loài chim nào cũng biết bay.
+890|弄|我在哪儿可以弄到电话卡？|Tôi có thể kiếm thẻ điện thoại ở đâu?|我让她把我的房间弄干净。|Tôi nhờ cô ấy dọn sạch phòng của tôi.
+891|努力|只要你努力，就一定能成功。|Chỉ cần bạn cố gắng, nhất định sẽ thành công.|他学习非常努力。|Cậu ấy học hành rất chăm chỉ.
+892|爬|小孩子在地上爬来爬去。|Đứa bé bò tới bò lui trên sàn.|我们一起爬到了山顶。|Chúng tôi cùng nhau leo lên tới đỉnh núi.
+893|爬山|周末我们一起去爬山吧。|Cuối tuần chúng ta cùng đi leo núi nhé.|天气不好的时候去爬山很危险。|Đi leo núi khi thời tiết xấu rất nguy hiểm.
+894|怕|我妹妹很怕狗。|Em gái tôi rất sợ chó.|别怕，有我在呢。|Đừng sợ, có tôi ở đây mà.
+895|排|我坐在第一排。|Tôi ngồi ở hàng đầu tiên.|我们排了一个小时的队才买到票。|Chúng tôi xếp hàng một tiếng đồng hồ mới mua được vé.
+896|排队|买票的人都在排队。|Những người mua vé đều đang xếp hàng.|学生们排队站得很整齐。|Các học sinh xếp hàng đứng rất ngay ngắn.
+897|排球|我打排球的时候扭伤了手指。|Tôi bị trật ngón tay khi chơi bóng chuyền.|我们学校的排球队正在体育馆练习。|Đội bóng chuyền của trường chúng tôi đang tập luyện trong nhà thi đấu.
+898|碰|请不要碰这些东西。|Xin đừng chạm vào những đồ này.|他的头碰在门上了。|Đầu anh ấy va vào cửa.
+899|碰到|我也碰到过和你一样的问题。|Tôi cũng từng gặp phải vấn đề giống như bạn.|我在路上碰到了一个老同学。|Trên đường tôi tình cờ gặp một bạn học cũ.
+900|碰见|我昨天在超市碰见了老师。|Hôm qua tôi tình cờ gặp thầy giáo ở siêu thị.|你猜我今天碰见谁了？|Bạn đoán xem hôm nay tôi gặp ai?
+901|篇|这篇课文不太难。|Bài khóa này không khó lắm.|这是一篇写得很好的文章。|Đây là một bài văn viết rất hay.
+902|片|我早上吃了两片面包。|Buổi sáng tôi ăn hai lát bánh mì.|你要看一部法国片，是吗？|Bạn muốn xem một bộ phim Pháp, phải không?
+903|漂亮|她的头发又黑又长，非常漂亮。|Mái tóc cô ấy vừa đen vừa dài, rất đẹp.|她今天穿的衣服非常漂亮。|Bộ quần áo cô ấy mặc hôm nay rất đẹp.
+904|平|以前的人以为地球是平的。|Người xưa từng cho rằng Trái Đất phẳng.|这条路非常平，开车很舒服。|Con đường này rất bằng phẳng, lái xe rất thoải mái.
+905|平安|祝你一路平安，我们下次再见。|Chúc bạn thượng lộ bình an, hẹn gặp lại lần sau.|到了以后给我打个电话报平安。|Đến nơi thì gọi điện báo bình an cho tôi nhé.
+906|平常|我平常喜欢在周末去公园散步。|Tôi thường thích đi dạo công viên vào cuối tuần.|我们比平常走得更快。|Chúng tôi đi nhanh hơn bình thường.
+907|平等|所有的语言都是平等的。|Mọi ngôn ngữ đều bình đẳng.|我们要平等对待每个人。|Chúng ta phải đối xử bình đẳng với mọi người.
+908|平时|我平时喜欢在公园里散步。|Ngày thường tôi thích đi dạo trong công viên.|周末我起床比平时晚。|Cuối tuần tôi dậy muộn hơn ngày thường.
+909|瓶|我想买一瓶水。|Tôi muốn mua một chai nước.|桌子上有两瓶牛奶。|Trên bàn có hai chai sữa.
+910|瓶子|瓶子里面已经没有水了。|Trong chai đã hết nước rồi.|这个瓶子里的水很干净，可以喝。|Nước trong chai này rất sạch, uống được.
+911|普通|他只是一个普通的学生。|Cậu ấy chỉ là một học sinh bình thường.|这是一件很普通的衣服。|Đây là một bộ quần áo rất bình thường.
+912|普通话|在中国，普通话是主要的交流语言。|Ở Trung Quốc, tiếng phổ thông là ngôn ngữ giao tiếp chính.|普通话和北京话是不同的。|Tiếng phổ thông và tiếng Bắc Kinh không giống nhau.
+913|其他|他们没有其他地方可以去了。|Họ không còn nơi nào khác để đi nữa.|其他同学都回家了。|Các bạn học khác đều về nhà rồi.
+914|其中|我有三个哥哥，其中一个是医生。|Tôi có ba anh trai, trong đó có một người là bác sĩ.|班里有二十个学生，其中十个是女生。|Lớp có hai mươi học sinh, trong đó mười bạn là nữ.
+915|骑|我每天骑自行车去上班。|Ngày nào tôi cũng đi xe đạp đi làm.|你会骑马吗？|Bạn biết cưỡi ngựa không?
+916|骑车|我一边骑车，一边听音乐。|Tôi vừa đạp xe vừa nghe nhạc.|我家离学校不远，我每天骑车去。|Nhà tôi cách trường không xa, ngày nào tôi cũng đạp xe đi.
+917|起飞|飞机起飞的时候紧张很正常。|Lúc máy bay cất cánh mà thấy hồi hộp là chuyện bình thường.|他们的飞机马上就要起飞了。|Máy bay của họ sắp cất cánh rồi.
+918|气|我绝对没有生你的气。|Tôi hoàn toàn không giận bạn.|他气得说不出话来。|Anh ấy tức đến mức không nói nên lời.
+919|气温|今天的气温比昨天低了很多。|Nhiệt độ hôm nay thấp hơn hôm qua nhiều.|这里一年四季气温变化不大。|Ở đây nhiệt độ bốn mùa thay đổi không nhiều.
+920|千|这台电脑五千块钱。|Chiếc máy tính này giá năm nghìn tệ.|这个学校有两千多个学生。|Trường này có hơn hai nghìn học sinh.
+921|千克|一千克金和一千克银哪个更重？|Một kilôgam vàng và một kilôgam bạc, cái nào nặng hơn?|这袋大米重五千克，价格很便宜。|Bao gạo này nặng năm kilôgam, giá rất rẻ.
+922|前年|前年，我们全家一起去北京旅游了。|Năm kia cả nhà tôi cùng đi du lịch Bắc Kinh.|我前年搬到北京。|Tôi chuyển đến Bắc Kinh từ năm kia.
+923|墙|他让妹妹帮他刷房间的墙。|Anh ấy nhờ em gái giúp sơn tường phòng mình.|墙上有一张地图。|Trên tường có một tấm bản đồ.
+924|青年|很多青年喜欢用手机看视频。|Nhiều thanh niên thích xem video trên điện thoại.|他是一个很有理想的青年。|Anh ấy là một thanh niên có hoài bão.
+925|青少年|这些青少年正在图书馆里认真学习。|Những thanh thiếu niên này đang chăm chỉ học trong thư viện.|这本书很适合青少年看。|Cuốn sách này rất hợp cho thanh thiếu niên đọc.
+926|轻|这个笔记本电脑又薄又轻。|Chiếc laptop này vừa mỏng vừa nhẹ.|轻一点，他会听见我们的。|Nhẹ nhàng thôi, anh ấy sẽ nghe thấy chúng ta đấy.
+927|清楚|我不清楚这里发生了什么事。|Tôi không rõ ở đây đã xảy ra chuyện gì.|他在会议上讲话时，声音非常清楚。|Khi ông ấy phát biểu tại cuộc họp, giọng nói rất rõ ràng.
+928|晴|雨停了，天晴了。|Mưa tạnh rồi, trời đã quang.|明天多云转晴。|Ngày mai nhiều mây chuyển nắng.
+929|晴天|今天是晴天，我们去公园吧。|Hôm nay trời nắng, chúng ta đi công viên nhé.|今天看上去是个晴天。|Hôm nay có vẻ là một ngày nắng.
+930|请客|今天我请客，一起去吃饭吧。|Hôm nay tôi mời, chúng ta cùng đi ăn nhé.|这次我考得好，我请客！|Lần này tôi thi tốt, tôi khao!
+931|请求|他请求老师再给他一次机会。|Cậu ấy xin thầy giáo cho thêm một cơ hội nữa.|他没有提到她的请求。|Anh ấy không nhắc đến yêu cầu của cô ấy.
+932|秋天|秋天我们去公园散步。|Mùa thu chúng tôi đi dạo trong công viên.|北京的秋天很美。|Mùa thu ở Bắc Kinh rất đẹp.
+933|求|我求你帮我一个忙。|Tôi xin bạn giúp tôi một việc.|孩子求妈妈给他买玩具。|Đứa trẻ năn nỉ mẹ mua đồ chơi cho nó.
+934|球场|我们下午一起去球场打球吧。|Chiều nay chúng ta cùng ra sân chơi bóng nhé.|学校的球场很大。|Sân bóng của trường rất rộng.
+935|球队|他们的球队非常强大。|Đội bóng của họ rất mạnh.|我们的球队在决赛中输了。|Đội của chúng tôi đã thua trong trận chung kết.
+936|球鞋|他喜欢穿球鞋打篮球。|Anh ấy thích đi giày thể thao khi chơi bóng rổ.|这双球鞋穿着很舒服。|Đôi giày thể thao này đi rất êm chân.
+937|取|他需要去银行取一些钱。|Anh ấy cần ra ngân hàng rút ít tiền.|我去邮局取包裹。|Tôi ra bưu điện lấy bưu kiện.
+938|取得|他在比赛中取得了好成绩。|Anh ấy đạt thành tích tốt trong cuộc thi.|我们取得了老师的同意。|Chúng tôi đã được thầy giáo đồng ý.
+939|全|派对的准备工作就全交给你了。|Việc chuẩn bị cho bữa tiệc giao hết cho bạn đấy.|我们全班都去了。|Cả lớp chúng tôi đều đi.
+940|全部|这些工作必须在今天全部完成。|Những việc này phải hoàn thành hết trong hôm nay.|他说的我还是没有全部理解。|Những gì anh ấy nói tôi vẫn chưa hiểu hết.
+941|全国|这所学校的全国排名很靠前。|Trường này xếp hạng rất cao trên cả nước.|春节的时候全国都放假。|Dịp Tết cả nước đều được nghỉ.
+942|全家|周末我们全家去看电影。|Cuối tuần cả nhà tôi đi xem phim.|我们全家一起去动物园看动物。|Cả nhà chúng tôi cùng đi sở thú xem động vật.
+943|全年|这里全年都很暖和。|Ở đây quanh năm đều ấm áp.|公司公布了去年的全年收入。|Công ty đã công bố doanh thu cả năm của năm ngoái.
+944|全身|运动后，他感到全身都很舒服。|Sau khi tập thể dục, anh ấy cảm thấy toàn thân rất dễ chịu.|下雨了，我全身都湿了。|Trời mưa, tôi ướt hết cả người.
+945|全体|全体同学都参加了这次重要的会议。|Toàn thể học sinh đều tham dự cuộc họp quan trọng này.|请全体同学站起来。|Mời toàn thể học sinh đứng dậy.
+946|然后|老师请同学们坐下，然后开始上课。|Thầy giáo mời học sinh ngồi xuống, sau đó bắt đầu vào học.|我们先吃饭，然后去散步。|Chúng ta ăn cơm trước, sau đó đi dạo.
+947|让|他在楼下大声喊，让大家快出来。|Anh ấy hét to dưới nhà, bảo mọi người mau ra ngoài.|他在公共汽车上给老人让座。|Trên xe buýt, cậu ấy nhường chỗ cho người già.
+948|热情|我感受到了大家的热情。|Tôi cảm nhận được sự nhiệt tình của mọi người.|他们受到了热情的欢迎。|Họ được đón tiếp nồng nhiệt.
+949|人口|这个城市的人口在不断增长。|Dân số thành phố này không ngừng tăng.|你的城市有多少人口？|Thành phố của bạn có bao nhiêu dân?
+950|人们|人们的生活条件越来越好了。|Điều kiện sống của mọi người ngày càng tốt hơn.|人们往往忘记了自己的错误。|Người ta thường quên đi lỗi lầm của chính mình.
+951|人数|今天来上课的人数不多。|Hôm nay số người đến học không nhiều.|出国的人数一直在增加。|Số người ra nước ngoài không ngừng tăng.
+952|认为|我认为他的想法很有道理。|Tôi cho rằng ý kiến của anh ấy rất có lý.|你认为这个办法怎么样？|Bạn thấy cách này thế nào?
+953|日报|我每天早上都会读一份日报。|Mỗi sáng tôi đều đọc một tờ nhật báo.|图书馆里有很多种日报。|Trong thư viện có nhiều loại nhật báo.
+954|日子|星期日是我休息的日子。|Chủ nhật là ngày nghỉ của tôi.|咱们有日子没见面了。|Lâu lắm rồi chúng ta không gặp nhau.
+955|如果|如果明天下雨，我们就不去了。|Nếu mai trời mưa thì chúng ta không đi nữa.|如果电脑坏了，我们该怎么办？|Nếu máy tính hỏng thì chúng ta phải làm sao?
+956|入口|请从公园的南入口进入。|Xin mời vào công viên từ lối vào phía nam.|她在入口看到一个年轻男人。|Cô ấy nhìn thấy một người đàn ông trẻ ở lối vào.
+957|商量|这件事我要和家人商量一下。|Chuyện này tôi phải bàn với gia đình đã.|我们需要商量一下周末的计划。|Chúng ta cần bàn bạc kế hoạch cuối tuần.
+958|商人|那个商人今天早上出现在电视上。|Doanh nhân đó đã xuất hiện trên truyền hình sáng nay.|这位商人经常去国外做生意。|Vị doanh nhân này thường ra nước ngoài làm ăn.
+959|上周|我上周把她介绍给你了。|Tuần trước tôi đã giới thiệu cô ấy với bạn.|我上周开始学中文了。|Tôi bắt đầu học tiếng Trung từ tuần trước.
+960|少年|他少年时代住在农村。|Thời niên thiếu anh ấy sống ở nông thôn.|那位少年正在图书馆里认真地读书。|Cậu thiếu niên ấy đang chăm chú đọc sách trong thư viện.
+961|少数|只有少数人明白我的意思。|Chỉ có số ít người hiểu ý tôi.|少数同学还没交作业。|Một số ít học sinh vẫn chưa nộp bài tập.
+962|身边|我身边的朋友们都非常支持我。|Những người bạn bên cạnh tôi đều rất ủng hộ tôi.|不论发生什么事，我都会在你身边。|Dù có chuyện gì xảy ra, tôi cũng sẽ ở bên cạnh bạn.
+963|什么样|你喜欢什么样的电影？|Bạn thích phim như thế nào?|你的新老师是什么样的人？|Thầy giáo mới của bạn là người như thế nào?
+964|生|她生了一个女儿。|Cô ấy sinh được một bé gái.|这些菜是生的，不能吃。|Mấy món rau này còn sống, không ăn được.
+965|生词|老师让我们复习第一单元的生词。|Thầy giáo bảo chúng tôi ôn từ mới của Bài 1.|这些生词对我们特别重要。|Những từ mới này đặc biệt quan trọng với chúng tôi.
+966|生活|我还不太适应北京的生活。|Tôi vẫn chưa quen lắm với cuộc sống ở Bắc Kinh.|我很喜欢现在的生活。|Tôi rất thích cuộc sống hiện tại.
+967|声音|房间里突然有奇怪的声音。|Trong phòng bỗng có tiếng động lạ.|请把电视的声音开小一点。|Làm ơn vặn nhỏ tiếng TV một chút.
+968|省|这个省的经济以农业为主。|Kinh tế của tỉnh này chủ yếu dựa vào nông nghiệp.|坐地铁又快又省钱。|Đi tàu điện ngầm vừa nhanh vừa tiết kiệm tiền.
+969|十分|今天的天气十分好。|Thời tiết hôm nay rất đẹp.|我觉得他是个十分亲切的人。|Tôi thấy anh ấy là một người rất thân thiện.
+970|实际|这个计划不太实际。|Kế hoạch này không thực tế lắm.|实际上他根本没有去考试。|Thực tế là anh ấy hoàn toàn không đi thi.
+971|实习|他在医院实习，跟着医生学习。|Anh ấy thực tập ở bệnh viện, học theo các bác sĩ.|我明年要去公司实习。|Năm sau tôi sẽ đi thực tập ở công ty.
+972|实现|他终于实现了自己的理想。|Cuối cùng anh ấy đã thực hiện được ước mơ của mình.|我不认为你的计划能实现。|Tôi không nghĩ kế hoạch của bạn có thể thực hiện được.
+973|实在|我实在走不动了。|Tôi thật sự không đi nổi nữa.|今天实在太热了。|Hôm nay thật sự nóng quá.
+974|食物|我们每天都需要健康的食物。|Mỗi ngày chúng ta đều cần thực phẩm lành mạnh.|我给了他们衣服和一些食物。|Tôi đã cho họ quần áo và một ít thức ăn.
+975|使用|我今天可以使用你的汽车吗？|Hôm nay tôi có thể dùng xe của bạn không?|工程师告诉我们如何使用机器。|Kỹ sư hướng dẫn chúng tôi cách sử dụng máy.
+976|市|我家住在市中心。|Nhà tôi ở trung tâm thành phố.|他在市里工作。|Anh ấy làm việc trong thành phố.
+977|市长|市长今天在会议上讲话。|Hôm nay thị trưởng phát biểu tại cuộc họp.|他的爸爸是市长。|Bố của cậu ấy là thị trưởng.
+978|事情|这件事情你别告诉别人。|Chuyện này bạn đừng nói với người khác.|我有点儿小事情想请你帮忙。|Tôi có chút việc nhỏ muốn nhờ bạn giúp.
+979|收|把你的书和笔记本收起来。|Hãy cất sách và vở của bạn đi.|老师把作业收上去了。|Thầy giáo đã thu bài tập lên rồi.
+980|收到|他收到消息后立刻出发了。|Nhận được tin xong, anh ấy lập tức lên đường.|我一收到钱就马上还钱给你。|Tôi vừa nhận được tiền là sẽ trả lại bạn ngay.
+981|收入|退休后他的收入少了一半。|Sau khi nghỉ hưu, thu nhập của ông ấy giảm một nửa.|他的收入不太高。|Thu nhập của anh ấy không cao lắm.
+982|手表|我不知道我的手表在哪里。|Tôi không biết đồng hồ của mình ở đâu.|这块手表是爸爸送给我的。|Chiếc đồng hồ này là bố tặng tôi.
+983|受到|他受到了老师的表扬。|Cậu ấy được thầy giáo khen.|他们受到了热情的欢迎。|Họ được chào đón nồng nhiệt.
+984|舒服|我感冒了，觉得不太舒服。|Tôi bị cảm, thấy không khỏe lắm.|这张床很舒服。|Chiếc giường này rất êm.
+985|熟|这肉已经熟了，可以吃了。|Thịt này chín rồi, ăn được rồi.|我对这里不熟，恐怕帮不了你。|Tôi không thông thuộc chỗ này, e là không giúp được bạn.
+986|数|他们人太多了，数不过来。|Họ đông quá, đếm không xuể.|这两个数的和是十。|Tổng của hai số này là mười.
+987|数字|这些数字对我们很重要。|Những con số này rất quan trọng với chúng tôi.|我记不住这么多数字。|Tôi không nhớ nổi nhiều con số như vậy.
+988|水平|他的汉语水平已经达到了中级。|Trình độ tiếng Trung của anh ấy đã đạt mức trung cấp.|他的游泳水平很高。|Trình độ bơi của anh ấy rất cao.
+989|顺利|我们队顺利进入了决赛。|Đội chúng tôi đã thuận lợi vào trận chung kết.|得到他的帮助，我的工作现在很顺利。|Nhờ có anh ấy giúp, công việc của tôi giờ rất suôn sẻ.
+990|说明|老师说明了作业的要求。|Thầy giáo đã giải thích yêu cầu của bài tập.|他为什么不对她说明呢？|Tại sao anh ấy không giải thích với cô ấy?
+991|司机|我爸爸是出租车司机。|Bố tôi là tài xế taxi.|到路口时，司机慢慢地向左转。|Đến ngã tư, tài xế từ từ rẽ trái.
+992|送到|请把文件送到办公室。|Vui lòng đưa tài liệu đến văn phòng.|她把行李送到了机场。|Cô ấy đã đưa hành lý ra sân bay.
+993|送给|他买了一些花送给朋友。|Anh ấy mua ít hoa để tặng bạn.|如果你喜欢，就送给你吧。|Nếu bạn thích thì tôi tặng bạn luôn.
+994|算|我在算今天要花多少钱。|Tôi đang tính xem hôm nay phải tiêu bao nhiêu tiền.|你算一下一共多少钱。|Bạn tính xem tổng cộng bao nhiêu tiền.
+995|虽然|虽然很累，但是我很开心。|Tuy rất mệt nhưng tôi rất vui.|虽然下雨，比赛仍然继续。|Mặc dù trời mưa, trận đấu vẫn tiếp tục.
+996|随便|晚饭吃什么？随便，你决定就好。|Tối nay ăn gì? Gì cũng được, bạn quyết là được.|别客气，随便坐吧。|Đừng khách sáo, cứ ngồi tự nhiên.
+997|随时|有问题随时给我打电话。|Có vấn đề gì cứ gọi điện cho tôi bất cứ lúc nào.|如果你需要帮忙，请随时告诉我。|Nếu bạn cần giúp đỡ, cứ báo tôi bất cứ lúc nào.
+998|所以|他昨天生病了，所以没来上班。|Hôm qua anh ấy bị ốm nên không đi làm.|他每天跑步，所以腿很有力量。|Anh ấy chạy bộ mỗi ngày nên chân rất khỏe.
+999|所有|老师对待所有学生都非常公平。|Thầy giáo đối xử với tất cả học sinh rất công bằng.|她为他做了所有她能做的事。|Cô ấy đã làm tất cả những gì có thể cho anh ấy.
+1000|它|我家有一只小狗，它很聪明。|Nhà tôi có một chú cún, nó rất thông minh.|我的手机坏了，我想把它修好。|Điện thoại của tôi hỏng rồi, tôi muốn sửa nó.
+H801|bật máy, khởi động (máy tính, điện thoại)
+H803|khai giảng, bắt đầu năm học (học kỳ)
+H807|môn học, ngành học; khoa, phòng (trong cơ quan, bệnh viện)
+H815|gam (đơn vị khối lượng)
+H816|khắc, chạm khắc; khắc (15 phút); khoảnh khắc
+H822|nhanh lên (một chút)
+H824|sắp, sắp sửa
+H827|đến từ
+H828|xanh lam, xanh da trời
+H831|tuổi già, cao tuổi
+H832|bạn cũ, bạn lâu năm
+H833|cứ, lúc nào cũng (khẩu ngữ)
+H834|cách (khoảng cách); rời, xa
+H838|lý tưởng, ước mơ; lý tưởng (hoàn hảo)
+H840|ví dụ
+H842|luyện, luyện tập
+H848|dưới không độ, âm (độ)
+H851|thịnh hành, phổ biến; (bệnh) lây lan
+H852|ở lại; để lại; giữ lại
+H864|con mèo
+H866|mặt; mì (sợi); bột mì; mặt, phía
+H868|tên; (lượng từ chỉ người); thứ hạng
+H875|lúc đó, hồi đó
+H876|như thế, như vậy; vậy thì
+H885|khó nghe; (lời nói) khó nghe, thô tục
+H889|chim
+H890|làm; làm cho; kiếm (được)
+H892|bò; leo, trèo
+H895|hàng, dãy; xếp (hàng)
+H898|chạm, đụng; va
+H901|bài (lượng từ cho bài văn, bài báo)
+H902|lát, miếng, tấm (lượng từ cho vật mỏng); phim
+H905|bình an, an toàn
+H911|phổ thông, bình thường
+H912|tiếng phổ thông (tiếng Trung chuẩn)
+H915|cưỡi, đi (xe đạp, xe máy, ngựa)
+H916|đi xe (đạp, máy)
+H918|khí, hơi; giận, tức giận
+H921|kilôgam (kg)
+H923|tường, bức tường
+H930|mời khách, chiêu đãi, khao
+H933|xin, cầu xin, nhờ; tìm, theo đuổi
+H944|toàn thân, cả người
+H964|sinh, đẻ; sống (chưa chín); lạ
+H968|tỉnh; tiết kiệm
+H976|thành phố; chợ
+H992|đưa đến, giao đến
+H995|tuy, mặc dù
